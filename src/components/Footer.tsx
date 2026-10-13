@@ -45,6 +45,10 @@ const Footer = () => {
             <a href="https://www.commonground.ventures/" target="_blank" rel="noopener noreferrer" className="hover-cg transition-colors duration-300" style={{ color: "inherit", textDecoration: "none" }}>
               Common Ground
             </a>
+            {" · "}
+            <a href="/wiki/" className="hover-cg transition-colors duration-300" style={{ color: "inherit", textDecoration: "none" }}>
+              About this build
+            </a>
           </motion.p>
 
           {/* Minimal Links */}
