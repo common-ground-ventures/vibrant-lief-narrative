@@ -201,7 +201,7 @@ const WhoBuildsLiefBlocksArizona = () => {
             <div
               key={row.label}
               style={{
-                background: row.isLief ? "rgba(0,255,136,.06)" : "transparent",
+                background: row.isLief ? "rgba(194,184,167,.06)" : "transparent",
                 border: "1px solid var(--v2-rule)",
                 padding: "20px 24px",
               }}
@@ -240,7 +240,7 @@ const WhoBuildsLiefBlocksArizona = () => {
           Code acceptance is jurisdiction-specific in practice, even when the underlying evaluation report applies statewide. The list below covers every AHJ where LÏEF has filed and received a building permit on a SABS shell to date.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>Arizona AHJs (LÏEF Permit History)</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             {ahjs.map((ahj) => (
@@ -312,7 +312,7 @@ const WhoBuildsLiefBlocksArizona = () => {
           Send the program, the site, and a rough budget to hello@liefdev.com. A response in one business day. No sales sequence afterwards. If we are a fit, we keep talking. If not, we point the owner to a builder we trust to do the job well in conventional construction.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and the Arizona owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF Development holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}

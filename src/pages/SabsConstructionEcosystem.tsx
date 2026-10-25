@@ -433,7 +433,7 @@ const SabsConstructionEcosystem = () => {
 
         <div
           style={{
-            background: "rgba(0,255,136,.04)",
+            background: "rgba(194,184,167,.04)",
             border: "1px solid var(--v2-rule)",
             padding: "28px 32px",
           }}

@@ -8,8 +8,6 @@ import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
 import { useContactModal } from "@/contexts/ContactModalContext";
 import logoConcrete from "@/assets/v2/logo-concrete.png";
-import liefLogoGreen from "@/assets/v2/lief-logo-green.png";
-import dotsNeon from "@/assets/v2/dots-neon.png";
 
 /* ── PARTNER LOGOS ── */
 import logoRitzCarlton from "@/assets/v2/logos/ritz-carlton.png";
@@ -46,7 +44,7 @@ import logoAZRepublic from "@/assets/v2/logos/arizona-republic.svg";
 import logoBizJournal from "@/assets/v2/logos/business-journal.svg";
 
 const ease = [.16, 1, .3, 1] as const;
-const accentColor = "#00FF88";
+const accentColor = "#C2B8A7";
 
 /* ── DATA ── */
 
@@ -168,7 +166,6 @@ const LiefBlocks = () => {
   const { scrollY } = useScroll();
   const heroGlowY = useTransform(scrollY, [0, 600], [0, -60]);
   const ghostTextY = useTransform(scrollY, [0, 3000], [0, -120]);
-  const dotsScale = useTransform(scrollY, [0, 1500], [1, 1.08]);
 
   // Anti-flicker: always render content, control animation via inView
   const show = (inView: boolean, y = 35) => inView ? { opacity: 1, y: 0 } : { opacity: 0, y };
@@ -192,8 +189,8 @@ const LiefBlocks = () => {
         <section ref={heroRef} className="relative h-screen flex items-center overflow-x-hidden" style={{ background: "var(--v2-deep)" }}>
           {/* Ambient glows */}
           <motion.div className="absolute inset-0 pointer-events-none" style={{ y: heroGlowY }}>
-            <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(0,107,63,.12), transparent 70%)" }} />
-            <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(0,255,136,.04), transparent 70%)" }} />
+            <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(1,68,33,.12), transparent 70%)" }} />
+            <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(194,184,167,.04), transparent 70%)" }} />
           </motion.div>
 
           <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12 w-full -mt-[8vh]">
@@ -256,15 +253,15 @@ const LiefBlocks = () => {
                     className="transition-all duration-300 hover:brightness-110"
                     style={{
                       fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
-                      letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-neon)",
-                      color: "var(--v2-deep)", border: "none", padding: "10px 24px", cursor: "pointer",
+                      letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-forest)",
+                      color: "var(--v2-villa)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
                     }}
                   >
                     Get a Quote
                   </button>
                   <button
                     onClick={() => document.querySelector("#what-section")?.scrollIntoView({ behavior: "smooth" })}
-                    className="transition-all duration-300 hover:bg-[#00FF88] hover:text-[#0a0a0a]"
+                    className="transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0a0a0a]"
                     style={{
                       fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
                       letterSpacing: "0.14em", fontWeight: 600, background: "transparent",
@@ -285,9 +282,6 @@ const LiefBlocks = () => {
 
         {/* ════════ WHAT IS SABS ════════ */}
         <section id="what-section" className="relative py-12 md:py-28" style={{ background: "var(--v2-deep)", borderTop: "1px solid var(--v2-rule)" }}>
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-            <motion.img src={dotsNeon} alt="" className="w-[176vw] max-w-[1512px] opacity-[0.01]" style={{ scale: dotsScale }} />
-          </div>
           <div ref={whatRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-12 items-center">
                 <div>
@@ -340,7 +334,7 @@ const LiefBlocks = () => {
                               borderRight: `1px solid ${col < 2 ? interiorColor : accentColor}`,
                               borderBottom: `1px solid ${row < 3 ? interiorColor : accentColor}`,
                               borderLeft: `1px solid ${col > 0 ? interiorColor : accentColor}`,
-                              background: locked ? "rgba(0,255,136,.06)" : "rgba(0,255,136,.04)",
+                              background: locked ? "rgba(194,184,167,.06)" : "rgba(194,184,167,.04)",
                               boxShadow: fusing ? `inset ${interiorGlow}` : "none",
                               transition: "border-color 0.2s ease, background 0.3s ease, box-shadow 0.2s ease",
                             }}
@@ -360,10 +354,10 @@ const LiefBlocks = () => {
 
 
         {/* ════════ ATTRIBUTES + STATS (The Edge style) ════════ */}
-        <section className="relative py-12 md:py-28" style={{ background: "#006B3F" }}>
+        <section className="relative py-12 md:py-28" style={{ background: "#014421" }}>
           <div className="absolute inset-x-0 top-0 h-[40%] pointer-events-none" style={{ background: "linear-gradient(180deg, rgba(0,0,0,.12), transparent)" }} />
           <div ref={statsRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
-                <motion.div initial={{ opacity: 0, y: 35 }} animate={show(statsInView)} transition={{ duration: 0.75, ease }} className="mb-6" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.22em", color: "rgba(0,255,136,.6)" }}>
+                <motion.div initial={{ opacity: 0, y: 35 }} animate={show(statsInView)} transition={{ duration: 0.75, ease }} className="mb-6" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.22em", color: "rgba(194,184,167,.6)" }}>
 
                   Performance
                 </motion.div>
@@ -385,7 +379,7 @@ const LiefBlocks = () => {
                         key={attr.title}
                         className="p-6 md:p-8 transition-all duration-500 group"
                         style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                        onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(0,255,136,.12), inset 0 1px 0 ${accentColor}40`}
+                        onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
                         onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
                       >
                         <div className="w-14 h-14 flex items-center justify-center mb-5" style={{ border: `1px solid ${accentColor}40` }}>
@@ -405,7 +399,7 @@ const LiefBlocks = () => {
                       key={stat.label}
                       className="p-6 md:p-8 transition-all duration-500"
                       style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                      onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(0,255,136,.12), inset 0 1px 0 ${accentColor}40`}
+                      onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
                       onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
                     >
                       <div className="v2-headline mb-1" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--v2-white)" }}>
@@ -421,7 +415,7 @@ const LiefBlocks = () => {
 
         {/* ════════ ICC CERTIFIED TECHNICALS ════════ */}
         <section className="relative py-12 md:py-28" style={{ background: "var(--v2-deep)" }}>
-          <motion.div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(10vw, 140px)", color: "rgba(0,255,136,.04)", y: ghostTextY }}>CERTIFIED</motion.div>
+          <motion.div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(10vw, 140px)", color: "rgba(194,184,167,.04)", y: ghostTextY }}>CERTIFIED</motion.div>
           <div ref={techRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
                 <motion.div initial={{ opacity: 0, y: 35 }} animate={show(techInView)} transition={{ duration: 0.75, ease }} className="v2-label mb-6">
 
@@ -441,9 +435,9 @@ const LiefBlocks = () => {
                       <div
                         key={tech.title}
                         className="flex items-start gap-5 p-6 md:p-8 transition-all duration-500"
-                        style={{ border: "1px solid var(--v2-rule)", background: "rgba(0,255,136,.01)" }}
-                        onMouseEnter={(e) => { e.currentTarget.style.borderColor = `${accentColor}40`; e.currentTarget.style.background = "rgba(0,255,136,.03)"; }}
-                        onMouseLeave={(e) => { e.currentTarget.style.borderColor = "var(--v2-rule)"; e.currentTarget.style.background = "rgba(0,255,136,.01)"; }}
+                        style={{ border: "1px solid var(--v2-rule)", background: "rgba(194,184,167,.01)" }}
+                        onMouseEnter={(e) => { e.currentTarget.style.borderColor = `${accentColor}40`; e.currentTarget.style.background = "rgba(194,184,167,.03)"; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.borderColor = "var(--v2-rule)"; e.currentTarget.style.background = "rgba(194,184,167,.01)"; }}
                       >
                         <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center mt-1" style={{ border: `1px solid ${accentColor}30` }}>
                           <Icon size={20} style={{ color: accentColor }} />
@@ -522,7 +516,7 @@ const LiefBlocks = () => {
                                 const parent = el.closest('.group');
                                 if (!parent) return;
                                 parent.addEventListener('mouseenter', () => {
-                                  el.style.filter = "drop-shadow(0 0 30px rgba(0,255,136,0.6)) drop-shadow(0 6px 20px rgba(0,0,0,0.7))";
+                                  el.style.filter = "drop-shadow(0 0 30px rgba(194,184,167,0.6)) drop-shadow(0 6px 20px rgba(0,0,0,0.7))";
                                   el.style.transform = "scale(1.15)";
                                 });
                                 parent.addEventListener('mouseleave', () => {
@@ -556,12 +550,12 @@ const LiefBlocks = () => {
                   </p>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, y: 35 }} animate={show(calcInView)} transition={{ duration: 0.75, delay: 0.08, ease }} className="p-8 md:p-10" style={{ border: "1px solid var(--v2-rule)", background: "rgba(0,255,136,.01)" }}>
+                <motion.div initial={{ opacity: 0, y: 35 }} animate={show(calcInView)} transition={{ duration: 0.75, delay: 0.08, ease }} className="p-8 md:p-10" style={{ border: "1px solid var(--v2-rule)", background: "rgba(194,184,167,.01)" }}>
                   <label className="block mb-2" style={{ fontSize: "1rem", color: "var(--v2-dim)", letterSpacing: "0.05em" }}>Project Type</label>
                   <select
                     value={projectType}
                     onChange={(e) => setProjectType(e.target.value)}
-                    className="w-full mb-6 p-3 outline-none transition-colors duration-300 focus:border-[#00FF88]"
+                    className="w-full mb-6 p-3 outline-none transition-colors duration-300 focus:border-[#C2B8A7]"
                     style={{ background: "var(--v2-deep)", border: "1px solid rgba(255,255,255,.15)", color: "var(--v2-white)", fontFamily: "var(--v2-font-body)", fontSize: "1rem" }}
                   >
                     {Object.keys(projectTypes).map((t) => (
@@ -660,7 +654,7 @@ const LiefBlocks = () => {
                   </button>
                   <button
                     onClick={openModal}
-                    className="inline-block transition-all duration-300 hover:bg-[#00FF88] hover:text-[#0a0a0a]"
+                    className="inline-block transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0a0a0a]"
                     style={{
                       fontFamily: "var(--v2-font-body)", fontSize: "1.1rem", textTransform: "uppercase",
                       letterSpacing: "0.14em", color: accentColor, border: `1px solid ${accentColor}`,
@@ -674,7 +668,7 @@ const LiefBlocks = () => {
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={show(ctaInView, 20)} transition={{ duration: 0.75, delay: 0.24, ease }} className="flex flex-wrap justify-center gap-12 mt-16">
                   <div className="text-center">
                     <div style={{ fontSize: "1rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--v2-dim)", marginBottom: "8px" }}>Email</div>
-                    <a href="mailto:hello@liefdev.com" style={{ fontSize: "1rem", color: "var(--v2-muted)", textDecoration: "none" }} className="hover:text-[#00FF88] transition-colors">hello@liefdev.com</a>
+                    <a href="mailto:hello@liefdev.com" style={{ fontSize: "1rem", color: "var(--v2-muted)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors">hello@liefdev.com</a>
                   </div>
                   <div className="text-center">
                     <div style={{ fontSize: "1rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--v2-dim)", marginBottom: "8px" }}>Location</div>

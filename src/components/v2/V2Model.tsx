@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 import { useInView } from "./useInView";
 import { useRef, useState } from "react";
-import dotsNeon from "@/assets/v2/dots-neon.png";
 
 const rows = [
   {
@@ -62,10 +61,7 @@ const V2Model = () => {
 
   return (
     <section id="model" className="relative py-12 md:py-28" style={{ background: "var(--v2-deep)" }}>
-      <div className="v2-ghost-text hidden lg:block top-20 right-8 text-right" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(0,107,63,.24)" }}>MODEL</div>
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-        <img src={dotsNeon} alt="" className="w-[176vw] max-w-[1512px] opacity-[0.01]" />
-      </div>
+      <div className="v2-ghost-text hidden lg:block top-20 right-8 text-right" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.16)" }}>MODEL</div>
 
       <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
         {inView && (
@@ -88,7 +84,7 @@ const V2Model = () => {
                   className="grid grid-cols-1 md:grid-cols-[auto_1fr_auto] gap-6 md:gap-12 items-start py-10 md:py-14"
                   style={{ borderTop: "1px solid var(--v2-rule)" }}
                 >
-                  <span className="v2-headline" style={{ fontSize: "clamp(3rem, 5vw, 4.5rem)", color: "rgba(0,107,63,.24)", lineHeight: 1 }}>
+                  <span className="v2-headline" style={{ fontSize: "clamp(3rem, 5vw, 4.5rem)", color: "rgba(194,184,167,.16)", lineHeight: 1 }}>
                     {row.num}
                   </span>
 

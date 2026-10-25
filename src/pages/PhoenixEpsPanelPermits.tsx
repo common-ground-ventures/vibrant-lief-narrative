@@ -242,7 +242,7 @@ const PhoenixEpsPanelPermits = () => {
           A Phoenix-area building official does not approve a wall system based on a manufacturer brochure. They approve based on a current ICC Evaluation Service report, ASTM testing, and an engineered submittal under IRC or IBC code path. LÏEF carries the documentation package on every project.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "48px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "48px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>SABS Plan Check Documentation</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             {[
@@ -319,7 +319,7 @@ const PhoenixEpsPanelPermits = () => {
           LÏEF runs both halves. The permit package and the install crew are the same operating relationship. That is the argument for an owner's rep on this work in the Arizona market. The plan check and the construction sequence move together because one firm carries both.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}

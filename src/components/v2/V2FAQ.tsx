@@ -123,7 +123,7 @@ const V2FAQ = () => {
         >
           <div
             className="v2-ghost-text absolute top-0 right-0 md:-right-6"
-            style={{ fontSize: "min(7vw, 120px)", lineHeight: 1, color: "rgba(0,107,63,.24)" }}
+            style={{ fontSize: "min(7vw, 120px)", lineHeight: 1, color: "rgba(194,184,167,.16)" }}
           >
             FAQ
           </div>
