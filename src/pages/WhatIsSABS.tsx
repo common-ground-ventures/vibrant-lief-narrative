@@ -125,7 +125,7 @@ const WhatIsSABS = () => {
           The system starts with LÏEF Blocks — proprietary EPS (Expanded Polystyrene) foam structural panels that form the core of walls, floors, and roofs. These are not ICF blocks. The technology is fundamentally different. Traditional insulated concrete forms require a concrete pour and significant formwork. SABS uses a cementitious coating applied directly to the EPS panel substrate, creating a monolithic structural shell without the same labor overhead.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>The Build Sequence</p>
           {[
             ["1.", "Panels are cut and assembled on-site", "LÏEF Blocks are precision-cut from high-density EPS foam to project specifications."],
@@ -175,7 +175,7 @@ const WhatIsSABS = () => {
             </thead>
             <tbody>
               {comparisonRows.map((row, i) => (
-                <tr key={row.category} style={{ borderBottom: "1px solid var(--v2-rule)", background: i % 2 === 0 ? "rgba(0,255,136,.01)" : "transparent" }}>
+                <tr key={row.category} style={{ borderBottom: "1px solid var(--v2-rule)", background: i % 2 === 0 ? "rgba(194,184,167,.01)" : "transparent" }}>
                   <td style={{ padding: "12px", color: "var(--v2-white)", fontWeight: 500 }}>{row.category}</td>
                   <td style={{ padding: "12px", color: "var(--v2-dim)" }}>{row.traditional}</td>
                   <td style={{ padding: "12px", color: "var(--v2-muted)", fontWeight: 400 }}>{row.sabs}</td>
@@ -217,7 +217,7 @@ const WhatIsSABS = () => {
         </p>
 
         {/* Author block */}
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep expert in SABS construction with LÏEF Blocks. LÏEF operates with Strata International on SABS-certified projects across Arizona and Nevada. For project inquiries: <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>hello@liefdev.com</a>

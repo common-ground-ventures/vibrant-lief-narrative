@@ -162,7 +162,7 @@ const SabsVsIcf = () => {
           SABS starts with LÏEF Blocks — proprietary high-density EPS foam panels that form the structural core of walls, floors, and roofs. The blocks are precision-cut to spec and assembled on-site. Then the SABS cementitious compound — distributed by Strata International — is sprayed or hand-applied directly to the panel surface. The coating cures in place, producing a monolithic concrete-grade shell.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>Where the Process Diverges</p>
           {[
             ["ICF:", "Foam blocks stacked → rebar set → concrete poured → cure cycle → structural shell"],
@@ -198,7 +198,7 @@ const SabsVsIcf = () => {
                   key={row.category}
                   style={{
                     borderBottom: "1px solid var(--v2-rule)",
-                    background: i % 2 === 0 ? "rgba(0,255,136,.01)" : "transparent",
+                    background: i % 2 === 0 ? "rgba(194,184,167,.01)" : "transparent",
                   }}
                 >
                   <td style={{ padding: "12px", color: "var(--v2-white)", fontWeight: 500 }}>{row.category}</td>
@@ -257,7 +257,7 @@ const SabsVsIcf = () => {
         </div>
 
         {/* Certifications callout */}
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>SABS Code Approvals</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             {[
@@ -303,7 +303,7 @@ const SabsVsIcf = () => {
         </p>
 
         {/* Author block */}
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep expert in SABS construction with LÏEF Blocks. LÏEF holds an exclusive arrangement with Strata International for SABS-certified projects across Arizona and Nevada. For project inquiries:{" "}

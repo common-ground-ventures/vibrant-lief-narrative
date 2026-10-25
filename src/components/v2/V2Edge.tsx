@@ -17,19 +17,19 @@ const stats = [
 ];
 
 const ease = [.16, 1, .3, 1] as const;
-const accentColor = "#00FF88";
+const accentColor = "#C2B8A7";
 
 const V2Edge = () => {
   const { ref, inView } = useInView(0.1);
 
   return (
-    <section id="edge" className="relative py-12 md:py-28" style={{ background: "#006B3F" }}>
+    <section id="edge" className="relative py-12 md:py-28" style={{ background: "#014421" }}>
       <div className="absolute inset-x-0 top-0 h-[40%] pointer-events-none" style={{ background: "linear-gradient(180deg, rgba(0,0,0,.12), transparent)" }} />
 
       <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
         {inView && (
           <>
-            <motion.div initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, ease }} className="mb-6" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.22em", color: "rgba(0,255,136,.6)" }}>
+            <motion.div initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, ease }} className="mb-6" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.22em", color: "rgba(194,184,167,.6)" }}>
 
               The Edge
             </motion.div>
@@ -51,7 +51,7 @@ const V2Edge = () => {
                     key={attr.title}
                     className="p-6 md:p-8 transition-all duration-500 group"
                     style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(0,255,136,.12), inset 0 1px 0 ${accentColor}40`}
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
                     onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
                   >
                     <div className="w-14 h-14 flex items-center justify-center mb-5" style={{ border: `1px solid ${accentColor}40` }}>
@@ -73,7 +73,7 @@ const V2Edge = () => {
                     key={stat.label}
                     className="p-6 md:p-8 transition-all duration-500"
                     style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(0,255,136,.12), inset 0 1px 0 ${accentColor}40`}
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
                     onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
                   >
                     <div className="w-14 h-14 flex items-center justify-center mb-5" style={{ border: `1px solid ${accentColor}40` }}>

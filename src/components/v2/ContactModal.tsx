@@ -108,8 +108,8 @@ const ContactModal = () => {
             transition={{ duration: 0.4, ease }}
             className="relative w-full max-w-[500px] p-8 md:p-10"
             style={{
-              background: "#006B3F",
-              border: "1px solid rgba(0,255,136,.3)",
+              background: "#014421",
+              border: "1px solid rgba(194,184,167,.3)",
               boxShadow: "0 40px 80px rgba(0,0,0,.5)",
             }}
           >

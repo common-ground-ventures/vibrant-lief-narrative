@@ -63,7 +63,7 @@ const V2Footer = () => {
                   <button
                     onClick={() => handleNav(l)}
                     style={{ fontSize: "1.25rem", color: "var(--v2-dim)", background: "none", border: "none", cursor: "pointer", padding: 0 }}
-                    className="hover:text-[#00FF88] transition-colors duration-300"
+                    className="hover:text-[#C2B8A7] transition-colors duration-300"
                   >
                     {l}
                   </button>
@@ -80,12 +80,12 @@ const V2Footer = () => {
                 <span style={{ fontSize: "1.25rem", color: "var(--v2-dim)" }}>Developers</span>
               </li>
               <li>
-                <a href="https://acgarizona.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#00FF88] transition-colors duration-300">
+                <a href="https://acgarizona.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   Managing General Contractor
                 </a>
               </li>
               <li>
-                <a href="https://www.strataus.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#00FF88] transition-colors duration-300">
+                <a href="https://www.strataus.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   Distributors
                 </a>
               </li>
@@ -97,12 +97,12 @@ const V2Footer = () => {
             <h5 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Connect</h5>
             <ul className="space-y-3">
               <li>
-                <a href="mailto:hello@liefdev.com" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#00FF88] transition-colors duration-300">
+                <a href="mailto:hello@liefdev.com" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   hello@liefdev.com
                 </a>
               </li>
               <li>
-                <a href="#" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#00FF88] transition-colors duration-300">
+                <a href="#" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   LinkedIn
                 </a>
               </li>

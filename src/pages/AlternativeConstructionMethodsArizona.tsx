@@ -233,7 +233,7 @@ const AlternativeConstructionMethodsArizona = () => {
             <div
               key={m.name}
               style={{
-                background: m.isLief ? "rgba(0,255,136,.06)" : "transparent",
+                background: m.isLief ? "rgba(194,184,167,.06)" : "transparent",
                 border: "1px solid var(--v2-rule)",
                 padding: "20px 24px",
               }}
@@ -317,7 +317,7 @@ const AlternativeConstructionMethodsArizona = () => {
           Project inquiries: hello@liefdev.com. Response in one business day. No sales sequence afterward.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and the Arizona owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF Development holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}

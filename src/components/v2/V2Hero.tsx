@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import logoLight from "@/assets/lief-logo-light.png";
-import dotsNeon from "@/assets/v2/dots-neon.png";
 import { useContactModal } from "@/contexts/ContactModalContext";
 
 const stagger = (i: number) => ({ delay: 0.3 + i * 0.15 });
@@ -26,8 +25,8 @@ const V2Hero = () => {
     <section ref={ref} className="relative h-screen flex items-center overflow-x-hidden" style={{ background: "var(--v2-deep)" }}>
       {/* Ambient glows */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(0,107,63,.12), transparent 70%)" }} />
-        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(0,255,136,.04), transparent 70%)" }} />
+        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(1,68,33,.12), transparent 70%)" }} />
+        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(194,184,167,.04), transparent 70%)" }} />
       </div>
 
 
@@ -109,15 +108,15 @@ const V2Hero = () => {
             className="transition-all duration-300 hover:brightness-110"
             style={{
               fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
-              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-neon)",
-              color: "var(--v2-deep)", border: "none", padding: "10px 24px", cursor: "pointer",
+              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-forest)",
+              color: "var(--v2-villa)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
             }}
           >
             View Projects
           </button>
           <button
             onClick={openModal}
-            className="transition-all duration-300 hover:bg-[#00FF88] hover:text-[#0a0a0a]"
+            className="transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0a0a0a]"
             style={{
               fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
               letterSpacing: "0.14em", fontWeight: 600, background: "transparent",

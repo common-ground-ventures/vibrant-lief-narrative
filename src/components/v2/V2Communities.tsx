@@ -1,6 +1,5 @@
 import { useInView } from "./useInView";
 import { motion } from "framer-motion";
-import dotsNeon from "@/assets/v2/dots-neon.png";
 import osbornImg from "@/assets/v2/osborn-new.jpg";
 import basinImg from "@/assets/v2/pahrump-basin.jpg";
 import theVailImg from "@/assets/v2/the-vail.jpeg";
@@ -16,15 +15,12 @@ const V2Communities = () => {
     <section id="communities" className="relative overflow-hidden py-12 md:py-28" style={{ background: "var(--v2-deep)" }}>
       {/* Ambient glows */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(0,107,63,.12), transparent 70%)" }} />
-        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(0,255,136,.04), transparent 70%)" }} />
+        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(1,68,33,.12), transparent 70%)" }} />
+        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(194,184,167,.04), transparent 70%)" }} />
       </div>
 
       {/* Ghost text */}
-      <div className="v2-ghost-text hidden lg:block top-8 right-8 text-right" style={{ fontSize: "min(9vw, 110px)", color: "rgba(0,107,63,.24)" }}>PROJECTS</div>
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-        <img src={dotsNeon} alt="" className="w-[176vw] max-w-[1512px] opacity-[0.01]" />
-      </div>
+      <div className="v2-ghost-text hidden lg:block top-8 right-8 text-right" style={{ fontSize: "min(9vw, 110px)", color: "rgba(194,184,167,.16)" }}>PROJECTS</div>
 
       <div ref={headerRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12 mb-16">
         {headerInView && (

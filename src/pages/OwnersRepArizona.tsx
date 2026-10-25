@@ -164,7 +164,7 @@ const OwnersRepArizona = () => {
           The standard owner's rep scope is well defined. On a stick-frame or CMU project, the rep covers:
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
           {conventionalScope.map(([label, desc]) => (
             <div key={String(label)} style={{ display: "flex", gap: "16px", marginBottom: "14px" }}>
               <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "240px", flexShrink: 0 }}>{label}</span>
@@ -207,7 +207,7 @@ const OwnersRepArizona = () => {
             <div
               key={sys.name}
               style={{
-                background: sys.isLief ? "rgba(0,255,136,.06)" : "transparent",
+                background: sys.isLief ? "rgba(194,184,167,.06)" : "transparent",
                 border: "1px solid var(--v2-rule)",
                 padding: "20px 24px",
               }}
@@ -244,7 +244,7 @@ const OwnersRepArizona = () => {
           ))}
         </div>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>SABS Code Approvals</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             {[
@@ -288,7 +288,7 @@ const OwnersRepArizona = () => {
           We are the rep we wish we had when we ran our first alt-system project.
         </p>
 
-        <div style={{ background: "rgba(0,255,136,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
+        <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds an exclusive arrangement with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}

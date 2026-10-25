@@ -32,8 +32,8 @@ const V2CTA = () => {
               className="inline-block transition-all duration-300 hover:brightness-110"
               style={{
                 fontFamily: "var(--v2-font-body)", fontSize: "1.25rem", textTransform: "uppercase",
-                letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-neon)",
-                color: "var(--v2-deep)", padding: "16px 40px", border: "none", cursor: "pointer",
+                letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-forest)",
+                color: "var(--v2-villa)", padding: "16px 40px", border: "1px solid var(--v2-loggia)", cursor: "pointer",
               }}
             >
               Start a Conversation

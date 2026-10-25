@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useInView } from "@/components/v2/useInView";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
-import dotsNeon from "@/assets/v2/dots-neon.png";
 import jesseImg from "@/assets/v2/jesse.png";
 import jimmyImg from "@/assets/v2/jimmy.png";
 import jonImg from "@/assets/v2/jon.png";
@@ -52,7 +51,7 @@ const Portrait = ({ member, delay, size = 180 }: { member: TeamMember; delay: nu
   >
     <div
       className="relative overflow-hidden mb-5"
-      style={{ width: size, height: size * 1.2, border: "2px solid rgba(0,255,136,.15)" }}
+      style={{ width: size, height: size * 1.2, border: "2px solid rgba(194,184,167,.15)" }}
     >
       <img
         src={member.img}
@@ -97,10 +96,7 @@ const TeamPage = () => {
       <V2Nav />
       <main>
         <section className="relative pt-32 pb-12 md:pt-40 md:pb-28" style={{ background: "var(--v2-deep)" }}>
-          <div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(0,255,136,.23)" }}>TEAM</div>
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-            <img src={dotsNeon} alt="" className="w-[176vw] max-w-[1512px] opacity-[0.01]" />
-          </div>
+          <div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.16)" }}>TEAM</div>
 
           <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
             {inView && (
