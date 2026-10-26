@@ -68,6 +68,9 @@ const V2 = () => {
       <meta property="og:description" content="Crafting architectural masterpieces across Arizona. Luxury custom homes, adaptive reuse, and commercial developments with proprietary SABS technology." />
       <meta property="og:url" content="https://www.anewlief.com/" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+      <meta name="twitter:title" content="L&#239;ef Development | Arizona's Premier Luxury Home Builder" />
+      <meta name="twitter:description" content="Crafting architectural masterpieces across Arizona. Luxury custom homes, adaptive reuse, and commercial developments with proprietary SABS technology." />
+      <meta name="twitter:image" content="https://www.anewlief.com/og-image.jpg" />
       <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
     </Helmet>
     <div className="v2 min-h-screen overflow-x-hidden">
