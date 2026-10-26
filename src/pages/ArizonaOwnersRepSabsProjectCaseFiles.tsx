@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -163,27 +163,19 @@ const faqs = [
 ];
 
 const ArizonaOwnersRepSabsProjectCaseFiles = () => {
-  useEffect(() => {
-    document.title = "Arizona Owner's Rep Case Files: SABS Project Chronicles | LÏEF Development";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "Named-project case files from the Arizona owner's rep for SABS construction. 301 W Osborn (Phoenix), Canyon Corporate Plaza (Phoenix), Silver Mountain Ranches (Scottsdale), 440 Basin Avenue (Pahrump NV). AHJ, EOR, GC, and finance partner attribution by project. Written by LÏEF Development."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-owners-rep-case-files";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-owners-rep-case-files")?.remove();
-    };
-  }, []);
 
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
+      <Helmet>
+        <title>{"Arizona Owner's Rep Case Files: SABS Project Chronicles | LÏEF Development"}</title>
+        <meta name="description" content={"Named-project case files from the Arizona owner's rep for SABS construction. 301 W Osborn (Phoenix), Canyon Corporate Plaza (Phoenix), Silver Mountain Ranches (Scottsdale), 440 Basin Avenue (Pahrump NV). AHJ, EOR, GC, and finance partner attribution by project. Written by LÏEF Development."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/arizona-owners-rep-sabs-project-case-files" />
+        <meta property="og:title" content={"Arizona Owner's Rep Case Files: SABS Project Chronicles | LÏEF Development"} />
+        <meta property="og:description" content={"Named-project case files from the Arizona owner's rep for SABS construction. 301 W Osborn (Phoenix), Canyon Corporate Plaza (Phoenix), Silver Mountain Ranches (Scottsdale), 440 Basin Avenue (Pahrump NV). AHJ, EOR, GC, and finance partner attribution by project. Written by LÏEF Development."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/arizona-owners-rep-sabs-project-case-files" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>

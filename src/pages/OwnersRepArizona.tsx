@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -113,27 +113,19 @@ const faqs = [
 ];
 
 const OwnersRepArizona = () => {
-  useEffect(() => {
-    document.title = "Owner's Rep for Alternative Building Systems in Arizona | LÏEF Development";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "Owner's representation for SABS, ICCF, SCIP, and SIPs projects in Arizona. Firsthand take from LÏEF Development on what the role covers, where conventional reps miss, and how to evaluate the alt-system case for your project."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-owners-rep-az";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-owners-rep-az")?.remove();
-    };
-  }, []);
 
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
+      <Helmet>
+        <title>{"Owner's Rep for Alternative Building Systems in Arizona | LÏEF Development"}</title>
+        <meta name="description" content={"Owner's representation for SABS, ICCF, SCIP, and SIPs projects in Arizona. Firsthand take from LÏEF Development on what the role covers, where conventional reps miss, and how to evaluate the alt-system case for your project."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/owners-rep-alternative-building-systems-arizona" />
+        <meta property="og:title" content={"Owner's Rep for Alternative Building Systems in Arizona | LÏEF Development"} />
+        <meta property="og:description" content={"Owner's representation for SABS, ICCF, SCIP, and SIPs projects in Arizona. Firsthand take from LÏEF Development on what the role covers, where conventional reps miss, and how to evaluate the alt-system case for your project."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/owners-rep-alternative-building-systems-arizona" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>

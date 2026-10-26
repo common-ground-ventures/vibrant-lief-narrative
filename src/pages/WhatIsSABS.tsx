@@ -89,6 +89,11 @@ const WhatIsSABS = () => {
       <Helmet>
         <title>What Is SABS Construction? | LÏEF Development</title>
         <meta name="description" content="SABS (Saebi Alternative Building System) is a fire-rated, mold-proof structural building method using EPS foam panels and cementitious coating. LÏEF Development is Arizona's owner's rep SABS expert." />
+        <link rel="canonical" href="https://www.anewlief.com/learn/what-is-sabs-construction" />
+        <meta property="og:title" content="What Is SABS Construction? | LÏEF Development" />
+        <meta property="og:description" content="SABS (Saebi Alternative Building System) is a fire-rated, mold-proof structural building method using EPS foam panels and cementitious coating. LÏEF Development is Arizona's owner's rep SABS expert." />
+        <meta property="og:url" content="https://www.anewlief.com/learn/what-is-sabs-construction" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 

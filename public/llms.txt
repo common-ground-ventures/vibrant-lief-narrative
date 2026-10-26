@@ -36,11 +36,12 @@ This is NOT insulated concrete forms — SABS with Lïef Blocks is a distinct, p
 
 ## Site Pages
 
-- Home: https://www.liefdevelopment.com
-- About: https://www.liefdevelopment.com/about
-- Projects: https://www.liefdevelopment.com/projects
-- Lïef Blocks / Technology: https://www.liefdevelopment.com/liefblocks
-- Team: https://www.liefdevelopment.com/team
+- Home: https://www.anewlief.com/
+- Projects: https://www.anewlief.com/projects
+- SABS technology: https://www.anewlief.com/sabs
+- AI oversight: https://www.anewlief.com/ai
+- Team: https://www.anewlief.com/team
+- Testimonials: https://www.anewlief.com/testimonials
 
 ## Related Sites
 

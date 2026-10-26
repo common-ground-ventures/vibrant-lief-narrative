@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -148,27 +148,19 @@ const faqs = [
 ];
 
 const ModularEpsPanelPhoenix = () => {
-  useEffect(() => {
-    document.title = "Modular EPS Panel Construction Phoenix | SABS with LÏEF Blocks";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "Modular EPS panel construction in Phoenix, by an owner's rep who actually builds with it. SABS with LÏEF Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-eps-phoenix";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-eps-phoenix")?.remove();
-    };
-  }, []);
 
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
+      <Helmet>
+        <title>{"Modular EPS Panel Construction Phoenix | SABS with LÏEF Blocks"}</title>
+        <meta name="description" content={"Modular EPS panel construction in Phoenix, by an owner's rep who actually builds with it. SABS with LÏEF Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
+        <meta property="og:title" content={"Modular EPS Panel Construction Phoenix | SABS with LÏEF Blocks"} />
+        <meta property="og:description" content={"Modular EPS panel construction in Phoenix, by an owner's rep who actually builds with it. SABS with LÏEF Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>

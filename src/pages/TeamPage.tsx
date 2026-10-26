@@ -22,6 +22,7 @@ interface TeamMember {
   img: string;
   zoom?: number;
   originY?: string;
+  shiftY?: string; /* moves the photo down inside its frame, as a % of frame height */
 }
 
 /* Swapped: Jon Armstrong is now middle, Jimmy Khounlavong is now right */
@@ -37,7 +38,8 @@ const row2: TeamMember[] = [
 ];
 
 const row3: TeamMember[] = [
-  { name: "Nick Scavio", role: "General Counsel", cred: "15+ Yrs of Business Law, >$100M In Transactions Closed", img: nickImg, zoom: 1.12, originY: "0%" },
+  /* Nick: 4% smaller than 1.12 and moved down so his eye line sits level with Scott Hibler and Alex (Vision-measured 10/26). */
+  { name: "Nick Scavio", role: "General Counsel", cred: "15+ Yrs of Business Law, >$100M In Transactions Closed", img: nickImg, zoom: 1.0752, originY: "0%", shiftY: "4.93%" },
   { name: "Scott Hibler", role: "Real Estate / B2B Partnerships", cred: "20+ Yrs of Sales & Investment Strategy", img: hiblerImg, zoom: 1.20, originY: "3%" },
   { name: "Alex Prince", role: "Investor Relations", cred: "20+ Yrs of Institutional Asset Mgmt. & Investment Banking", img: alexImg, zoom: 1.60, originY: "22%" },
 ];
@@ -50,14 +52,14 @@ const Portrait = ({ member, delay, size = 180 }: { member: TeamMember; delay: nu
     className="flex flex-col items-center text-center group"
   >
     <div
-      className="relative overflow-hidden mb-5"
+      className="v2-portrait relative overflow-hidden mb-5"
       style={{ width: size, height: size * 1.2, border: "2px solid rgba(194,184,167,.15)" }}
     >
       <img
         src={member.img}
         alt={member.name}
         className="w-full h-full object-cover object-top grayscale brightness-[.5] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.85]"
-        style={{ transform: `scale(${member.zoom ?? 1.15})`, transformOrigin: `center ${member.originY ?? "15%"}` }}
+        style={{ transform: `translateY(${member.shiftY ?? "0%"}) scale(${member.zoom ?? 1.15})`, transformOrigin: `center ${member.originY ?? "15%"}` }}
       />
     </div>
     <h4

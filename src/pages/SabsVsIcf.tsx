@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -94,27 +94,19 @@ const faqs = [
 ];
 
 const SabsVsIcf = () => {
-  useEffect(() => {
-    document.title = "SABS vs ICF Construction: What's the Real Difference? | LÏEF Development";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. LÏEF Development is Arizona's owner's rep SABS specialist."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-sabs-vs-icf";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-sabs-vs-icf")?.remove();
-    };
-  }, []);
 
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
+      <Helmet>
+        <title>{"SABS vs ICF Construction: What's the Real Difference? | LÏEF Development"}</title>
+        <meta name="description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. LÏEF Development is Arizona's owner's rep SABS specialist."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/sabs-vs-icf" />
+        <meta property="og:title" content={"SABS vs ICF Construction: What's the Real Difference? | LÏEF Development"} />
+        <meta property="og:description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. LÏEF Development is Arizona's owner's rep SABS specialist."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/sabs-vs-icf" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>

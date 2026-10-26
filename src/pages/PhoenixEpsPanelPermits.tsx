@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -157,27 +157,19 @@ const faqs = [
 ];
 
 const PhoenixEpsPanelPermits = () => {
-  useEffect(() => {
-    document.title = "Phoenix EPS Panel Permits and AHJ Review | SABS with LÏEF Blocks";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with LÏEF Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, by the Arizona owner's rep who runs the permits."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-eps-phoenix-permits";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-eps-phoenix-permits")?.remove();
-    };
-  }, []);
 
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
+      <Helmet>
+        <title>{"Phoenix EPS Panel Permits and AHJ Review | SABS with LÏEF Blocks"}</title>
+        <meta name="description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with LÏEF Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, by the Arizona owner's rep who runs the permits."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
+        <meta property="og:title" content={"Phoenix EPS Panel Permits and AHJ Review | SABS with LÏEF Blocks"} />
+        <meta property="og:description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with LÏEF Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, by the Arizona owner's rep who runs the permits."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>
