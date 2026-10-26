@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useInView } from "@/components/v2/useInView";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
-import osbornImg from "@/assets/v2/301-osborn.png";
+import osbornImg from "@/assets/v2/lief-midtown-hero.jpg"; /* the Lïef Midtown film hero (liefmidtownphx.com) */
 import canyonImg from "@/assets/v2/canyon-corporate.jpg";
 import silverImg from "@/assets/v2/silver-mountain.jpg";
 import basinImg from "@/assets/v2/pahrump-basin.jpg";
@@ -23,6 +23,7 @@ const projects = [
     location: "Midtown, Phoenix AZ",
     status: "SABS Showcase",
     featured: true,
+    link: { href: "https://liefmidtownphx.com/", label: "See Lïef Midtown" },
   },
   {
     img: vailImg,
@@ -110,6 +111,17 @@ const ProjectsPage = () => {
                       <p className="mb-3" style={{ fontSize: "1rem", color: accentColor, letterSpacing: "0.05em", fontWeight: 600 }}>{proj.type}</p>
                       <p className="max-w-2xl mb-4" style={{ fontSize: "1.1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>{proj.desc}</p>
                       <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)" }}>{proj.location}</p>
+                      {proj.link && (
+                        <a
+                          href={proj.link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block mt-5"
+                          style={{ fontSize: "1rem", letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 600, color: accentColor, textDecoration: "underline", textUnderlineOffset: "6px", textDecorationThickness: "1px" }}
+                        >
+                          {proj.link.label}
+                        </a>
+                      )}
                     </div>
                   </motion.div>
                 ))}
