@@ -23,7 +23,7 @@ const V2Edge = () => {
   const { ref, inView } = useInView(0.1);
 
   return (
-    <section id="edge" className="relative py-12 md:py-28" style={{ background: "#014421" }}>
+    <section id="edge" className="relative py-12 md:py-28" style={{ background: "var(--v2-green)" }}>
       <div className="absolute inset-x-0 top-0 h-[40%] pointer-events-none" style={{ background: "linear-gradient(180deg, rgba(0,0,0,.12), transparent)" }} />
 
       <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
@@ -38,7 +38,7 @@ const V2Edge = () => {
               WE BUILD<br /><span style={{ color: "var(--v2-neon)" }}>SMARTER<span className="v2-neon-period">.</span></span>
             </motion.h2>
 
-            <motion.p initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="max-w-[550px] mb-20" style={{ fontWeight: 300, fontSize: "1.25rem", color: "rgba(245,245,243,.7)", lineHeight: 1.8 }}>
+            <motion.p initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="max-w-[550px] mb-20" style={{ fontWeight: 300, fontSize: "1.25rem", color: "rgba(239,236,227,.85)", lineHeight: 1.8 }}>
               Arizona's #1 SABS-trained builder. EPS foam panels with SABS Technology. 300+ in-house skilled labor and construction managers. When most GCs lose weeks waiting on a sub, we deploy from our own army.
             </motion.p>
 
@@ -50,15 +50,13 @@ const V2Edge = () => {
                   <div
                     key={attr.title}
                     className="p-6 md:p-8 transition-all duration-500 group"
-                    style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
-                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
+                    style={{ border: "1px solid rgba(239,236,227,.08)", background: "rgba(0,0,0,.15)" }}
                   >
                     <div className="w-14 h-14 flex items-center justify-center mb-5" style={{ border: `1px solid ${accentColor}40` }}>
                       <Icon size={32} style={{ color: accentColor }} />
                     </div>
                     <h4 className="mb-3" style={{ fontSize: "1.25rem", fontWeight: 600, color: accentColor, textTransform: "uppercase" }}>{attr.title}</h4>
-                    <p style={{ fontSize: "1.25rem", color: "rgba(245,245,243,.6)", lineHeight: 1.6 }}>{attr.desc}</p>
+                    <p style={{ fontSize: "1.25rem", color: "rgba(239,236,227,.85)", lineHeight: 1.6 }}>{attr.desc}</p>
                   </div>
                 );
               })}
@@ -72,9 +70,7 @@ const V2Edge = () => {
                   <div
                     key={stat.label}
                     className="p-6 md:p-8 transition-all duration-500"
-                    style={{ border: "1px solid rgba(245,245,243,.08)", background: "rgba(0,0,0,.15)" }}
-                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = `0 0 40px rgba(194,184,167,.12), inset 0 1px 0 ${accentColor}40`}
-                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
+                    style={{ border: "1px solid rgba(239,236,227,.08)", background: "rgba(0,0,0,.15)" }}
                   >
                     <div className="w-14 h-14 flex items-center justify-center mb-5" style={{ border: `1px solid ${accentColor}40` }}>
                       <Icon size={32} style={{ color: accentColor }} />
@@ -83,18 +79,18 @@ const V2Edge = () => {
                       {stat.value}<span style={{ fontSize: "0.5em", fontWeight: 400 }}>{stat.suffix}</span>
                     </div>
                     <div className="mb-2" style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-white)", letterSpacing: "0.1em", fontWeight: 600 }}>{stat.label}</div>
-                    <div style={{ fontSize: "1.25rem", color: "rgba(245,245,243,.55)", lineHeight: 1.5 }}>{stat.desc}</div>
+                    <div style={{ fontSize: "1.25rem", color: "rgba(239,236,227,.55)", lineHeight: 1.5 }}>{stat.desc}</div>
                   </div>
                 );
               })}
             </motion.div>
 
             {/* Bottom context text */}
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.4, ease }} className="text-center pt-12" style={{ borderTop: "1px solid rgba(245,245,243,.1)" }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.4, ease }} className="text-center pt-12" style={{ borderTop: "1px solid rgba(239,236,227,.1)" }}>
               <p className="mb-3" style={{ fontSize: "1.25rem", color: "var(--v2-white)" }}>
                 <span style={{ color: accentColor }}>Structural Superiority:</span> Anti-Fire, Anti-Mold, and Anti-Termite protection are standard.
               </p>
-              <p className="max-w-2xl mx-auto" style={{ fontSize: "1.25rem", color: "rgba(245,245,243,.55)", lineHeight: 1.7 }}>
+              <p className="max-w-2xl mx-auto" style={{ fontSize: "1.25rem", color: "rgba(239,236,227,.55)", lineHeight: 1.7 }}>
                 EPS foam panels with SABS Technology radically reduce the number of trades required on-site, allowing for total schedule control and unprecedented quality consistency.
               </p>
             </motion.div>

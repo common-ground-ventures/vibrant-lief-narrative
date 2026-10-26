@@ -84,11 +84,11 @@ const TeamPage = () => {
   return (
     <>
     <Helmet>
-      <title>Our Team | Li&#239;ef Development</title>
-      <meta name="description" content="Meet the principals and leadership behind Li&#239;ef Development. Construction, design, legal, financial, and brand expertise building Arizona's finest homes." />
+      <title>Our Team | L&#239;ef Development</title>
+      <meta name="description" content="Meet the principals and leadership behind L&#239;ef Development. Construction, design, legal, financial, and brand expertise building Arizona's finest homes." />
       <link rel="canonical" href="https://www.anewlief.com/team" />
-      <meta property="og:title" content="Our Team | Li&#239;ef Development" />
-      <meta property="og:description" content="Meet the principals and leadership behind Li&#239;ef Development. Construction, design, legal, financial, and brand expertise." />
+      <meta property="og:title" content="Our Team | L&#239;ef Development" />
+      <meta property="og:description" content="Meet the principals and leadership behind L&#239;ef Development. Construction, design, legal, financial, and brand expertise." />
       <meta property="og:url" content="https://www.anewlief.com/team" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
     </Helmet>
@@ -96,7 +96,7 @@ const TeamPage = () => {
       <V2Nav />
       <main>
         <section className="relative pt-32 pb-12 md:pt-40 md:pb-28" style={{ background: "var(--v2-deep)" }}>
-          <div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.16)" }}>TEAM</div>
+          <div className="v2-ghost-text hidden lg:block top-32 right-8" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.6)" }}>TEAM</div>
 
           <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
             {inView && (

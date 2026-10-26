@@ -22,12 +22,8 @@ const V2Hero = () => {
   }, []);
 
   return (
-    <section ref={ref} className="relative h-screen flex items-center overflow-x-hidden" style={{ background: "var(--v2-deep)" }}>
-      {/* Ambient glows */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(1,68,33,.12), transparent 70%)" }} />
-        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(194,184,167,.04), transparent 70%)" }} />
-      </div>
+    <section ref={ref} className="relative min-h-screen flex items-center overflow-x-hidden pt-24 pb-36 md:pb-40" style={{ background: "var(--v2-deep)" }}>
+      {/* glows removed: the section gradients carry the light now */}
 
 
 
@@ -38,7 +34,7 @@ const V2Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ...stagger(0), ease: [.16, 1, .3, 1] }}
           style={{ opacity: heroLogoOpacity, scale: heroLogoScale, y: heroLogoY, transformOrigin: "left center", willChange: "transform, opacity" }}
-          className="mb-3 md:mb-4"
+          className="mb-5 md:mb-8"
         >
           <img src={logoLight} alt="Lïef" className="h-14 md:h-24 lg:h-32 w-auto" />
         </motion.div>
@@ -47,7 +43,7 @@ const V2Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ...stagger(1), ease: [.16, 1, .3, 1] }}
-          className="mb-3 md:mb-4"
+          className="mb-6 md:mb-8"
         >
           <span className="v2-label hidden md:inline text-[1.25rem]">Development + Construction · Phoenix, AZ</span>
           <span
@@ -63,7 +59,7 @@ const V2Hero = () => {
           initial={{ opacity: 0, y: 35 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ...stagger(1), ease: [.16, 1, .3, 1] }}
-          className="v2-headline leading-[0.95] mb-3 md:mb-4"
+          className="v2-headline leading-[1.02] mb-6 md:mb-8"
           style={{ fontSize: "clamp(2.2rem, 5.5vw, 5rem)" }}
         >
           BUILT<span className="v2-neon-period">.</span>
@@ -87,7 +83,7 @@ const V2Hero = () => {
           initial={{ opacity: 0, y: 35 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ...stagger(3), ease: [.16, 1, .3, 1] }}
-          className="mt-2 md:mt-2 max-w-[420px] hidden md:block"
+          className="mt-4 md:mt-5 max-w-[420px] hidden md:block"
           style={{ fontSize: "1.1rem", color: "var(--v2-dim)", lineHeight: 1.6 }}
         >
           Development + Construction Consolidated.
@@ -101,22 +97,22 @@ const V2Hero = () => {
           initial={{ opacity: 0, y: 35 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ...stagger(4), ease: [.16, 1, .3, 1] }}
-          className="mt-4 md:mt-6 flex flex-wrap gap-3 md:gap-4"
+          className="mt-8 md:mt-12 flex flex-wrap gap-3 md:gap-4"
         >
           <button
             onClick={() => document.querySelector("#communities")?.scrollIntoView({ behavior: "smooth" })}
             className="transition-all duration-300 hover:brightness-110"
             style={{
               fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
-              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-forest)",
-              color: "var(--v2-villa)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
+              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-btn-bg)",
+              color: "var(--v2-btn-fg)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
             }}
           >
             View Projects
           </button>
           <button
             onClick={openModal}
-            className="transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0a0a0a]"
+            className="transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0F1A14]"
             style={{
               fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
               letterSpacing: "0.14em", fontWeight: 600, background: "transparent",
