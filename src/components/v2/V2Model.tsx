@@ -61,7 +61,7 @@ const V2Model = () => {
 
   return (
     <section id="model" className="relative py-12 md:py-28" style={{ background: "var(--v2-deep)" }}>
-      <div className="v2-ghost-text hidden lg:block top-20 right-8 text-right" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.16)" }}>MODEL</div>
+      <div className="v2-ghost-text hidden lg:block top-20 right-8 text-right" style={{ fontSize: "min(9.6vw, 120px)", color: "rgba(194,184,167,.6)" }}>MODEL</div>
 
       <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
         {inView && (
@@ -84,7 +84,7 @@ const V2Model = () => {
                   className="grid grid-cols-1 md:grid-cols-[auto_1fr_auto] gap-6 md:gap-12 items-start py-10 md:py-14"
                   style={{ borderTop: "1px solid var(--v2-rule)" }}
                 >
-                  <span className="v2-headline" style={{ fontSize: "clamp(3rem, 5vw, 4.5rem)", color: "rgba(194,184,167,.16)", lineHeight: 1 }}>
+                  <span className="v2-headline" style={{ fontSize: "clamp(3rem, 5vw, 4.5rem)", color: "rgba(194,184,167,.6)", lineHeight: 1 }}>
                     {row.num}
                   </span>
 

@@ -15,12 +15,10 @@ const V2Communities = () => {
     <section id="communities" className="relative overflow-hidden py-12 md:py-28" style={{ background: "var(--v2-deep)" }}>
       {/* Ambient glows */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[60%] h-[60%]" style={{ background: "radial-gradient(ellipse at top right, rgba(1,68,33,.12), transparent 70%)" }} />
-        <div className="absolute bottom-0 left-0 w-[50%] h-[50%]" style={{ background: "radial-gradient(ellipse at bottom left, rgba(194,184,167,.04), transparent 70%)" }} />
       </div>
 
       {/* Ghost text */}
-      <div className="v2-ghost-text hidden lg:block top-8 right-8 text-right" style={{ fontSize: "min(9vw, 110px)", color: "rgba(194,184,167,.16)" }}>PROJECTS</div>
+      <div className="v2-ghost-text hidden lg:block top-8 right-8 text-right" style={{ fontSize: "min(9vw, 110px)", color: "rgba(194,184,167,.6)" }}>PROJECTS</div>
 
       <div ref={headerRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12 mb-16">
         {headerInView && (
@@ -42,7 +40,7 @@ const V2Communities = () => {
           {/* Osborn - 2 cols, 2 rows */}
           <div className="lg:col-span-2 lg:row-span-2 relative overflow-hidden group" style={{ minHeight: "500px" }}>
             <img src={osbornImg} alt="301 W Osborn" className="absolute inset-0 w-full h-full object-cover grayscale brightness-[.45] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.65]" style={{ transform: "scale(1.1)" }} />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,10,10,.92) 0%, rgba(10,10,10,.35) 55%, transparent 100%)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.92) 0%, rgba(15,26,20,.35) 55%, transparent 100%)" }} />
             <div className="absolute bottom-0 left-0 p-8 md:p-12 z-10">
               <span style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-neon)", letterSpacing: "0.1em" }}>● SABS Showcase</span>
               <h3 className="v2-headline text-xl md:text-2xl mt-3 mb-2" style={{ color: "var(--v2-white)" }}>301 W OSBORN</h3>
@@ -56,7 +54,7 @@ const V2Communities = () => {
           {/* Basin */}
           <div className="relative overflow-hidden group" style={{ minHeight: "280px" }}>
             <img src={basinImg} alt="440 Basin" className="absolute inset-0 w-full h-full object-cover grayscale brightness-[.45] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.65]" />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,10,10,.92) 0%, rgba(10,10,10,.35) 55%, transparent 100%)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.92) 0%, rgba(15,26,20,.35) 55%, transparent 100%)" }} />
             <div className="absolute bottom-0 left-0 p-6 z-10">
               <span style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-neon)", letterSpacing: "0.1em" }}>● In Development</span>
               <h3 className="v2-headline text-lg mt-2 mb-1" style={{ color: "var(--v2-white)" }}>440 BASIN AVENUE</h3>
@@ -71,7 +69,7 @@ const V2Communities = () => {
           {/* Canyon Corporate */}
           <div className="relative overflow-hidden group" style={{ minHeight: "280px" }}>
             <img src={canyonImg} alt="Canyon Corporate Plaza" className="absolute inset-0 w-full h-full object-cover grayscale brightness-[.45] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.65]" />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,10,10,.92) 0%, rgba(10,10,10,.35) 55%, transparent 100%)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.92) 0%, rgba(15,26,20,.35) 55%, transparent 100%)" }} />
             <div className="absolute bottom-0 left-0 p-6 z-10">
               <span style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-neon)", letterSpacing: "0.1em" }}>● In Development</span>
               <h3 className="v2-headline text-lg mt-2 mb-1" style={{ color: "var(--v2-white)" }}>CANYON CORPORATE PLAZA</h3>
@@ -86,7 +84,7 @@ const V2Communities = () => {
           {/* Silver Mountain */}
           <div className="relative overflow-hidden group" style={{ minHeight: "320px" }}>
             <img src={silverImg} alt="Silver Mountain Ranches" className="absolute inset-0 w-full h-full object-cover grayscale brightness-[.45] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.65]" />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,10,10,.92) 0%, rgba(10,10,10,.35) 55%, transparent 100%)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.92) 0%, rgba(15,26,20,.35) 55%, transparent 100%)" }} />
             <div className="absolute bottom-0 left-0 p-6 md:p-8 z-10">
               <span style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-neon)", letterSpacing: "0.1em" }}>● In Development</span>
               <h3 className="v2-headline text-lg md:text-xl mt-2 mb-1" style={{ color: "var(--v2-white)" }}>SILVER MOUNTAIN RANCHES</h3>
@@ -98,7 +96,7 @@ const V2Communities = () => {
           {/* The Vail */}
           <div className="relative overflow-hidden group" style={{ minHeight: "320px" }}>
             <img src={theVailImg} alt="The Vail" className="absolute inset-0 w-full h-full object-cover grayscale brightness-[.45] transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-[.65]" style={{ transform: "scale(1.10)" }} />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,10,10,.92) 0%, rgba(10,10,10,.35) 55%, transparent 100%)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.92) 0%, rgba(15,26,20,.35) 55%, transparent 100%)" }} />
             <div className="absolute bottom-0 left-0 p-6 md:p-8 z-10">
               <span style={{ fontSize: "1.25rem", textTransform: "uppercase", color: "var(--v2-neon)", letterSpacing: "0.1em" }}>● Planning & Design</span>
               <h3 className="v2-headline text-lg md:text-xl mt-2 mb-1" style={{ color: "var(--v2-white)" }}>THE VAIL</h3>

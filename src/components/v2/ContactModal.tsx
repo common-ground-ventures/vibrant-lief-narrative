@@ -11,20 +11,19 @@ const ease = [0.16, 1, 0.3, 1] as const;
 const inputStyle: React.CSSProperties = {
   width: "100%",
   padding: "12px 16px",
-  background: "#ffffff",
-  border: "1px solid rgba(0,0,0,.15)",
-  color: "#1A1A1A",
+  background: "#EFECE3",
+  border: "1px solid rgba(15,26,20,.25)",
+  color: "#0F1A14",
   fontFamily: "var(--v2-font-body)",
   fontSize: "1rem",
   outline: "none",
-  borderRadius: "2px",
 };
 
 const labelStyle: React.CSSProperties = {
   fontSize: "1rem",
   textTransform: "uppercase",
   letterSpacing: "0.14em",
-  color: "#1A1A1A",
+  color: "#0F1A14",
   marginBottom: "8px",
   display: "block",
   fontWeight: 600,
@@ -98,7 +97,7 @@ const ContactModal = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
           onClick={handleBackdropClick}
-          className="fixed inset-0 z-[100] flex items-center justify-center px-4"
+          className="v2 fixed inset-0 z-[100] flex items-center justify-center px-4"
           style={{ background: "rgba(0,0,0,.8)", backdropFilter: "blur(8px)" }}
         >
           <motion.div
@@ -106,18 +105,18 @@ const ContactModal = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.97 }}
             transition={{ duration: 0.4, ease }}
-            className="relative w-full max-w-[500px] p-8 md:p-10"
+            className="v2-form-card relative w-full max-w-[500px] p-8 md:p-10"
             style={{
-              background: "#014421",
-              border: "1px solid rgba(194,184,167,.3)",
-              boxShadow: "0 40px 80px rgba(0,0,0,.5)",
+              background: "#C2B8A7",
+              border: "1px solid #C2B8A7",
+              boxShadow: "0 40px 80px rgba(0,0,0,.45)",
             }}
           >
             {/* Close button */}
             <button
               onClick={handleClose}
-              className="absolute top-4 right-4 transition-colors duration-300 hover:text-[#0a0a0a]"
-              style={{ background: "none", border: "none", cursor: "pointer", color: "#ffffff" }}
+              className="absolute top-4 right-4 transition-opacity duration-300 hover:opacity-60"
+              style={{ background: "none", border: "none", cursor: "pointer", color: "#0F1A14" }}
             >
               <X size={20} />
             </button>
@@ -126,25 +125,25 @@ const ContactModal = () => {
               <div className="text-center py-8">
                 <h3
                   className="v2-headline mb-4"
-                  style={{ fontSize: "1.4rem", letterSpacing: "0.1em", color: "#ffffff" }}
+                  style={{ fontSize: "1.4rem", letterSpacing: "0.1em", color: "#0F1A14" }}
                 >
                   MESSAGE SENT
                 </h3>
-                <p style={{ fontSize: "1.05rem", color: "#1A1A1A", lineHeight: 1.6 }}>
+                <p style={{ fontSize: "1.05rem", color: "#0F1A14", lineHeight: 1.6 }}>
                   We'll be in touch shortly.
                 </p>
                 <button
                   onClick={handleClose}
-                  className="mt-6 transition-all duration-300 hover:brightness-110"
+                  className="v2-send mt-6 transition-all duration-300"
                   style={{
                     fontFamily: "var(--v2-font-body)",
                     fontSize: "1rem",
                     fontWeight: 600,
                     textTransform: "uppercase",
                     letterSpacing: "0.14em",
-                    background: "transparent",
-                    color: "#ffffff",
-                    border: "1px solid #ffffff",
+                    background: "#EFECE3",
+                    color: "#0F1A14",
+                    border: "1px solid #0F1A14",
                     padding: "10px 28px",
                     cursor: "pointer",
                   }}
@@ -156,11 +155,11 @@ const ContactModal = () => {
               <>
                 <h3
                   className="v2-headline mb-2"
-                  style={{ fontSize: "1.2rem", letterSpacing: "0.1em", color: "#ffffff" }}
+                  style={{ fontSize: "1.2rem", letterSpacing: "0.1em", color: "#0F1A14" }}
                 >
                   START A CONVERSATION
                 </h3>
-                <p className="mb-6" style={{ fontSize: "1rem", color: "#1A1A1A", lineHeight: 1.5 }}>
+                <p className="mb-6" style={{ fontSize: "1rem", color: "#0F1A14", lineHeight: 1.5 }}>
                   Tell us about your project. We'll follow up within 24 hours.
                 </p>
 
@@ -214,16 +213,16 @@ const ContactModal = () => {
                   <button
                     type="submit"
                     disabled={status === "sending"}
-                    className="w-full transition-all duration-300 hover:brightness-110"
+                    className="v2-send w-full transition-all duration-300"
                     style={{
                       fontFamily: "var(--v2-font-body)",
                       fontSize: "1rem",
                       fontWeight: 600,
                       textTransform: "uppercase",
                       letterSpacing: "0.14em",
-                      background: "#0a0a0a",
-                      color: "#ffffff",
-                      border: "none",
+                      background: "#EFECE3",
+                      color: "#0F1A14",
+                      border: "1px solid #0F1A14",
                       padding: "14px 24px",
                       cursor: status === "sending" ? "wait" : "pointer",
                       opacity: status === "sending" ? 0.7 : 1,
