@@ -3,6 +3,9 @@ import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
 
+// Non-breaking hyphens, so a narrow table cell never splits "R-100" into "R-" and "100".
+const nb = (v: string) => v.replace(/-/g, "\u2011");
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -148,15 +151,17 @@ const BestIcfAlternativeFire = () => {
           The relevant rating is ASTM E-84, which measures surface burning characteristics. Class A is the highest grade, with a flame spread index of 0 to 25. The systems sit in the table below by what their wall-assembly testing actually shows.
         </p>
 
+        {/* Cell padding and type tighten below tablet width so all five columns fit a phone;
+            values wrap only at spaces, never inside "R-75" or "B-C". */}
         <div style={{ overflowX: "auto", marginBottom: "40px" }}>
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.92rem" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "clamp(0.8rem, 2.6vw, 0.92rem)" }}>
             <thead>
               <tr style={{ borderBottom: "1px solid var(--v2-neon)" }}>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>System</th>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>ASTM E-84</th>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>Flame Spread</th>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>Wood in Shell</th>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>Insulation</th>
+                <th style={{ textAlign: "left", padding: "10px clamp(4px, 1.5vw, 12px)", color: "var(--v2-dim)", fontWeight: 500 }}>System</th>
+                <th style={{ textAlign: "left", padding: "10px clamp(4px, 1.5vw, 12px)", color: "var(--v2-dim)", fontWeight: 500 }}>{nb("ASTM E-84")}</th>
+                <th style={{ textAlign: "left", padding: "10px clamp(4px, 1.5vw, 12px)", color: "var(--v2-dim)", fontWeight: 500 }}>Flame Spread</th>
+                <th style={{ textAlign: "left", padding: "10px clamp(4px, 1.5vw, 12px)", color: "var(--v2-dim)", fontWeight: 500 }}>Wood in Shell</th>
+                <th style={{ textAlign: "left", padding: "10px clamp(4px, 1.5vw, 12px)", color: "var(--v2-dim)", fontWeight: 500 }}>Insulation</th>
               </tr>
             </thead>
             <tbody>
@@ -168,11 +173,11 @@ const BestIcfAlternativeFire = () => {
                     background: row.isLief ? "rgba(194,184,167,.06)" : "transparent",
                   }}
                 >
-                  <td style={{ padding: "12px", color: row.isLief ? "var(--v2-neon)" : "var(--v2-white)", fontWeight: row.isLief ? 700 : 500 }}>{row.system}</td>
-                  <td style={{ padding: "12px", color: "var(--v2-muted)" }}>{row.astm}</td>
-                  <td style={{ padding: "12px", color: "var(--v2-muted)" }}>{row.spread}</td>
-                  <td style={{ padding: "12px", color: "var(--v2-muted)" }}>{row.wood}</td>
-                  <td style={{ padding: "12px", color: "var(--v2-muted)" }}>{row.insulation}</td>
+                  <td style={{ padding: "12px clamp(4px, 1.5vw, 12px)", color: row.isLief ? "var(--v2-neon)" : "var(--v2-white)", fontWeight: row.isLief ? 700 : 500 }}>{row.system}</td>
+                  <td style={{ padding: "12px clamp(4px, 1.5vw, 12px)", color: "var(--v2-muted)" }}>{nb(row.astm)}</td>
+                  <td style={{ padding: "12px clamp(4px, 1.5vw, 12px)", color: "var(--v2-muted)" }}>{row.spread}</td>
+                  <td style={{ padding: "12px clamp(4px, 1.5vw, 12px)", color: "var(--v2-muted)" }}>{row.wood}</td>
+                  <td style={{ padding: "12px clamp(4px, 1.5vw, 12px)", color: "var(--v2-muted)" }}>{nb(row.insulation)}</td>
                 </tr>
               ))}
             </tbody>
@@ -198,9 +203,10 @@ const BestIcfAlternativeFire = () => {
             ["Structural integrity post-burn.", "Does the wall remain load-bearing after exposure."],
             ["Moisture intrusion after firefighting.", "High-pressure water on a damaged wall."],
           ].map(([label, desc]) => (
-            <div key={String(label)} style={{ display: "flex", gap: "16px", marginBottom: "14px" }}>
-              <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "240px", flexShrink: 0 }}>{label}</span>
-              <span style={{ color: "var(--v2-muted)", fontWeight: 300, lineHeight: 1.6 }}>{desc}</span>
+            <div key={String(label)} style={{ display: "flex", flexWrap: "wrap", columnGap: "16px", rowGap: "4px", marginBottom: "14px" }}>
+              {/* Description drops below the label when the box is too narrow for both (phone). */}
+              <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "240px", maxWidth: "100%", flex: "0 0 auto" }}>{label}</span>
+              <span style={{ color: "var(--v2-muted)", fontWeight: 300, lineHeight: 1.6, flex: "1 1 200px" }}>{desc}</span>
             </div>
           ))}
         </div>

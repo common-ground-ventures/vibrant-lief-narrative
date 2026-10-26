@@ -158,9 +158,10 @@ const OwnersRepArizona = () => {
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
           {conventionalScope.map(([label, desc]) => (
-            <div key={String(label)} style={{ display: "flex", gap: "16px", marginBottom: "14px" }}>
-              <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "240px", flexShrink: 0 }}>{label}</span>
-              <span style={{ color: "var(--v2-muted)", fontWeight: 300, lineHeight: 1.6 }}>{desc}</span>
+            <div key={String(label)} style={{ display: "flex", flexWrap: "wrap", columnGap: "16px", rowGap: "4px", marginBottom: "14px" }}>
+              {/* Description drops below the label when the box is too narrow for both (phone). */}
+              <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "240px", maxWidth: "100%", flex: "0 0 auto" }}>{label}</span>
+              <span style={{ color: "var(--v2-muted)", fontWeight: 300, lineHeight: 1.6, flex: "1 1 200px" }}>{desc}</span>
             </div>
           ))}
         </div>
