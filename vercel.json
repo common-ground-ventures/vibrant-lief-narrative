@@ -10,11 +10,21 @@
       ],
       "destination": "https://www.anewlief.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/team",
+      "permanent": true
+    },
+    {
+      "source": "/liefblocks",
+      "destination": "/sabs",
+      "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/((?!.*\\.).*)",
+      "source": "/v1",
       "destination": "/index.html"
     }
   ],

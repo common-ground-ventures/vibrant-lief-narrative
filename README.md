@@ -78,3 +78,9 @@ Before pushing site changes: `npm run build`, then prerender every sitemap route
 headless Chrome against `vite preview` (dump to /tmp, then copy into dist/<route>/index.html),
 commit dist. This keeps the site fully crawler-readable (no JS-shell deploys). A plain
 `vite build` push WITHOUT prerender will ship an empty shell — do not do it.
+
+**2026-10-26:** vercel.json no longer rewrites every path to index.html. Each route must exist
+as a prerendered `dist/<route>/index.html` (all sitemap routes, including /learn/*), or it
+returns 404. `dist/404.html` is the prerendered NotFound page (dump any unknown path, then set
+its title/canonical/noindex). Only /v1 is client-rendered. Each page sets its own title,
+description, canonical and og tags with Helmet; index.html carries only site-wide tags.

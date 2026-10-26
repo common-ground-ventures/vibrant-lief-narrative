@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -102,43 +102,19 @@ const systems = [
 ];
 
 const ArizonaFireResistantWallSystems = () => {
-  useEffect(() => {
-    document.title = "Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | LÏEF Development";
-    const description = "SABS with LÏEF Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a working Arizona owner's rep.";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement("meta");
-      metaDescription.setAttribute("name", "description");
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute("content", description);
-
-    let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) {
-      canonical = document.createElement("link");
-      canonical.setAttribute("rel", "canonical");
-      document.head.appendChild(canonical);
-    }
-    canonical.setAttribute("href", "https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison");
-
-    const existingScript = document.querySelector('script[data-page-schema="arizona-fire-resistant-wall-systems"]');
-    if (existingScript) existingScript.remove();
-
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.setAttribute("data-page-schema", "arizona-fire-resistant-wall-systems");
-    script.text = JSON.stringify(faqSchema);
-    document.head.appendChild(script);
-
-    return () => {
-      const cleanup = document.querySelector('script[data-page-schema="arizona-fire-resistant-wall-systems"]');
-      if (cleanup) cleanup.remove();
-    };
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>{"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | LÏEF Development"}</title>
+        <meta name="description" content={"SABS with LÏEF Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a working Arizona owner's rep."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
+        <meta property="og:title" content={"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | LÏEF Development"} />
+        <meta property="og:description" content={"SABS with LÏEF Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a working Arizona owner's rep."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main className="pt-24 pb-24">

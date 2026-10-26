@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BrandPillars from "@/components/BrandPillars";
@@ -10,6 +11,11 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
+      {/* Retired first homepage, kept reachable at /v1 only. Never indexed; the canonical home is /. */}
+      <Helmet>
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://www.anewlief.com/" />
+      </Helmet>
       <Header />
       <main>
         {/* 1. Hero - Brand Identity */}

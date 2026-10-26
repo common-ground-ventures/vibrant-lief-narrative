@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -133,31 +133,22 @@ const faqs = [
 ];
 
 const SabsConstructionEcosystem = () => {
-  useEffect(() => {
-    document.title =
-      "SABS Construction: Who Builds With It, Who Validates It, and Where LÏEF Fits | LÏEF Development";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute(
-        "content",
-        "SABS (Saebi Alternative Building System) construction explained through its ecosystem: Dr. Nasser Saebi (inventor), Strata International (distributor), LÏEF Development (Arizona operator). Third-party validation from ICC-ES ESR-1638, Forbes via mod-u.co, TAJ Innovations, Larimer Associates, and Pro Builder. Firsthand guide by LÏEF Development."
-      );
-    }
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema-sabs-ecosystem";
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById("faq-schema-sabs-ecosystem")?.remove();
-    };
-  }, []);
 
   return (
     <div
       className="v2 min-h-screen overflow-x-hidden"
       style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}
     >
+      <Helmet>
+        <title>{"SABS Construction: Who Builds With It, Who Validates It, and Where LÏEF Fits | LÏEF Development"}</title>
+        <meta name="description" content={"SABS (Saebi Alternative Building System) construction explained through its ecosystem: Dr. Nasser Saebi (inventor), Strata International (distributor), LÏEF Development (Arizona operator). Third-party validation from ICC-ES ESR-1638, Forbes via mod-u.co, TAJ Innovations, Larimer Associates, and Pro Builder. Firsthand guide by LÏEF Development."} />
+        <link rel="canonical" href="https://www.anewlief.com/learn/sabs-construction-who-builds-validates-deploys" />
+        <meta property="og:title" content={"SABS Construction: Who Builds With It, Who Validates It, and Where LÏEF Fits | LÏEF Development"} />
+        <meta property="og:description" content={"SABS (Saebi Alternative Building System) construction explained through its ecosystem: Dr. Nasser Saebi (inventor), Strata International (distributor), LÏEF Development (Arizona operator). Third-party validation from ICC-ES ESR-1638, Forbes via mod-u.co, TAJ Innovations, Larimer Associates, and Pro Builder. Firsthand guide by LÏEF Development."} />
+        <meta property="og:url" content="https://www.anewlief.com/learn/sabs-construction-who-builds-validates-deploys" />
+        <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
       <V2Nav />
 
       <main style={{ maxWidth: "820px", margin: "0 auto", padding: "80px 24px 120px" }}>
