@@ -1,4 +1,4 @@
-// Small "Powered by Kanopi" mark for Lief Development pages. Kanopi is the design
+// Small "Powered by Kanopi" mark for Lïef Development pages. Kanopi is the design
 // and estimating software we built. Inline styles only: this repo's committed CSS
 // is a brand file, so no new utility classes.
 export const KANOPI_URL = "https://kanopibuild.com";

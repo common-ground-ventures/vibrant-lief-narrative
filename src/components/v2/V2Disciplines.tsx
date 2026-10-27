@@ -59,7 +59,7 @@ const V2Disciplines = () => {
                 className="max-w-md"
                 style={{ fontSize: "1.25rem", color: "rgba(239,236,227,.85)", lineHeight: 1.8 }}
               >
-                From the first line drawn to the last fixture set, the same people answer for it.
+                From the first line drawn to the last fixture set, the same people answer for it. No handoffs. No compromises. No excuses.
               </motion.p>
               <KanopiMark style={{ marginTop: "24px" }} />
             </div>
