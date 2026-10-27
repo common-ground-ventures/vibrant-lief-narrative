@@ -90,7 +90,7 @@ const V2Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.strataus.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
+                <a href="https://www.xtrata.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   Distributors
                 </a>
               </li>
