@@ -1,13 +1,14 @@
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 import { useInView } from "./useInView";
 import { useRef, useState } from "react";
+import { KanopiLink } from "./KanopiMark";
 
-const rows = [
+const rows: { num: string; label: string; title: string; body: React.ReactNode; statValue?: number; statSuffix?: string; statLabel?: string }[] = [
   {
     num: "01",
-    label: "VERTICAL INTEGRATION",
-    title: "Everything under one roof.",
-    body: "While others outsource, we own every step. Design. Engineering. Construction. Interiors. When the same team carries your vision from first sketch to final walkthrough, nothing gets lost in translation.",
+    label: "ONE ROOM",
+    title: "Every decision, one table.",
+    body: <>Design, engineering, construction and interiors answer to the same people. We draw and price our own buildings in <KanopiLink />, the design and estimating software we built, so the design never drifts from what it costs to build.</>,
     statValue: 80,
     statSuffix: "%",
     statLabel: "IN-HOUSE CAPABILITY",
@@ -16,7 +17,7 @@ const rows = [
     num: "02",
     label: "UNRIVALED WORKFORCE",
     title: "An army of masters.",
-    body: "Over 300 in-house skilled labor and construction managers — each an expert in their craft. This isn't a network of subcontractors. This is a dedicated force that builds together, thinks together, and executes with one singular standard.",
+    body: "Over 300 in-house skilled labor and construction managers, each an expert in their craft. This isn't a network of subcontractors. This is a dedicated force that builds together, thinks together, and executes with one singular standard.",
     statValue: 300,
     statSuffix: "+",
     statLabel: "IN-HOUSE TEAM",
@@ -29,6 +30,18 @@ const rows = [
     statValue: 100,
     statSuffix: "+",
     statLabel: "YEARS OF EXPERTISE",
+  },
+  {
+    num: "04",
+    label: "OUR BUILDERS",
+    title: "Built by people we answer for.",
+    body: "Construction is carried out by Armstrong Construction Group, a Lïef partner, and its trades. The people who draw the building stay with it until it is done.",
+  },
+  {
+    num: "05",
+    label: "EVERY SEAT",
+    title: "We have been the builder, the developer and the designer.",
+    body: "We have sat in the owner's chair too. We know what each one is paid to care about, and we build for the person who lives there.",
   },
 ];
 
@@ -99,10 +112,14 @@ const V2Model = () => {
                   </div>
 
                   <div className="text-right md:min-w-[200px]">
-                    <ScrollStat value={row.statValue} suffix={row.statSuffix} />
-                    <span className="block mt-2" style={{ fontSize: "1.25rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--v2-muted)" }}>
-                      {row.statLabel}
-                    </span>
+                    {row.statValue !== undefined && (
+                      <>
+                        <ScrollStat value={row.statValue} suffix={row.statSuffix ?? ""} />
+                        <span className="block mt-2" style={{ fontSize: "1.25rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--v2-muted)" }}>
+                          {row.statLabel}
+                        </span>
+                      </>
+                    )}
                   </div>
                 </motion.div>
               ))}

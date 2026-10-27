@@ -202,10 +202,10 @@ const LiefBlocks = () => {
     <>
     <Helmet>
       <title>SABS Technology | L&#239;ef Development</title>
-      <meta name="description" content="Smart Automated Building System by L&#239;ef Development. Fire-resistant, pest-proof, energy-efficient building technology for luxury homes in Arizona." />
+      <meta name="description" content="SABS, the Saebi Alternative Building System, and how L&#239;ef Development builds with it in Arizona: fire, wind and insulation performance for desert buildings." />
       <link rel="canonical" href="https://www.anewlief.com/sabs" />
       <meta property="og:title" content="SABS Technology | L&#239;ef Development" />
-      <meta property="og:description" content="Smart Automated Building System. Fire-resistant, pest-proof, energy-efficient building technology for luxury homes in Arizona." />
+      <meta property="og:description" content="SABS, the Saebi Alternative Building System, and how L&#239;ef Development builds with it in Arizona: fire, wind and insulation performance for desert buildings." />
       <meta property="og:url" content="https://www.anewlief.com/sabs" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
     </Helmet>
@@ -325,11 +325,11 @@ const LiefBlocks = () => {
                     We deploy SABS through precision-engineered EPS foam panels that form the structural core of walls, floors, and roofs. Once assembled and coated with the SABS compound, the system creates a seamless, reinforced concrete structure from the ground up.
                   </motion.p>
                   <motion.p initial={{ opacity: 0, y: 35 }} animate={show(whatInView)} transition={{ duration: 0.75, delay: 0.32, ease }} className="mt-6" style={{ fontWeight: 300, fontSize: "1.25rem", color: "var(--v2-muted)", lineHeight: 1.8 }}>
-                    We build across the full construction spectrum &mdash; wood frame, steel, and advanced modular &mdash; and we've incorporated SABS into our methods because its structural properties are simply unmatched. For our clients, that means another high-performance option and a builder equipped to match the right system to every project.
+                    We build across the full construction spectrum, wood frame, steel, and advanced modular, and we've incorporated SABS into our methods because its structural properties are simply unmatched. For our clients, that means another high-performance option and a builder equipped to match the right system to every project.
                   </motion.p>
                 </div>
 
-                {/* Visual: block diagram — scroll-driven assembly, hidden on mobile */}
+                {/* Visual: block diagram, scroll-driven assembly, hidden on mobile */}
                 <div className="hidden md:flex justify-center items-center">
                   <motion.div
                     initial={{ opacity: 0, y: 35 }}

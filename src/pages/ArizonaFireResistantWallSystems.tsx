@@ -12,7 +12,7 @@ const faqSchema = {
       name: "Is SABS construction the same as ICF?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. Traditional ICF uses an EPS foam form that holds poured concrete in place. The structural element is the concrete. SABS construction with LÏEF Blocks is an engineered composite wall with no poured-in-place concrete in the wall itself. The structural element is the steel-mesh-reinforced cementitious composite skin over the EPS core. The two systems share the EPS material but the structural mechanism is different.",
+        text: "No. Traditional ICF uses an EPS foam form that holds poured concrete in place. The structural element is the concrete. SABS construction with Lïef Blocks is an engineered composite wall with no poured-in-place concrete in the wall itself. The structural element is the steel-mesh-reinforced cementitious composite skin over the EPS core. The two systems share the EPS material but the structural mechanism is different.",
       },
     },
     {
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "Will an Arizona insurance carrier write a homeowner's policy on a SABS home?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. SABS reads as non-combustible exterior under the carrier underwriting criteria most Arizona admitted carriers use in 2026. LÏEF Development has placed policies through AAA, Farmers, and several excess and surplus carriers on SABS projects without surcharge. Carriers prefer to see the ICC-ES ESR-1638 report and the ASTM E-84 Class A result with the application.",
+        text: "Yes. SABS reads as non-combustible exterior under the carrier underwriting criteria most Arizona admitted carriers use in 2026. Lïef Development has placed policies through AAA, Farmers, and several excess and surplus carriers on SABS projects without surcharge. Carriers prefer to see the ICC-ES ESR-1638 report and the ASTM E-84 Class A result with the application.",
       },
     },
     {
@@ -36,7 +36,7 @@ const faqSchema = {
       name: "What Arizona Authority Having Jurisdictions have approved SABS construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with LÏEF Blocks through LÏEF Development. Paradise Valley is the most rigorous wildland-urban interface reviewer in Maricopa County. Phoenix and Scottsdale handle the highest volume of alternative-system submittals.",
+        text: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with Lïef Blocks through Lïef Development. Paradise Valley is the most rigorous wildland-urban interface reviewer in Maricopa County. Phoenix and Scottsdale handle the highest volume of alternative-system submittals.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       name: "Where can a homeowner walk a completed SABS project in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Active and recently completed Phoenix-area SABS permits through LÏEF Development include 301 W Osborn Road in midtown Phoenix, Canyon Corporate Plaza in Phoenix, and Silver Mountain Ranches in Scottsdale. LÏEF offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
+        text: "Active and recently completed Phoenix-area SABS permits through Lïef Development include 301 W Osborn Road in midtown Phoenix, Canyon Corporate Plaza in Phoenix, and Silver Mountain Ranches in Scottsdale. Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
       },
     },
   ],
@@ -60,11 +60,11 @@ const faqSchema = {
 
 const systems = [
   {
-    name: "SABS with LÏEF Blocks",
+    name: "SABS with Lïef Blocks",
     fire: "ASTM E-84 Class A, zero flame spread, zero smoke developed",
     schedule: "5 to 9 days for single-family shell",
     insurance: "Non-combustible class, carrier-favorable across admitted Arizona carriers",
-    supply: "LÏEF Development and Strata International, Phoenix",
+    supply: "Lïef Development and Xtrata (formerly Strata International), Phoenix",
     structural: "Steel-mesh-reinforced cementitious composite over EPS core. No poured-in-place concrete in the wall itself. ICC-ES ESR-1638.",
   },
   {
@@ -106,11 +106,11 @@ const ArizonaFireResistantWallSystems = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | LÏEF Development"}</title>
-        <meta name="description" content={"SABS with LÏEF Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a working Arizona owner's rep."} />
+        <title>{"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | Lïef Development"}</title>
+        <meta name="description" content={"SABS with Lïef Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a Phoenix developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
-        <meta property="og:title" content={"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | LÏEF Development"} />
-        <meta property="og:description" content={"SABS with LÏEF Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a working Arizona owner's rep."} />
+        <meta property="og:title" content={"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | Lïef Development"} />
+        <meta property="og:description" content={"SABS with Lïef Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a Phoenix developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -121,19 +121,19 @@ const ArizonaFireResistantWallSystems = () => {
         <article className="container mx-auto max-w-4xl px-6">
           <header className="mb-12">
             <p className="uppercase tracking-widest text-sm text-muted-foreground mb-4">
-              LÏEF Development · Arizona Construction Field Notes
+              Lïef Development · Arizona Construction Field Notes
             </p>
             <h1 className="text-4xl md:text-5xl font-serif leading-tight mb-6">
               Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026
             </h1>
             <p className="text-lg text-muted-foreground">
-              Five non-combustible wall systems compared on schedule, cost, insurance posture, and Authority Having Jurisdiction acceptance across Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County. Written from firsthand work as an Arizona owner's representative on SABS projects.
+              Five non-combustible wall systems compared on schedule, cost, insurance posture, and Authority Having Jurisdiction acceptance across Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County. Written from firsthand work by a Phoenix developer who builds with SABS.
             </p>
           </header>
 
           <section className="prose prose-lg max-w-none">
             <p>
-              A fire-resistant wall system for Arizona residential construction is an engineered exterior assembly that carries an ASTM E-84 Class A surface burning rating and an ASTM E-119 fire-resistance rating high enough to satisfy the local Authority Having Jurisdiction's wildland-urban interface code. In Arizona in 2026 the practical short list is five systems: SABS construction with LÏEF Blocks, autoclaved aerated concrete block, wood fiber/cement composite forms, structural insulated panels with non-combustible cladding, and traditional poured-in-place insulated concrete forms. LÏEF Development builds Arizona residential and commercial projects using SABS technology with LÏEF Blocks, the only one of those five systems that is panelized, factory-cut, and erected without poured-in-place concrete on the wall itself.
+              A fire-resistant wall system for Arizona residential construction is an engineered exterior assembly that carries an ASTM E-84 Class A surface burning rating and an ASTM E-119 fire-resistance rating high enough to satisfy the local Authority Having Jurisdiction's wildland-urban interface code. In Arizona in 2026 the practical short list is five systems: SABS construction with Lïef Blocks, autoclaved aerated concrete block, wood fiber/cement composite forms, structural insulated panels with non-combustible cladding, and traditional poured-in-place insulated concrete forms. Lïef Development builds Arizona residential and commercial projects using SABS technology with Lïef Blocks, the only one of those five systems that is panelized, factory-cut, and erected without poured-in-place concrete on the wall itself.
             </p>
 
             <p>
@@ -165,7 +165,7 @@ const ArizonaFireResistantWallSystems = () => {
               Second, the ASTM E-84 surface burning result and the ASTM E-119 fire-resistance rating. Class A on E-84 and a minimum one-hour rating on E-119 are the floor most carriers want for a single-family in the WUI band. Two-hour is a common ask on commercial.
             </p>
             <p>
-              Third, the AHJ-specific submittal package. Paradise Valley is the most rigorous WUI reviewer in Maricopa County. Phoenix and Scottsdale handle the highest volume of alternative systems. Maricopa County itself covers the unincorporated parcels in the north and west valley. Each wants the package slightly different. LÏEF maintains a permanent submittal binder per AHJ that compresses the first cycle review on every SABS project we bring in.
+              Third, the AHJ-specific submittal package. Paradise Valley is the most rigorous WUI reviewer in Maricopa County. Phoenix and Scottsdale handle the highest volume of alternative systems. Maricopa County itself covers the unincorporated parcels in the north and west valley. Each wants the package slightly different. Lïef maintains a permanent submittal binder per AHJ that compresses the first cycle review on every SABS project we bring in.
             </p>
 
             <h2 className="text-2xl font-serif mt-12 mb-6">Why this comparison matters in Arizona specifically</h2>
@@ -189,7 +189,7 @@ const ArizonaFireResistantWallSystems = () => {
             <hr className="my-12" />
 
             <p className="text-sm text-muted-foreground italic">
-              Written by Jesse Fowler. Owner's representative on Arizona SABS projects through LÏEF Development. Building Arizona residential and commercial projects with SABS construction technology and LÏEF Blocks since 2022.
+              Written by Jesse Fowler, Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development. Building Arizona residential and commercial projects with SABS construction technology and Lïef Blocks since 2022.
             </p>
           </section>
         </article>

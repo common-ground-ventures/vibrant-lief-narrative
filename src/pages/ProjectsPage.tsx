@@ -19,9 +19,9 @@ const projects = [
     img: osbornImg,
     name: "301 W Osborn",
     type: "Adaptive Reuse",
-    desc: "Commercial to residential conversion. 23 luxury urban units with secure parking & conditioned storage. Full SABS build.",
+    desc: "A 1971 concrete office tower in Midtown Phoenix, becoming private residences with secure parking and conditioned storage, cleared for residential by right and designed in house. Commercial to residential conversion, 23 luxury urban units. Full SABS build.",
     location: "Midtown, Phoenix AZ",
-    status: "SABS Showcase",
+    status: "Lïef Midtown · SABS Showcase",
     featured: true,
     link: { href: "https://liefmidtownphx.com/", label: "See Lïef Midtown" },
   },
@@ -29,7 +29,7 @@ const projects = [
     img: vailImg,
     name: "The Vail",
     type: "Boutique 55+ Community",
-    desc: "The Southwest\u2019s premier boutique community where discerning adults trade square footage for more time, freedom, and the memories that matter.",
+    desc: "A boutique 55+ community where people trade square footage for more time and freedom.",
     location: "Arizona",
     status: "In Design",
     featured: false,
@@ -75,10 +75,10 @@ const ProjectsPage = () => {
     <>
     <Helmet>
       <title>Projects | L&#239;ef Development</title>
-      <meta name="description" content="Explore luxury residential and commercial construction projects by L&#239;ef Development across Arizona and Nevada. Custom homes, adaptive reuse, and multi-family developments." />
+      <meta name="description" content="L&#239;ef Development's projects in Arizona and Nevada, led by L&#239;ef Midtown at 301 W Osborn: adaptive reuse, boutique communities and multifamily." />
       <link rel="canonical" href="https://www.anewlief.com/projects" />
       <meta property="og:title" content="Projects | L&#239;ef Development" />
-      <meta property="og:description" content="Explore luxury residential and commercial construction projects by L&#239;ef Development across Arizona and Nevada." />
+      <meta property="og:description" content="L&#239;ef Development's projects in Arizona and Nevada, led by L&#239;ef Midtown at 301 W Osborn: adaptive reuse, boutique communities and multifamily." />
       <meta property="og:url" content="https://www.anewlief.com/projects" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
     </Helmet>
@@ -97,16 +97,17 @@ const ProjectsPage = () => {
 
                 {/* Featured project - 301 W Osborn */}
                 {projects.filter(p => p.featured).map((proj) => (
-                  <motion.div key={proj.name} initial={{ opacity: 0, y: 35 }} animate={projInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 35 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="v2-tile relative overflow-hidden group mb-px" style={{ minHeight: "520px", border: `2px solid ${accentColor}` }}>
+                  <motion.div key={proj.name} initial={{ opacity: 0, y: 35 }} animate={projInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 35 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="v2-tile relative overflow-hidden group mb-px" style={{ minHeight: "520px", border: `2px solid ${accentColor}`, display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
                     <img src={proj.img} alt={proj.name} className="absolute inset-0 w-full h-full object-cover brightness-[.5] transition-all duration-700 group-hover:brightness-[.65]" />
                     <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,26,20,.95) 0%, rgba(15,26,20,.2) 50%, transparent 100%)" }} />
                     <div className="absolute top-4 left-4 z-10">
                       <span className="v2-badge inline-flex items-center gap-2 px-4 py-2" style={{ background: accentColor, fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "#0F1A14", fontWeight: 700 }}>
                         <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#0F1A14", display: "inline-block" }} />
-                        Featured &mdash; {proj.status}
+                        Featured: {proj.status}
                       </span>
                     </div>
-                    <div className="absolute bottom-0 left-0 p-10 z-10">
+                    {/* In flow, not absolute: the longer 301 copy grows the card instead of running under the badge on a phone. */}
+                    <div className="relative p-10 z-10" style={{ paddingTop: "96px" }}>
                       <h3 className="v2-headline text-3xl md:text-4xl mb-2" style={{ color: "var(--v2-white)" }}>{proj.name}</h3>
                       <p className="mb-3" style={{ fontSize: "1rem", color: accentColor, letterSpacing: "0.05em", fontWeight: 600 }}>{proj.type}</p>
                       <p className="max-w-2xl mb-4" style={{ fontSize: "1.1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>{proj.desc}</p>

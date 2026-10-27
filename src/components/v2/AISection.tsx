@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { useInView } from "@/components/v2/useInView";
+import KanopiMark, { KanopiLink } from "@/components/v2/KanopiMark";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -46,7 +47,7 @@ const AISection = () => {
                   className="mb-4"
                   style={{ fontSize: "1.1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}
                 >
-                  Our team is heavily trained in the latest artificial intelligence and machine learning tools. You're not just getting human expertise. You're armed with an AI agent team that accelerates every phase of your project.
+                  We draw and price our own buildings in <KanopiLink />, the design and estimating software we built. Its design agents check their own work: on our own project they caught a 9.5-foot bay error and a wrong setback before either reached a drawing set.
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: 25 }}
@@ -55,8 +56,9 @@ const AISection = () => {
                   className="mb-8"
                   style={{ fontSize: "1.1rem", color: "var(--v2-dim)", lineHeight: 1.7 }}
                 >
-                  From automated change order analysis to real-time budget tracking, our AI tools catch discrepancies that manual review misses, faster and with greater precision.
+                  The design and the budget move together, so we never fall in love with a building we cannot afford to build.
                 </motion.p>
+                <KanopiMark style={{ marginBottom: "32px" }} />
 
                 <motion.div
                   initial={{ opacity: 0, y: 25 }}

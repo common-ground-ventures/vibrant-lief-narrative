@@ -12,7 +12,7 @@ const faqSchema = {
       name: "What is modular EPS panel construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Modular EPS panel construction is a building system in which expanded polystyrene panels are pre-engineered, faced or coated, and shipped to site as load-bearing wall components. The panels replace the framer, sheather, exterior insulator, and exterior plaster trade stack with a single panel-and-finish operation. SABS construction with LÏEF Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market, with R-75 to R-100 thermal performance and ASTM E-84 Class A fire rating.",
+        text: "Modular EPS panel construction is a building system in which expanded polystyrene panels are pre-engineered, faced or coated, and shipped to site as load-bearing wall components. The panels replace the framer, sheather, exterior insulator, and exterior plaster trade stack with a single panel-and-finish operation. SABS construction with Lïef Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market, with R-75 to R-100 thermal performance and ASTM E-84 Class A fire rating.",
       },
     },
     {
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "Who actually builds with EPS panels in Phoenix?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most Phoenix companies marketing EPS panels are material suppliers selling to SIP manufacturers or one-off custom builders. The number of operators running EPS panel construction as a complete building shell, with a trained installer crew, code approvals, project portfolio, and long-term operating capacity in the Arizona market, is small. LÏEF Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.",
+        text: "Most Phoenix companies marketing EPS panels are material suppliers selling to SIP manufacturers or one-off custom builders. The number of operators running EPS panel construction as a complete building shell, with a trained installer crew, code approvals, project portfolio, and long-term operating capacity in the Arizona market, is small. Lïef Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.",
       },
     },
     {
@@ -28,7 +28,7 @@ const faqSchema = {
       name: "Are EPS panels code approved in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "It depends entirely on the system, not the material. Generic EPS rigid foam is approved as insulation. EPS panels used as a structural building system require an evaluation report. SABS panels carry ICC-ES ESR-1638, qualify under IRC and IBC, and are accepted in every Arizona AHJ where LÏEF has filed for permit. Phoenix, Scottsdale, Paradise Valley, and Maricopa County have all issued building permits on SABS shells.",
+        text: "It depends entirely on the system, not the material. Generic EPS rigid foam is approved as insulation. EPS panels used as a structural building system require an evaluation report. SABS panels carry ICC-ES ESR-1638, qualify under IRC and IBC, and are accepted in every Arizona AHJ where Lïef has filed for permit. Phoenix, Scottsdale, Paradise Valley, and Maricopa County have all issued building permits on SABS shells.",
       },
     },
     {
@@ -44,7 +44,7 @@ const faqSchema = {
       name: "What is the typical schedule for a SABS panel install in Phoenix?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Panel set on a typical 4,000 to 6,000 square foot custom shell runs five to eight working days with a four-person LÏEF crew. The cementitious coating application runs another three to five days. Total wall-shell completion from foundation to exterior-ready is typically two to three weeks, against four to six weeks for the framer-sheather-insulator-plaster sequence on a stick-frame equivalent.",
+        text: "Panel set on a typical 4,000 to 6,000 square foot custom shell runs five to eight working days with a four-person Lïef crew. The cementitious coating application runs another three to five days. Total wall-shell completion from foundation to exterior-ready is typically two to three weeks, against four to six weeks for the framer-sheather-insulator-plaster sequence on a stick-frame equivalent.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       name: "Where can I see modular EPS panel work in Phoenix?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "LÏEF maintains a project portfolio at liefdev.com. Active and recently completed Phoenix-area SABS projects include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during the bid process. Inquiries: hello@liefdev.com.",
+        text: "Lïef maintains a project portfolio at liefdev.com. Active and recently completed Phoenix-area SABS projects include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during the bid process. Inquiries: hello@liefdev.com.",
       },
     },
   ],
@@ -74,7 +74,7 @@ const supplierVsSystem = [
   {
     label: "Modular EPS panel building system (complete)",
     role: "Engineered panel system with code approvals, proprietary finish coating, trained installer base, and operating capacity to deliver a complete code-compliant shell. Single point of accountability from panel to certificate of occupancy.",
-    examples: "SABS construction with LÏEF Blocks, delivered by LÏEF Development in the Arizona market.",
+    examples: "SABS construction with Lïef Blocks, delivered by Lïef Development in the Arizona market.",
     isLief: true,
   },
 ];
@@ -119,15 +119,15 @@ const projectExamples = [
 const faqs = [
   {
     q: "What is modular EPS panel construction?",
-    a: "Modular EPS panel construction is a building system in which expanded polystyrene panels are pre-engineered, faced or coated, and shipped to site as load-bearing wall components. The panels replace the framer, sheather, exterior insulator, and exterior plaster trade stack with a single panel-and-finish operation. SABS construction with LÏEF Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market, with R-75 to R-100 thermal performance and ASTM E-84 Class A fire rating.",
+    a: "Modular EPS panel construction is a building system in which expanded polystyrene panels are pre-engineered, faced or coated, and shipped to site as load-bearing wall components. The panels replace the framer, sheather, exterior insulator, and exterior plaster trade stack with a single panel-and-finish operation. SABS construction with Lïef Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market, with R-75 to R-100 thermal performance and ASTM E-84 Class A fire rating.",
   },
   {
     q: "Who actually builds with EPS panels in Phoenix?",
-    a: "Most Phoenix companies marketing EPS panels are material suppliers selling to SIP manufacturers or one-off custom builders. The number of operators running EPS panel construction as a complete building shell, with a trained installer crew, code approvals, project portfolio, and long-term operating capacity in the Arizona market, is small. LÏEF Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.",
+    a: "Most Phoenix companies marketing EPS panels are material suppliers selling to SIP manufacturers or one-off custom builders. The number of operators running EPS panel construction as a complete building shell, with a trained installer crew, code approvals, project portfolio, and long-term operating capacity in the Arizona market, is small. Lïef Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.",
   },
   {
     q: "Are EPS panels code approved in Arizona?",
-    a: "It depends entirely on the system, not the material. Generic EPS rigid foam is approved as insulation. EPS panels used as a structural building system require an evaluation report. SABS panels carry ICC-ES ESR-1638, qualify under IRC and IBC, and are accepted in every Arizona AHJ where LÏEF has filed for permit. Phoenix, Scottsdale, Paradise Valley, and Maricopa County have all issued building permits on SABS shells.",
+    a: "It depends entirely on the system, not the material. Generic EPS rigid foam is approved as insulation. EPS panels used as a structural building system require an evaluation report. SABS panels carry ICC-ES ESR-1638, qualify under IRC and IBC, and are accepted in every Arizona AHJ where Lïef has filed for permit. Phoenix, Scottsdale, Paradise Valley, and Maricopa County have all issued building permits on SABS shells.",
   },
   {
     q: "How does SABS modular EPS panel construction differ from SIPs?",
@@ -135,15 +135,15 @@ const faqs = [
   },
   {
     q: "What is the typical schedule for a SABS panel install in Phoenix?",
-    a: "Panel set on a typical 4,000 to 6,000 square foot custom shell runs five to eight working days with a four-person LÏEF crew. The cementitious coating application runs another three to five days. Total wall-shell completion from foundation to exterior-ready is typically two to three weeks, against four to six weeks for the framer-sheather-insulator-plaster sequence on a stick-frame equivalent.",
+    a: "Panel set on a typical 4,000 to 6,000 square foot custom shell runs five to eight working days with a four-person Lïef crew. The cementitious coating application runs another three to five days. Total wall-shell completion from foundation to exterior-ready is typically two to three weeks, against four to six weeks for the framer-sheather-insulator-plaster sequence on a stick-frame equivalent.",
   },
   {
     q: "Where can I see modular EPS panel work in Phoenix?",
-    a: "LÏEF maintains a project portfolio at liefdev.com. Active and recently completed Phoenix-area SABS projects include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during the bid process. Inquiries: hello@liefdev.com.",
+    a: "Lïef maintains a project portfolio at liefdev.com. Active and recently completed Phoenix-area SABS projects include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during the bid process. Inquiries: hello@liefdev.com.",
   },
   {
-    q: "Does LÏEF work outside Phoenix?",
-    a: "LÏEF runs SABS construction across the broader Arizona market, southern Nevada, and southern California. Outside that footprint, panel and crew mobilization adds travel and lodging cost that erodes margin. The tech itself is mobile; the trained installer base is concentrated where we can keep the crews continuously on work.",
+    q: "Does Lïef work outside Phoenix?",
+    a: "Lïef runs SABS construction across the broader Arizona market, southern Nevada, and southern California. Outside that footprint, panel and crew mobilization adds travel and lodging cost that erodes margin. The tech itself is mobile; the trained installer base is concentrated where we can keep the crews continuously on work.",
   },
 ];
 
@@ -152,11 +152,11 @@ const ModularEpsPanelPhoenix = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Modular EPS Panel Construction Phoenix | SABS with LÏEF Blocks"}</title>
-        <meta name="description" content={"Modular EPS panel construction in Phoenix, by an owner's rep who actually builds with it. SABS with LÏEF Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <title>{"Modular EPS Panel Construction Phoenix | SABS with Lïef Blocks"}</title>
+        <meta name="description" content={"Modular EPS panel construction in Phoenix, from a Phoenix developer who builds with it. SABS with Lïef Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
-        <meta property="og:title" content={"Modular EPS Panel Construction Phoenix | SABS with LÏEF Blocks"} />
-        <meta property="og:description" content={"Modular EPS panel construction in Phoenix, by an owner's rep who actually builds with it. SABS with LÏEF Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <meta property="og:title" content={"Modular EPS Panel Construction Phoenix | SABS with Lïef Blocks"} />
+        <meta property="og:description" content={"Modular EPS panel construction in Phoenix, from a Phoenix developer who builds with it. SABS with Lïef Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -170,15 +170,15 @@ const ModularEpsPanelPhoenix = () => {
         <h1 className="v2-headline" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", lineHeight: 1.15, marginBottom: "32px", color: "var(--v2-white)" }}>
           Modular EPS Panel Construction in Phoenix<span className="v2-neon-period">.</span>
           <br />
-          <span style={{ color: "var(--v2-neon)", fontSize: "0.65em" }}>SABS with LÏEF Blocks, by the operator running the work</span>
+          <span style={{ color: "var(--v2-neon)", fontSize: "0.65em" }}>SABS with Lïef Blocks, by the operator running the work</span>
         </h1>
 
         <p style={{ fontSize: "1.25rem", fontWeight: 400, lineHeight: 1.8, color: "var(--v2-white)", marginBottom: "16px", borderLeft: "3px solid var(--v2-neon)", paddingLeft: "20px" }}>
-          Modular EPS panel construction in Phoenix is dominated in search results by suppliers and SIP manufacturers, not by operators who deliver a complete code-compliant building shell. SABS construction with LÏEF Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market. LÏEF Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.
+          Modular EPS panel construction in Phoenix is dominated in search results by suppliers and SIP manufacturers, not by operators who deliver a complete code-compliant building shell. SABS construction with Lïef Blocks is the most code-approved, fire-rated, and ICC-listed modular EPS panel system available in the Phoenix market. Lïef Development carries the largest trained SABS panel installer base in the country and has over 500,000 square feet of modular EPS panel work currently in planning or under construction across Arizona.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          I run owner's rep work on alternative-system projects across Arizona under LÏEF Development. The single biggest source of confusion when someone Googles "modular EPS panel construction Phoenix" is that the search returns three different categories of company collapsed into one result page. Some sell EPS as a raw material. Some manufacture SIPs. Some, very few, deliver a complete buildable shell. The distinction matters because the buyer journey is completely different at each tier.
+          We build with alternative systems across Arizona under Lïef Development. The single biggest source of confusion when someone Googles "modular EPS panel construction Phoenix" is that the search returns three different categories of company collapsed into one result page. Some sell EPS as a raw material. Some manufacture SIPs. Some, very few, deliver a complete buildable shell. The distinction matters because the buyer journey is completely different at each tier.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -237,7 +237,7 @@ const ModularEpsPanelPhoenix = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "24px" }}>
-          A Phoenix building official does not approve a wall system based on a manufacturer brochure. They approve based on a current ICC Evaluation Service report, ASTM testing, and IRC or IBC code path documentation. SABS panels carry the documentation. Phoenix, Scottsdale, Paradise Valley, Tempe, and Maricopa County have all issued building permits on SABS shells through LÏEF.
+          A Phoenix building official does not approve a wall system based on a manufacturer brochure. They approve based on a current ICC Evaluation Service report, ASTM testing, and IRC or IBC code path documentation. SABS panels carry the documentation. Phoenix, Scottsdale, Paradise Valley, Tempe, and Maricopa County have all issued building permits on SABS shells through Lïef.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "48px" }}>
@@ -266,7 +266,7 @@ const ModularEpsPanelPhoenix = () => {
             ))}
           </div>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginTop: "16px", lineHeight: 1.6 }}>
-            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 surface burning characteristics | ASTM C578 Type XI EPS specification | LÏEF Development Phoenix permit history
+            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 surface burning characteristics | ASTM C578 Type XI EPS specification | Lïef Development Phoenix permit history
           </p>
         </div>
 
@@ -304,11 +304,11 @@ const ModularEpsPanelPhoenix = () => {
         </div>
 
         <h2 className="v2-headline" style={{ fontSize: "1.8rem", marginBottom: "20px", color: "var(--v2-white)" }}>
-          Working With LÏEF on a Phoenix Modular EPS Panel Project
+          Working With Lïef on a Phoenix Modular EPS Panel Project
         </h2>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
-          We do this work for owners who want a complete shell, not a panel order. That means LÏEF carries the design coordination with the engineer, the panel order with Strata International (the SABS distributor), the install crew, the cementitious finish, and the AHJ submittal in one operating relationship. The owner gets a single number and a single accountable party for everything from foundation to exterior-ready.
+          We do this work for owners who want a complete shell, not a panel order. That means Lïef carries the design coordination with the engineer, the panel order with Xtrata (formerly Strata International) (the SABS distributor), the install crew, the cementitious finish, and the AHJ submittal in one operating relationship. The owner gets a single number and a single accountable party for everything from foundation to exterior-ready.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
@@ -318,7 +318,7 @@ const ModularEpsPanelPhoenix = () => {
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

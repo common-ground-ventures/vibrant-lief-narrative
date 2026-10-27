@@ -1,4 +1,9 @@
 const items = [
+  { value: "", label: "Adaptive Reuse" },
+  { value: "", label: "Boutique Residential" },
+  { value: "", label: "Japandi Design" },
+  { value: "", label: "SABS\u2122 Building System" },
+  { value: "", label: "Midtown Phoenix" },
   { value: "300+", label: "Skilled Tradesmen" },
   { value: "100+", label: "Years of Expertise" },
   { value: "14%", label: "Average Time Savings" },

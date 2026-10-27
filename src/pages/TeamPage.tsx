@@ -27,7 +27,7 @@ interface TeamMember {
 
 /* Swapped: Jon Armstrong is now middle, Jimmy Khounlavong is now right */
 const principals: TeamMember[] = [
-  { name: "Jesse Fowler", role: "Principal / Manager", cred: "25+ Yrs in Design, Build & Development", img: jesseImg, zoom: 1.32 },
+  { name: "Jesse Fowler", role: "Principal and Operating Partner", cred: "25+ Yrs in Design, Build & Development", img: jesseImg, zoom: 1.32 },
   { name: "Jon Armstrong", role: "Principal / Manager", cred: "15+ Yrs in Custom Residential & Commercial Building", img: jonImg, zoom: 1.32 },
   { name: "Jimmy Khounlavong", role: "Principal / Creative", cred: "25+ Yrs of Brand, Product & Marketplace Strategy", img: jimmyImg, zoom: 1.10 },
 ];
@@ -87,10 +87,10 @@ const TeamPage = () => {
     <>
     <Helmet>
       <title>Our Team | L&#239;ef Development</title>
-      <meta name="description" content="Meet the principals and leadership behind L&#239;ef Development. Construction, design, legal, financial, and brand expertise building Arizona's finest homes." />
+      <meta name="description" content="Meet the principals and leadership behind L&#239;ef Development: construction, design, legal, capital and brand." />
       <link rel="canonical" href="https://www.anewlief.com/team" />
       <meta property="og:title" content="Our Team | L&#239;ef Development" />
-      <meta property="og:description" content="Meet the principals and leadership behind L&#239;ef Development. Construction, design, legal, financial, and brand expertise." />
+      <meta property="og:description" content="Meet the principals and leadership behind L&#239;ef Development: construction, design, legal, capital and brand." />
       <meta property="og:url" content="https://www.anewlief.com/team" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
     </Helmet>
@@ -108,7 +108,7 @@ const TeamPage = () => {
                   BIG IDEAS<span className="v2-neon-period">.</span><br />BIGGER TEAM<span className="v2-neon-period">.</span>
                 </motion.h2>
                 <motion.p initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="mb-20" style={{ fontStyle: "italic", fontWeight: 300, fontSize: "1.375rem", color: "var(--v2-muted)", maxWidth: "550px", lineHeight: 1.7 }}>
-                  The entire chain — design, construction, development, brand — one team, no gaps.
+                  Design, construction, development and brand. One team, no gaps.
                 </motion.p>
 
                 {/* Principals row */}

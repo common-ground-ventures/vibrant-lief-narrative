@@ -4,7 +4,7 @@ import { useInView } from "@/components/v2/useInView";
 const ease = [0.16, 1, 0.3, 1] as const;
 
 const featured = {
-  quote: "They handled our VIP event space build from start to finish. What started as a small mural project turned into a complete facility build-out. That's what trust looks like \u2014 you earn it, then you deliver.",
+  quote: "They handled our VIP event space build from start to finish. What started as a small mural project turned into a complete facility build-out. That's what trust looks like: you earn it, then you deliver.",
   name: "Gary Cummings",
   title: "VP Operations, Carroll Shelby International",
 };

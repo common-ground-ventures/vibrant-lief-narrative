@@ -21,7 +21,7 @@ interface TeamMember {
 }
 
 const principals: TeamMember[] = [
-  { name: "Jesse Fowler", role: "Principal / Manager", cred: "25+ Yrs in Design, Build & Development", img: jesseImg, zoom: 1.32 },
+  { name: "Jesse Fowler", role: "Principal and Operating Partner", cred: "25+ Yrs in Design, Build & Development", img: jesseImg, zoom: 1.32 },
   { name: "Jimmy Khounlavong", role: "Principal / Creative", cred: "25+ Yrs of Brand, Product & Marketplace Strategy", img: jimmyImg, zoom: 1.10 },
   { name: "Jon Armstrong", role: "Principal / Manager", cred: "15+ Yrs in Custom Residential & Commercial Building", img: jonImg, zoom: 1.32 },
 ];
@@ -88,7 +88,7 @@ const V2Team = () => {
               BIG IDEAS<span className="v2-neon-period">.</span><br />BIGGER TEAM<span className="v2-neon-period">.</span>
             </motion.h2>
             <motion.p initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.16, ease }} className="mb-20" style={{ fontStyle: "italic", fontWeight: 300, fontSize: "1.375rem", color: "var(--v2-muted)", maxWidth: "550px", lineHeight: 1.7 }}>
-              The entire chain — design, construction, development, brand — one team, no gaps.
+              Design, construction, development and brand. One team, no gaps.
             </motion.p>
 
             {/* Principals row */}

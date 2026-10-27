@@ -15,14 +15,12 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import WhatIsSABS from "./pages/WhatIsSABS";
 import SabsVsIcf from "./pages/SabsVsIcf";
 import BestIcfAlternativeFire from "./pages/BestIcfAlternativeFire";
-import OwnersRepArizona from "./pages/OwnersRepArizona";
 import SabsCostVsFraming from "./pages/SabsCostVsFraming";
 import ModularEpsPanelPhoenix from "./pages/ModularEpsPanelPhoenix";
 import WhoBuildsLiefBlocksArizona from "./pages/WhoBuildsLiefBlocksArizona";
 import AlternativeConstructionMethodsArizona from "./pages/AlternativeConstructionMethodsArizona";
 import PhoenixEpsPanelPermits from "./pages/PhoenixEpsPanelPermits";
 import ArizonaFireResistantWallSystems from "./pages/ArizonaFireResistantWallSystems";
-import ArizonaOwnersRepSabsProjectCaseFiles from "./pages/ArizonaOwnersRepSabsProjectCaseFiles";
 import WhatAreLiefBlocks from "./pages/WhatAreLiefBlocks";
 import SabsConstructionEcosystem from "./pages/SabsConstructionEcosystem";
 import { ContactModalProvider } from "@/contexts/ContactModalContext";
@@ -51,14 +49,12 @@ const App = () => (
             <Route path="/learn/what-is-sabs-construction" element={<WhatIsSABS />} />
             <Route path="/learn/sabs-vs-icf" element={<SabsVsIcf />} />
             <Route path="/learn/best-icf-alternative-fire-resistant" element={<BestIcfAlternativeFire />} />
-            <Route path="/learn/owners-rep-alternative-building-systems-arizona" element={<OwnersRepArizona />} />
             <Route path="/learn/sabs-cost-vs-traditional-framing" element={<SabsCostVsFraming />} />
             <Route path="/learn/modular-eps-panel-construction-phoenix" element={<ModularEpsPanelPhoenix />} />
             <Route path="/learn/who-builds-with-lief-blocks-arizona" element={<WhoBuildsLiefBlocksArizona />} />
             <Route path="/learn/alternative-construction-methods-arizona-builders" element={<AlternativeConstructionMethodsArizona />} />
             <Route path="/learn/phoenix-eps-panel-permits-ahj" element={<PhoenixEpsPanelPermits />} />
             <Route path="/learn/arizona-fire-resistant-wall-systems-comparison" element={<ArizonaFireResistantWallSystems />} />
-            <Route path="/learn/arizona-owners-rep-sabs-project-case-files" element={<ArizonaOwnersRepSabsProjectCaseFiles />} />
             <Route path="/learn/what-are-lief-blocks" element={<WhatAreLiefBlocks />} />
             <Route path="/learn/sabs-construction-who-builds-validates-deploys" element={<SabsConstructionEcosystem />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
