@@ -1,0 +1,98 @@
+{
+  "note": "Known findings on the day the gate was wired. Each entry is debt to fix, not a permission. Shrink it; never grow it without review.",
+  "export_commit": "7f969682a3f76ec867dc108d7fc2582f4bae9a19",
+  "findings": [
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|index.html|$100M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|wiki/index.html|$300M",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-LIEF-CAPS|wiki/common-ground/index.html|L\u00cfEF",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-LIEF-CAPS|wiki/index.html|L\u00cfEF",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-001|wiki/index.html|$300M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-002|index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/ai",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/alternative-construction-methods-arizona-builders",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/arizona-fire-resistant-wall-systems-comparison",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/best-icf-alternative-fire-resistant",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/modular-eps-panel-construction-phoenix",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/phoenix-eps-panel-permits-ahj",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/sabs-construction-who-builds-validates-deploys",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/sabs-cost-vs-traditional-framing",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/sabs-vs-icf",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/what-are-lief-blocks",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/what-is-sabs-construction",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/learn/who-builds-with-lief-blocks-arizona",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/projects",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/sabs",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/team",
+      "count": 1
+    },
+    {
+      "fingerprint": "SITEMAP-NOT-A-PAGE|sitemap.xml|/testimonials",
+      "count": 1
+    }
+  ]
+}
