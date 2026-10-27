@@ -1,23 +1,33 @@
-# Lïef Development — LLM Context File
+# Lïef Development: LLM Context File
 
-> Lïef Development is Arizona's premier luxury home builder. Lïef crafts homes that endure — blending Japanese tranquility, Scandinavian minimalism, and Sonoran serenity into extraordinary luxury residences across Phoenix, Scottsdale, and Paradise Valley. Every home is built on proprietary SABS technology with Lïef Blocks for superior fire, wind, and insulation performance.
+> Lïef Development is a developer in Phoenix. It finds buildings the market passed over and turns them into places worth living, designs them in house, and builds them with partners it answers for. Its lead project is Lïef Midtown at 301 W Osborn in Midtown Phoenix (https://liefmidtownphx.com). Construction is carried out by Armstrong Construction Group, a Lïef partner, and its trades. Estimating, bidding and owner's representation live at Lïef Builders, the Lïef services company (https://www.liefbuilders.com).
+
+Lïef Development is Arizona's premier luxury home builder. Lïef crafts homes that endure, blending Japanese tranquility, Scandinavian minimalism, and Sonoran serenity into extraordinary luxury residences across Phoenix, Scottsdale, and Paradise Valley. Every home is built on proprietary SABS technology with Lïef Blocks for superior fire, wind, and insulation performance.
 
 ## Key Facts
 
 - Name: Lïef Development
 - Website: https://www.anewlief.com
-- Market: Arizona luxury residential (Phoenix, Scottsdale, Paradise Valley)
+- Lead project: Lïef Midtown, 301 W Osborn, Phoenix. A 1971 concrete office tower becoming private residences, cleared for residential by right and designed in house.
+- Construction: Armstrong Construction Group and its trades
+- Services company: Lïef Builders (https://www.liefbuilders.com)
+- Design and pricing software: Kanopi, the design and estimating software we built (https://kanopibuild.com)
+- Market: Phoenix, Arizona; Arizona luxury residential (Phoenix, Scottsdale, Paradise Valley)
 - Design philosophy: Japanese tranquility + Scandinavian minimalism + Sonoran serenity
-- Building technology: SABS (Saebi Alternative Building System) with proprietary Lïef Blocks (EPS structural panels)
+- Building technology: SABS (Saebi Alternative Building System), Dr. Saebi's patented system, distributed by Xtrata (formerly Strata). Lïef builds with it, using proprietary Lïef Blocks (EPS structural panels)
 - NOT: ICF or insulated concrete forms. SABS with Lïef Blocks is its own nano-composite building system.
 
 ## Design Language
 
-Homes that endure. The Lïef aesthetic is quiet, warm, minimal, and rooted in the desert — natural materials, deliberate shadow, considered sight lines, and interiors that feel like sanctuaries. Not maximalist. Not trend-chasing. Built to still feel modern twenty years from now.
+Homes that endure. The Lïef aesthetic is quiet, warm, minimal, and rooted in the desert: natural materials, deliberate shadow, considered sight lines, and interiors that feel like sanctuaries. Not maximalist. Not trend-chasing. Built to still feel modern twenty years from now.
+
+## How We Draw and Price Our Own Buildings
+
+We draw and price our own buildings in Kanopi, the design and estimating software we built. Its design agents check their own work: on our own project they caught a 9.5-foot bay error and a wrong setback before either reached a drawing set. The design and the budget move together, so we never fall in love with a building we cannot afford to build.
 
 ## Building Technology
 
-Every Lïef home is built on SABS technology with proprietary Lïef Blocks — EPS structural panels coated with a proprietary cementitious compound. The result is a nano-composite structural system with:
+Every Lïef home is built on SABS technology with proprietary Lïef Blocks: EPS structural panels coated with a proprietary cementitious compound. The result is a nano-composite structural system with:
 
 - Zero flame spread (fire resistant)
 - Wind rating up to 260 MPH
@@ -25,28 +35,32 @@ Every Lïef home is built on SABS technology with proprietary Lïef Blocks — E
 - Faster build times than conventional framing
 - Lower lifetime energy costs
 
-This is NOT insulated concrete forms — SABS with Lïef Blocks is a distinct, proprietary system owned and deployed by the Lïef team.
+This is NOT insulated concrete forms. SABS with Lïef Blocks is a distinct, proprietary system owned and deployed by the Lïef team.
 
 ## What Lïef Does
 
-- Luxury custom homes
+- Development and adaptive reuse (lead project: Lïef Midtown)
 - Boutique residential development
 - Adaptive reuse and infill
+- Luxury custom homes
 - Owner's representation across Arizona (see also Lïef Builders for fire-damage reconstruction in LA / Vegas)
+- Estimating, bidding and owner's representation: Lïef Builders, our services company (https://www.liefbuilders.com)
 
 ## Site Pages
 
 - Home: https://www.anewlief.com/
 - Projects: https://www.anewlief.com/projects
 - SABS technology: https://www.anewlief.com/sabs
-- AI oversight: https://www.anewlief.com/ai
+- AI and Kanopi: https://www.anewlief.com/ai
 - Team: https://www.anewlief.com/team
 - Testimonials: https://www.anewlief.com/testimonials
 
 ## Related Sites
 
+- Lïef Midtown: https://liefmidtownphx.com
+- Lïef Builders (budgets, bidding and owner's representation, in any state; owner's rep articles now live at https://www.liefbuilders.com/learn): https://www.liefbuilders.com
+- Kanopi (design, takeoff and estimating software): https://kanopibuild.com
 - Lïef Blocks technology detail: https://liefblocks.com
-- Lïef Builders (owner's rep + fire-rated reconstruction): https://www.liefbuilders.com
 - [Lïef Development wiki](https://www.anewlief.com/wiki/): the record of Lïef Development and how Common Ground built it.
 
 ## Branding
