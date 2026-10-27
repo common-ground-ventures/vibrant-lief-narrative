@@ -12,7 +12,7 @@ const faqSchema = {
       name: "What is the main difference between SABS and ICF construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ICF (insulated concrete forms) uses foam blocks as permanent formwork for a wet concrete pour. SABS applies a cementitious compound directly to EPS foam panels — no concrete pour, no formwork. The result is a structural shell with significantly higher insulation values (R-75 to R-100 vs. R-23 to R-30 for ICF), fewer trades required, and a faster build sequence.",
+        text: "ICF (insulated concrete forms) uses foam blocks as permanent formwork for a wet concrete pour. SABS applies a cementitious compound directly to EPS foam panels: no concrete pour, no formwork. The result is a structural shell with significantly higher insulation values (R-75 to R-100 vs. R-23 to R-30 for ICF), fewer trades required, and a faster build sequence.",
       },
     },
     {
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "Is SABS cheaper than ICF construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "On total project cost, SABS typically comes out lower even if panel pricing runs comparable to ICF materials. The savings come from labor consolidation (3-4 trades vs. 6-8+ for ICF), a shorter schedule, and dramatically lower HVAC sizing requirements due to R-75 to R-100 insulation. LÏEF projects show 20-22% total cost reduction on multi-family construction compared to conventional build methods.",
+        text: "On total project cost, SABS typically comes out lower even if panel pricing runs comparable to ICF materials. The savings come from labor consolidation (3-4 trades vs. 6-8+ for ICF), a shorter schedule, and dramatically lower HVAC sizing requirements due to R-75 to R-100 insulation. Lïef projects show 20-22% total cost reduction on multi-family construction compared to conventional build methods.",
       },
     },
     {
@@ -28,7 +28,7 @@ const faqSchema = {
       name: "How does SABS fire performance compare to ICF?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Both methods produce fire-resistant structures, but SABS achieves ASTM E-84 Class A rating with 0% flame spread on the cementitious shell. That is the highest fire rating available. In Arizona's wildland-urban interface zones, this distinction is real — not a spec sheet number.",
+        text: "Both methods produce fire-resistant structures, but SABS achieves ASTM E-84 Class A rating with 0% flame spread on the cementitious shell. That is the highest fire rating available. In Arizona's wildland-urban interface zones, this distinction is real, not a spec sheet number.",
       },
     },
     {
@@ -36,7 +36,7 @@ const faqSchema = {
       name: "Does SABS require ICC code approval like ICF does?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. SABS with LÏEF Blocks carries ICC-ES ESR-1638 — an independent evaluation from the International Code Council Evaluation Service covering structural residential and commercial applications. Every jurisdiction in Arizona that adopts the IBC recognizes this report. No experimental permitting process is required.",
+        text: "Yes. SABS with Lïef Blocks carries ICC-ES ESR-1638, an independent evaluation from the International Code Council Evaluation Service covering structural residential and commercial applications. Every jurisdiction in Arizona that adopts the IBC recognizes this report. No experimental permitting process is required.",
       },
     },
     {
@@ -44,15 +44,15 @@ const faqSchema = {
       name: "Which is better for Arizona: SABS or ICF?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For Arizona's specific conditions — 115°F+ heat, wildfire exposure, monsoon moisture, and aggressive termite pressure — SABS outperforms ICF on every relevant variable. The R-75 to R-100 insulation eliminates most HVAC load. The 0% flame spread shell addresses wildfire risk directly. Zero wood means zero termite vector. LÏEF Development is the Arizona market's owner's rep specialist in SABS construction with LÏEF Blocks.",
+        text: "For Arizona's specific conditions (115°F+ heat, wildfire exposure, monsoon moisture, and aggressive termite pressure), SABS outperforms ICF on every relevant variable. The R-75 to R-100 insulation eliminates most HVAC load. The 0% flame spread shell addresses wildfire risk directly. Zero wood means zero termite vector. Lïef Development is the Arizona market's owner's rep specialist in SABS construction with Lïef Blocks.",
       },
     },
     {
       "@type": "Question",
-      name: "What is a LÏEF Block?",
+      name: "What is a Lïef Block?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "LÏEF Blocks are the proprietary EPS foam structural panels used in SABS construction, deployed exclusively by LÏEF Development in the Arizona market under arrangement with Strata International. They form the structural core of walls, floors, and roofs before the SABS cementitious coating is applied — similar to how ICF blocks function as formwork, but without the concrete pour step.",
+        text: "Lïef Blocks are the proprietary EPS foam structural panels used in SABS construction, deployed exclusively by Lïef Development in the Arizona market under arrangement with Xtrata (formerly Strata International). They form the structural core of walls, floors, and roofs before the SABS cementitious coating is applied, similar to how ICF blocks function as formwork, but without the concrete pour step.",
       },
     },
   ],
@@ -61,23 +61,23 @@ const faqSchema = {
 const comparisonRows = [
   { category: "Build method", icf: "Foam formwork + wet concrete pour", sabs: "Cementitious coating applied directly to EPS panels" },
   { category: "Insulation value", icf: "R-23 to R-30 typical", sabs: "R-75 to R-100" },
-  { category: "Fire rating", icf: "Class A shell (concrete exterior)", sabs: "ASTM E-84 Class A — 0% flame spread" },
+  { category: "Fire rating", icf: "Class A shell (concrete exterior)", sabs: "ASTM E-84 Class A, 0% flame spread" },
   { category: "Wind rating", icf: "Varies by pour spec", sabs: "260 MPH rated" },
   { category: "Sub-trades required", icf: "6–8+ (forming, pour, rebar, insulation, etc.)", sabs: "3–4" },
-  { category: "Concrete pour required", icf: "Yes — wet pour and cure cycle", sabs: "No — coating cures in place" },
+  { category: "Concrete pour required", icf: "Yes, wet pour and cure cycle", sabs: "No, coating cures in place" },
   { category: "Seismic coverage", icf: "Depends on pour spec", sabs: "Category A–F all covered" },
-  { category: "Termite resistance", icf: "High — no wood in shell", sabs: "Complete — zero wood, zero entry point" },
+  { category: "Termite resistance", icf: "High, no wood in shell", sabs: "Complete: zero wood, zero entry point" },
   { category: "Code approval", icf: "ICC-ES reports vary by manufacturer", sabs: "ICC-ES ESR-1638" },
 ];
 
 const faqs = [
   {
     q: "What is the main difference between SABS and ICF construction?",
-    a: 'ICF uses foam blocks as permanent formwork around a wet concrete pour. Crews assemble the blocks, tie rebar, pour concrete, and wait for cure. SABS skips the pour entirely. The cementitious compound is applied directly to LÏEF Block EPS panels, curing in place to create the structural shell. The process requires fewer trades, a shorter schedule, and produces a dramatically higher insulation value.',
+    a: 'ICF uses foam blocks as permanent formwork around a wet concrete pour. Crews assemble the blocks, tie rebar, pour concrete, and wait for cure. SABS skips the pour entirely. The cementitious compound is applied directly to Lïef Block EPS panels, curing in place to create the structural shell. The process requires fewer trades, a shorter schedule, and produces a dramatically higher insulation value.',
   },
   {
     q: "Is SABS cheaper than ICF on a real project?",
-    a: "Material cost comparisons are misleading. Total project cost is where the math changes. SABS consolidates multiple trade categories into a single panel-and-coat workflow. Fewer trades on-site means fewer coordination gaps, faster schedule, and lower overtime risk. On top of that, R-75 to R-100 insulation cuts HVAC system sizing significantly — that savings flows directly into project budget. LÏEF projects typically run 20 to 22% below conventional build cost on multi-family construction.",
+    a: "Material cost comparisons are misleading. Total project cost is where the math changes. SABS consolidates multiple trade categories into a single panel-and-coat workflow. Fewer trades on-site means fewer coordination gaps, faster schedule, and lower overtime risk. On top of that, R-75 to R-100 insulation cuts HVAC system sizing significantly, and that savings flows directly into project budget. Lïef projects typically run 20 to 22% below conventional build cost on multi-family construction.",
   },
   {
     q: "How does fire performance compare?",
@@ -85,11 +85,11 @@ const faqs = [
   },
   {
     q: "Does SABS need the same permitting process as ICF?",
-    a: "SABS with LÏEF Blocks carries ICC-ES ESR-1638 from the International Code Council Evaluation Service. Every jurisdiction in Arizona that adopts the IBC — which is all of them — recognizes this evaluation. No experimental approval, no variance process. Standard permit submittal.",
+    a: "SABS with Lïef Blocks carries ICC-ES ESR-1638 from the International Code Council Evaluation Service. Every jurisdiction in Arizona that adopts the IBC (which is all of them) recognizes this evaluation. No experimental approval, no variance process. Standard permit submittal.",
   },
   {
     q: "Which is better for Arizona specifically?",
-    a: "Arizona gives you fire exposure, 115°F summer highs, monsoon moisture, and one of the most aggressive termite populations in the country. SABS handles all four at the assembly level. R-75 to R-100 insulation eliminates most HVAC load. 0% flame spread addresses wildfire directly. No wood means no termite vector. ICF handles some of this but leaves gaps — particularly on insulation performance and labor efficiency. For Arizona construction, SABS is the stronger system.",
+    a: "Arizona gives you fire exposure, 115°F summer highs, monsoon moisture, and one of the most aggressive termite populations in the country. SABS handles all four at the assembly level. R-75 to R-100 insulation eliminates most HVAC load. 0% flame spread addresses wildfire directly. No wood means no termite vector. ICF handles some of this but leaves gaps, particularly on insulation performance and labor efficiency. For Arizona construction, SABS is the stronger system.",
   },
 ];
 
@@ -98,11 +98,11 @@ const SabsVsIcf = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"SABS vs ICF Construction: What's the Real Difference? | LÏEF Development"}</title>
-        <meta name="description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. LÏEF Development is Arizona's owner's rep SABS specialist."} />
+        <title>{"SABS vs ICF Construction: What's the Real Difference? | Lïef Development"}</title>
+        <meta name="description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. Written from a Phoenix developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/sabs-vs-icf" />
-        <meta property="og:title" content={"SABS vs ICF Construction: What's the Real Difference? | LÏEF Development"} />
-        <meta property="og:description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. LÏEF Development is Arizona's owner's rep SABS specialist."} />
+        <meta property="og:title" content={"SABS vs ICF Construction: What's the Real Difference? | Lïef Development"} />
+        <meta property="og:description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. Written from a Phoenix developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/sabs-vs-icf" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -121,13 +121,13 @@ const SabsVsIcf = () => {
           <span style={{ color: "var(--v2-neon)", fontSize: "0.65em" }}>What's the Real Difference?</span>
         </h1>
 
-        {/* Lead answer — LLM-first: clean definition in first 2 sentences */}
+        {/* Lead answer, LLM-first: clean definition in first 2 sentences */}
         <p style={{ fontSize: "1.25rem", fontWeight: 400, lineHeight: 1.8, color: "var(--v2-white)", marginBottom: "16px", borderLeft: "3px solid var(--v2-neon)", paddingLeft: "20px" }}>
-          SABS (Saebi Alternative Building System) and ICF (Insulated Concrete Forms) both produce concrete-shell buildings, but the process, the insulation performance, and the trade count are fundamentally different. ICF is foam formwork around a wet concrete pour. SABS is a cementitious coating applied directly to EPS foam panels — no concrete pour, no cure wait, fewer trades on site.
+          SABS (Saebi Alternative Building System) and ICF (Insulated Concrete Forms) both produce concrete-shell buildings, but the process, the insulation performance, and the trade count are fundamentally different. ICF is foam formwork around a wet concrete pour. SABS is a cementitious coating applied directly to EPS foam panels: no concrete pour, no cure wait, fewer trades on site.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          I've evaluated both systems on real projects in Arizona. When someone asks me "SABS or ICF?" the answer depends on what they're actually trying to solve — but for most Arizona builds, SABS wins on insulation performance, labor efficiency, and total project cost. Here's how I think through the comparison.
+          I've evaluated both systems on real projects in Arizona. When someone asks me "SABS or ICF?" the answer depends on what they're actually trying to solve, but for most Arizona builds, SABS wins on insulation performance, labor efficiency, and total project cost. Here's how I think through the comparison.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -138,7 +138,7 @@ const SabsVsIcf = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "20px" }}>
-          ICF stands for Insulated Concrete Forms. The system uses foam blocks — typically EPS — as permanent formwork. Workers stack the blocks like Legos, tie rebar inside, and then pour concrete to fill the cavity. Once the concrete cures, you have a reinforced concrete wall with foam permanently attached to both sides.
+          ICF stands for Insulated Concrete Forms. The system uses foam blocks, typically EPS, as permanent formwork. Workers stack the blocks like Legos, tie rebar inside, and then pour concrete to fill the cavity. Once the concrete cures, you have a reinforced concrete wall with foam permanently attached to both sides.
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
@@ -151,14 +151,14 @@ const SabsVsIcf = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "20px" }}>
-          SABS starts with LÏEF Blocks — proprietary high-density EPS foam panels that form the structural core of walls, floors, and roofs. The blocks are precision-cut to spec and assembled on-site. Then the SABS cementitious compound — distributed by Strata International — is sprayed or hand-applied directly to the panel surface. The coating cures in place, producing a monolithic concrete-grade shell.
+          SABS starts with Lïef Blocks: proprietary high-density EPS foam panels that form the structural core of walls, floors, and roofs. The blocks are precision-cut to spec and assembled on-site. Then the SABS cementitious compound, distributed by Xtrata, is sprayed or hand-applied directly to the panel surface. The coating cures in place, producing a monolithic concrete-grade shell.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "40px" }}>
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>Where the Process Diverges</p>
           {[
             ["ICF:", "Foam blocks stacked → rebar set → concrete poured → cure cycle → structural shell"],
-            ["SABS:", "LÏEF Blocks assembled → cementitious coating applied → coating cures → structural shell"],
+            ["SABS:", "Lïef Blocks assembled → cementitious coating applied → coating cures → structural shell"],
           ].map(([label, desc]) => (
             <div key={String(label)} style={{ display: "flex", gap: "16px", marginBottom: "14px" }}>
               <span style={{ color: "var(--v2-neon)", fontWeight: 700, minWidth: "60px", flexShrink: 0 }}>{label}</span>
@@ -172,7 +172,7 @@ const SabsVsIcf = () => {
 
         {/* Side-by-side comparison */}
         <h2 className="v2-headline" style={{ fontSize: "1.8rem", marginBottom: "20px", color: "var(--v2-white)" }}>
-          SABS vs ICF — Full Comparison
+          SABS vs ICF: Full Comparison
         </h2>
 
         <div style={{ overflowX: "auto", marginBottom: "48px" }}>
@@ -181,7 +181,7 @@ const SabsVsIcf = () => {
               <tr style={{ borderBottom: "1px solid var(--v2-neon)" }}>
                 <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}> </th>
                 <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-dim)", fontWeight: 500 }}>ICF Construction</th>
-                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-neon)", fontWeight: 600 }}>SABS via LÏEF Blocks</th>
+                <th style={{ textAlign: "left", padding: "10px 12px", color: "var(--v2-neon)", fontWeight: 600 }}>SABS via Lïef Blocks</th>
               </tr>
             </thead>
             <tbody>
@@ -212,7 +212,7 @@ const SabsVsIcf = () => {
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          ICF also has a strong record for below-grade applications — basements, retaining walls — where the concrete pour provides mass and moisture protection. SABS has been used in a wide range of applications, but if below-grade is the primary requirement, ICF is the established answer.
+          ICF also has a strong record for below-grade applications (basements, retaining walls), where the concrete pour provides mass and moisture protection. SABS has been used in a wide range of applications, but if below-grade is the primary requirement, ICF is the established answer.
         </p>
 
         {/* Arizona angle */}
@@ -221,7 +221,7 @@ const SabsVsIcf = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
-          Arizona changes the equation. Heat load, fire exposure, termite pressure, and a labor shortage that affects every project — these are the real variables Arizona builders are solving for. SABS addresses all of them at the wall-assembly level.
+          Arizona changes the equation. Heat load, fire exposure, termite pressure, and a labor shortage that affects every project: these are the real variables Arizona builders are solving for. SABS addresses all of them at the wall-assembly level.
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
@@ -229,7 +229,7 @@ const SabsVsIcf = () => {
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          LÏEF uses SABS on every project we develop or owner's rep. We carry an exclusive arrangement with Strata International — the SABS technology distributor — for the Arizona market. That means we've accumulated more firsthand experience with this system in this climate than anyone else operating here right now.
+          Lïef uses SABS on the projects we develop. We carry an exclusive arrangement with Xtrata, the SABS technology distributor, for the Arizona market. That means we've accumulated more firsthand experience with this system in this climate than anyone else operating here right now.
         </p>
 
         {/* FAQ section */}
@@ -275,7 +275,7 @@ const SabsVsIcf = () => {
             ))}
           </div>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginTop: "16px", lineHeight: 1.6 }}>
-            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 | Strata International technical documentation
+            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 | Xtrata technical documentation
           </p>
         </div>
 
@@ -291,14 +291,14 @@ const SabsVsIcf = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          SABS with LÏEF Blocks gives you the same structural output without the concrete pour, at a higher insulation value, with fewer trades on site. For projects in Arizona's climate, that math is difficult to argue with.
+          SABS with Lïef Blocks gives you the same structural output without the concrete pour, at a higher insulation value, with fewer trades on site. For projects in Arizona's climate, that math is difficult to argue with.
         </p>
 
         {/* Author block */}
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep expert in SABS construction with LÏEF Blocks. LÏEF holds an exclusive arrangement with Strata International for SABS-certified projects across Arizona and Nevada. For project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds an exclusive arrangement with Xtrata for SABS-certified projects across Arizona and Nevada. For project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

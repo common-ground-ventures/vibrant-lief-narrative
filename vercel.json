@@ -20,6 +20,16 @@
       "source": "/liefblocks",
       "destination": "/sabs",
       "permanent": true
+    },
+    {
+      "source": "/learn/owners-rep-alternative-building-systems-arizona",
+      "destination": "https://www.liefbuilders.com/learn/owners-rep-alternative-building-systems-arizona",
+      "permanent": true
+    },
+    {
+      "source": "/learn/arizona-owners-rep-sabs-project-case-files",
+      "destination": "https://www.liefbuilders.com/learn/arizona-owners-rep-sabs-project-case-files",
+      "permanent": true
     }
   ],
   "rewrites": [

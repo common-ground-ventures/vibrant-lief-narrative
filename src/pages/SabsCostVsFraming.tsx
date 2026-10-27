@@ -36,15 +36,15 @@ const faqSchema = {
       name: "Does SABS qualify for energy efficiency incentives?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, in most cases. The R-75 to R-100 wall assembly meets or exceeds the highest IECC envelope tier and qualifies for Energy Star certification, passive house consideration where pursued, and most utility rebate programs that reward continuous insulation and reduced air leakage. APS and SRP rebate qualifications have been documented on prior LÏEF projects.",
+        text: "Yes, in most cases. The R-75 to R-100 wall assembly meets or exceeds the highest IECC envelope tier and qualifies for Energy Star certification, passive house consideration where pursued, and most utility rebate programs that reward continuous insulation and reduced air leakage. APS and SRP rebate qualifications have been documented on prior Lïef projects.",
       },
     },
     {
       "@type": "Question",
-      name: "Where can I see real LÏEF cost data on a project?",
+      name: "Where can I see real Lïef cost data on a project?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "LÏEF shares line-item cost breakdowns under NDA during the bid process. Projects referenceable at a high level include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Inquiries: hello@liefdev.com.",
+        text: "Lïef shares line-item cost breakdowns under NDA during the bid process. Projects referenceable at a high level include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Inquiries: hello@liefdev.com.",
       },
     },
   ],
@@ -64,7 +64,7 @@ const shellRanges = [
     isLief: false,
   },
   {
-    label: "SABS with LÏEF Blocks",
+    label: "SABS with Lïef Blocks",
     range: "$240 to $345 per sq ft",
     detail: "Panel pricing comparable to ICF block pricing. Labor materially lower because the panel-set crew handles both wall placement and cementitious application, replacing the framer-sheather-insulator-drywaller stack on conventional or the form-rebar-pump-finish stack on ICF.",
     isLief: true,
@@ -86,7 +86,7 @@ const totalCostDeltas = [
   },
   {
     title: "Trade coordination",
-    body: "Stick-frame premium custom in Arizona requires fourteen to eighteen separate trade contracts. SABS collapses framer, sheather, exterior insulator, and exterior plaster into one panel-and-finish crew. Drywall is still required. Net reduction is typically three to five trade contracts. LÏEF SABS work runs around four percent change-order ratio. CMAA stick-frame industry baseline is closer to eight to twelve percent.",
+    body: "Stick-frame premium custom in Arizona requires fourteen to eighteen separate trade contracts. SABS collapses framer, sheather, exterior insulator, and exterior plaster into one panel-and-finish crew. Drywall is still required. Net reduction is typically three to five trade contracts. Lïef SABS work runs around four percent change-order ratio. CMAA stick-frame industry baseline is closer to eight to twelve percent.",
   },
 ];
 
@@ -101,7 +101,7 @@ const sabsDoesNotWin = [
   },
   {
     title: "Markets without trained installer crews",
-    body: "Outside Arizona, Nevada, and a handful of other states, the installer base is thin. Mobilizing a crew adds travel and lodging cost that erodes margin. LÏEF carries the largest trained SABS labor force in the country and runs work in the markets that base supports.",
+    body: "Outside Arizona, Nevada, and a handful of other states, the installer base is thin. Mobilizing a crew adds travel and lodging cost that erodes margin. Lïef carries the largest trained SABS labor force in the country and runs work in the markets that base supports.",
   },
 ];
 
@@ -120,14 +120,14 @@ const faqs = [
   },
   {
     q: "Does SABS qualify for energy efficiency incentives?",
-    a: "Yes, in most cases. The R-75 to R-100 wall assembly meets or exceeds the highest IECC envelope tier and qualifies for Energy Star certification, passive house consideration where pursued, and most utility rebate programs that reward continuous insulation and reduced air leakage. APS and SRP rebate qualifications have been documented on prior LÏEF projects.",
+    a: "Yes, in most cases. The R-75 to R-100 wall assembly meets or exceeds the highest IECC envelope tier and qualifies for Energy Star certification, passive house consideration where pursued, and most utility rebate programs that reward continuous insulation and reduced air leakage. APS and SRP rebate qualifications have been documented on prior Lïef projects.",
   },
   {
     q: "How accurate are these cost ranges for projects outside Phoenix?",
-    a: "Reasonably accurate within the Arizona, southern Nevada, and southern California markets where LÏEF has run direct comps. For other markets the panel lead time, installer crew availability, and inspector familiarity all affect the number. The R-value, fire performance, and code-approval profile of the system is constant. The execution cost is regional.",
+    a: "Reasonably accurate within the Arizona, southern Nevada, and southern California markets where Lïef has run direct comps. For other markets the panel lead time, installer crew availability, and inspector familiarity all affect the number. The R-value, fire performance, and code-approval profile of the system is constant. The execution cost is regional.",
   },
   {
-    q: "Where can I see real LÏEF cost data on a project?",
+    q: "Where can I see real Lïef cost data on a project?",
     a: "Line-item cost breakdowns are shared under NDA during the bid process. Projects referenceable at a high level include 301 W Osborn (Midtown Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Inquiries: hello@liefdev.com.",
   },
 ];
@@ -137,11 +137,11 @@ const SabsCostVsFraming = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"SABS Construction Cost vs Traditional Framing | LÏEF Development"}</title>
-        <meta name="description" content={"Honest 2026 Arizona cost breakdown: SABS construction with LÏEF Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
+        <title>{"SABS Construction Cost vs Traditional Framing | Lïef Development"}</title>
+        <meta name="description" content={"Honest 2026 Arizona cost breakdown: SABS construction with Lïef Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/sabs-cost-vs-traditional-framing" />
-        <meta property="og:title" content={"SABS Construction Cost vs Traditional Framing | LÏEF Development"} />
-        <meta property="og:description" content={"Honest 2026 Arizona cost breakdown: SABS construction with LÏEF Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
+        <meta property="og:title" content={"SABS Construction Cost vs Traditional Framing | Lïef Development"} />
+        <meta property="og:description" content={"Honest 2026 Arizona cost breakdown: SABS construction with Lïef Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/sabs-cost-vs-traditional-framing" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -163,7 +163,7 @@ const SabsCostVsFraming = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          I run owner's rep work on alternative-system projects across Arizona under LÏEF Development. Cost is the first thing every owner asks, and the answer that gets repeated in the trade press (that SABS or ICF "costs more") is almost always sourced from a single shell-only bid, isolated from schedule, MEP, and insurance. That is not how the work actually prices out.
+          We build with alternative systems across Arizona under Lïef Development. Cost is the first thing every owner asks, and the answer that gets repeated in the trade press (that SABS or ICF "costs more") is almost always sourced from a single shell-only bid, isolated from schedule, MEP, and insurance. That is not how the work actually prices out.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -290,14 +290,14 @@ const SabsCostVsFraming = () => {
             ))}
           </div>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginTop: "16px", lineHeight: 1.6 }}>
-            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 Type XI | CMAA standard scope and change-order baseline data | APS and SRP utility rebate program documentation | LÏEF Development project files
+            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 Type XI | CMAA standard scope and change-order baseline data | APS and SRP utility rebate program documentation | Lïef Development project files
           </p>
         </div>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "40px" }} />
 
         <h2 className="v2-headline" style={{ fontSize: "1.8rem", marginBottom: "20px", color: "var(--v2-white)" }}>
-          Working With LÏEF on Cost-Side Decisions
+          Working With Lïef on Cost-Side Decisions
         </h2>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
@@ -305,13 +305,13 @@ const SabsCostVsFraming = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          LÏEF Development holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. We carry the largest trained SABS labor force in the country and have over 500,000 square feet of SABS work currently in planning or under construction.
+          Lïef Development holds the operating relationship with Xtrata (formerly Strata International), the SABS technology distributor, for the Arizona market. We carry the largest trained SABS labor force in the country and have over 500,000 square feet of SABS work currently in planning or under construction.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds an exclusive arrangement with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds an exclusive arrangement with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

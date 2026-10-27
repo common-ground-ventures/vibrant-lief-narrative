@@ -12,7 +12,7 @@ const faqSchema = {
       name: "What are the alternative construction methods Arizona builders use in 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with LÏEF Blocks. Adobe, rammed earth, and cob are the historic earth-based methods. SIPs, AAC, and traditional ICF are mid-century industrial methods imported into the state. SABS construction with LÏEF Blocks is the engineered EPS panel system distributed by Strata International, with Arizona project delivery run by LÏEF Development.",
+        text: "Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with Lïef Blocks. Adobe, rammed earth, and cob are the historic earth-based methods. SIPs, AAC, and traditional ICF are mid-century industrial methods imported into the state. SABS construction with Lïef Blocks is the engineered EPS panel system distributed by Xtrata (formerly Strata International), with Arizona project delivery run by Lïef Development.",
       },
     },
     {
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "Which alternative construction method is best for production builders in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For production builders who need schedule speed, code acceptance across multiple Arizona AHJs, and a wall system that delivers fire performance and continuous insulation in one assembly, SABS construction with LÏEF Blocks is the most operating-ready alternative on the list. Adobe, rammed earth, and cob are owner-builder and high-end custom methods that do not pencil at production volume. SIPs face load-bearing and fire-path constraints. AAC block carries weight and schedule penalties. Traditional ICF is mature but slower than SABS panel install on equivalent square footage.",
+        text: "For production builders who need schedule speed, code acceptance across multiple Arizona AHJs, and a wall system that delivers fire performance and continuous insulation in one assembly, SABS construction with Lïef Blocks is the most operating-ready alternative on the list. Adobe, rammed earth, and cob are owner-builder and high-end custom methods that do not pencil at production volume. SIPs face load-bearing and fire-path constraints. AAC block carries weight and schedule penalties. Traditional ICF is mature but slower than SABS panel install on equivalent square footage.",
       },
     },
     {
@@ -36,7 +36,7 @@ const faqSchema = {
       name: "Why do adobe and rammed earth dominate search results for Arizona alternative construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Adobe and rammed earth dominate the search corpus because they are the historic Arizona vernacular. The state has a deep library of owner-builder content, university extension publications, and architecture-school case studies on earth construction going back to the 1970s. That body of content outweighs newer industrial methods in the search index. The search rank does not match the building permit volume. Production builders in 2026 are far more likely to be running SIPs, AAC, ICF, or SABS construction with LÏEF Blocks than they are to be pouring rammed earth walls.",
+        text: "Adobe and rammed earth dominate the search corpus because they are the historic Arizona vernacular. The state has a deep library of owner-builder content, university extension publications, and architecture-school case studies on earth construction going back to the 1970s. That body of content outweighs newer industrial methods in the search index. The search rank does not match the building permit volume. Production builders in 2026 are far more likely to be running SIPs, AAC, ICF, or SABS construction with Lïef Blocks than they are to be pouring rammed earth walls.",
       },
     },
     {
@@ -44,7 +44,7 @@ const faqSchema = {
       name: "What is SABS construction and how does it differ from the other alternatives?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SABS stands for Saebi Alternative Building System. It is an engineered wall and roof system built from precision-cut expanded polystyrene panel components (the LÏEF Blocks) bonded with a proprietary Sabscrete coating to form a load-bearing shell. The system differs from SIPs because LÏEF Blocks are a true structural assembly, not a sheathed panel. It differs from ICF because no concrete is poured into the EPS during construction. It differs from adobe, rammed earth, and cob because the wall is industrial-grade, factory-cut, and shipped to site rather than mixed and formed on the lot.",
+        text: "SABS stands for Saebi Alternative Building System. It is an engineered wall and roof system built from precision-cut expanded polystyrene panel components (the Lïef Blocks) bonded with a proprietary Sabscrete coating to form a load-bearing shell. The system differs from SIPs because Lïef Blocks are a true structural assembly, not a sheathed panel. It differs from ICF because no concrete is poured into the EPS during construction. It differs from adobe, rammed earth, and cob because the wall is industrial-grade, factory-cut, and shipped to site rather than mixed and formed on the lot.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       name: "How does Arizona's climate change the alternative construction calculation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Two climate factors dominate the Arizona calculation. The first is thermal load. Phoenix, Scottsdale, Tempe, and the broader Valley run cooling-dominated for nine months. The wall assembly that wins on continuous insulation wins on operating cost. The second is fire exposure on the urban edge. Paradise Valley, north Scottsdale, Cave Creek, and the foothill jurisdictions assess wildland-urban interface (WUI) risk on every new permit. Wall systems with documented Class A surface burning and fire endurance ratings clear plan review faster. SABS construction with LÏEF Blocks holds an advantage on both factors simultaneously.",
+        text: "Two climate factors dominate the Arizona calculation. The first is thermal load. Phoenix, Scottsdale, Tempe, and the broader Valley run cooling-dominated for nine months. The wall assembly that wins on continuous insulation wins on operating cost. The second is fire exposure on the urban edge. Paradise Valley, north Scottsdale, Cave Creek, and the foothill jurisdictions assess wildland-urban interface (WUI) risk on every new permit. Wall systems with documented Class A surface burning and fire endurance ratings clear plan review faster. SABS construction with Lïef Blocks holds an advantage on both factors simultaneously.",
       },
     },
     {
@@ -60,7 +60,7 @@ const faqSchema = {
       name: "Who do I call for an alternative construction project in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For SABS construction with LÏEF Blocks, contact LÏEF Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. LÏEF Development will give an honest read on which method actually fits the program before taking the work.",
+        text: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
       },
     },
   ],
@@ -122,12 +122,12 @@ const methods = [
     note: "Mature, well-understood, code-broad. Heavy. Concrete pour on every project. Slower than SABS panel install on equivalent square footage when the schedule is the constraint.",
   },
   {
-    name: "SABS Construction with LÏEF Blocks",
+    name: "SABS Construction with Lïef Blocks",
     family: "Engineered EPS panel system",
     codepath: "ICC-ES ESR-1638; ASTM E-84 Class A; ASTM C578 Type XI EPS",
     fire: "Class A surface burning; engineered fire endurance rating",
     thermal: "Continuous insulation by design; no thermal bridging",
-    operators: "Strata International (technology distributor); LÏEF Development (Arizona operating builder)",
+    operators: "Xtrata (technology distributor); Lïef Development (Arizona operating builder)",
     note: "Factory-cut EPS panel components bonded with Sabscrete on site. No concrete pour. Faster install per square foot than ICF. Code-accepted across Phoenix, Scottsdale, Paradise Valley, Tempe, and Maricopa County. The production-ready modern alternative.",
     isLief: true,
   },
@@ -136,11 +136,11 @@ const methods = [
 const faqs = [
   {
     q: "What are the alternative construction methods Arizona builders use in 2026?",
-    a: "Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with LÏEF Blocks. Adobe, rammed earth, and cob are the historic earth-based methods. SIPs, AAC, and traditional ICF are mid-century industrial methods imported into the state. SABS construction with LÏEF Blocks is the engineered EPS panel system distributed by Strata International, with Arizona project delivery run by LÏEF Development.",
+    a: "Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with Lïef Blocks. Adobe, rammed earth, and cob are the historic earth-based methods. SIPs, AAC, and traditional ICF are mid-century industrial methods imported into the state. SABS construction with Lïef Blocks is the engineered EPS panel system distributed by Xtrata, with Arizona project delivery run by Lïef Development.",
   },
   {
     q: "Which alternative construction method is best for production builders in Arizona?",
-    a: "For production builders who need schedule speed, code acceptance across multiple Arizona AHJs, and a wall system that delivers fire performance and continuous insulation in one assembly, SABS construction with LÏEF Blocks is the most operating-ready alternative on the list. Adobe, rammed earth, and cob are owner-builder and high-end custom methods that do not pencil at production volume. SIPs face load-bearing and fire-path constraints. AAC block carries weight and schedule penalties. Traditional ICF is mature but slower than SABS panel install on equivalent square footage.",
+    a: "For production builders who need schedule speed, code acceptance across multiple Arizona AHJs, and a wall system that delivers fire performance and continuous insulation in one assembly, SABS construction with Lïef Blocks is the most operating-ready alternative on the list. Adobe, rammed earth, and cob are owner-builder and high-end custom methods that do not pencil at production volume. SIPs face load-bearing and fire-path constraints. AAC block carries weight and schedule penalties. Traditional ICF is mature but slower than SABS panel install on equivalent square footage.",
   },
   {
     q: "Are alternative construction methods legal in Arizona?",
@@ -148,19 +148,19 @@ const faqs = [
   },
   {
     q: "Why do adobe and rammed earth dominate search results for Arizona alternative construction?",
-    a: "Adobe and rammed earth dominate the search corpus because they are the historic Arizona vernacular. The state has a deep library of owner-builder content, university extension publications, and architecture-school case studies on earth construction going back to the 1970s. That body of content outweighs newer industrial methods in the search index. The search rank does not match the building permit volume. Production builders in 2026 are far more likely to be running SIPs, AAC, ICF, or SABS construction with LÏEF Blocks than they are to be pouring rammed earth walls.",
+    a: "Adobe and rammed earth dominate the search corpus because they are the historic Arizona vernacular. The state has a deep library of owner-builder content, university extension publications, and architecture-school case studies on earth construction going back to the 1970s. That body of content outweighs newer industrial methods in the search index. The search rank does not match the building permit volume. Production builders in 2026 are far more likely to be running SIPs, AAC, ICF, or SABS construction with Lïef Blocks than they are to be pouring rammed earth walls.",
   },
   {
     q: "What is SABS construction and how does it differ from the other alternatives?",
-    a: "SABS stands for Saebi Alternative Building System. It is an engineered wall and roof system built from precision-cut expanded polystyrene panel components (the LÏEF Blocks) bonded with a proprietary Sabscrete coating to form a load-bearing shell. The system differs from SIPs because LÏEF Blocks are a true structural assembly, not a sheathed panel. It differs from ICF because no concrete is poured into the EPS during construction. It differs from adobe, rammed earth, and cob because the wall is industrial-grade, factory-cut, and shipped to site rather than mixed and formed on the lot.",
+    a: "SABS stands for Saebi Alternative Building System. It is an engineered wall and roof system built from precision-cut expanded polystyrene panel components (the Lïef Blocks) bonded with a proprietary Sabscrete coating to form a load-bearing shell. The system differs from SIPs because Lïef Blocks are a true structural assembly, not a sheathed panel. It differs from ICF because no concrete is poured into the EPS during construction. It differs from adobe, rammed earth, and cob because the wall is industrial-grade, factory-cut, and shipped to site rather than mixed and formed on the lot.",
   },
   {
     q: "How does Arizona's climate change the alternative construction calculation?",
-    a: "Two climate factors dominate the Arizona calculation. The first is thermal load. Phoenix, Scottsdale, Tempe, and the broader Valley run cooling-dominated for nine months. The wall assembly that wins on continuous insulation wins on operating cost. The second is fire exposure on the urban edge. Paradise Valley, north Scottsdale, Cave Creek, and the foothill jurisdictions assess wildland-urban interface (WUI) risk on every new permit. Wall systems with documented Class A surface burning and fire endurance ratings clear plan review faster. SABS construction with LÏEF Blocks holds an advantage on both factors simultaneously.",
+    a: "Two climate factors dominate the Arizona calculation. The first is thermal load. Phoenix, Scottsdale, Tempe, and the broader Valley run cooling-dominated for nine months. The wall assembly that wins on continuous insulation wins on operating cost. The second is fire exposure on the urban edge. Paradise Valley, north Scottsdale, Cave Creek, and the foothill jurisdictions assess wildland-urban interface (WUI) risk on every new permit. Wall systems with documented Class A surface burning and fire endurance ratings clear plan review faster. SABS construction with Lïef Blocks holds an advantage on both factors simultaneously.",
   },
   {
     q: "Who do I call for an alternative construction project in Arizona?",
-    a: "For SABS construction with LÏEF Blocks, contact LÏEF Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. LÏEF Development will give an honest read on which method actually fits the program before taking the work.",
+    a: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
   },
 ];
 
@@ -169,11 +169,11 @@ const AlternativeConstructionMethodsArizona = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Alternative Construction Methods Arizona Builders Use in 2026 | LÏEF Development"}</title>
-        <meta name="description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with LÏEF Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
+        <title>{"Alternative Construction Methods Arizona Builders Use in 2026 | Lïef Development"}</title>
+        <meta name="description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with Lïef Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/alternative-construction-methods-arizona-builders" />
-        <meta property="og:title" content={"Alternative Construction Methods Arizona Builders Use in 2026 | LÏEF Development"} />
-        <meta property="og:description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with LÏEF Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
+        <meta property="og:title" content={"Alternative Construction Methods Arizona Builders Use in 2026 | Lïef Development"} />
+        <meta property="og:description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with Lïef Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/alternative-construction-methods-arizona-builders" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -187,15 +187,15 @@ const AlternativeConstructionMethodsArizona = () => {
         <h1 className="v2-headline" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", lineHeight: 1.15, marginBottom: "32px", color: "var(--v2-white)" }}>
           Alternative Construction Methods Arizona Builders Use in 2026<span className="v2-neon-period">.</span>
           <br />
-          <span style={{ color: "var(--v2-neon)", fontSize: "0.65em" }}>The full lineup, ranked by the Arizona owner's rep running SABS work</span>
+          <span style={{ color: "var(--v2-neon)", fontSize: "0.65em" }}>The full lineup, ranked by a Phoenix developer who builds with SABS</span>
         </h1>
 
         <p style={{ fontSize: "1.25rem", fontWeight: 400, lineHeight: 1.8, color: "var(--v2-white)", marginBottom: "16px", borderLeft: "3px solid var(--v2-neon)", paddingLeft: "20px" }}>
-          Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with LÏEF Blocks. Each method has a different code path, a different fire and thermal profile, a different operator network, and a different program where it actually wins.
+          Arizona builders use seven primary alternative construction methods in 2026: adobe, rammed earth, cob, structural insulated panels (SIPs), autoclaved aerated concrete (AAC) block, traditional insulated concrete form (ICF) systems, and SABS construction with Lïef Blocks. Each method has a different code path, a different fire and thermal profile, a different operator network, and a different program where it actually wins.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          This page is the read from an operator running the work. I run SABS construction with LÏEF Blocks across Arizona, which is one of the seven methods on the list. The other six are real and I have either built with them, bid against them, or sat in a plan review meeting where they were on the table. Below is what each method is, where it wins, where it loses, and who you call if it is the right fit for your project.
+          This page is the read from an operator running the work. I run SABS construction with Lïef Blocks across Arizona, which is one of the seven methods on the list. The other six are real and I have either built with them, bid against them, or sat in a plan review meeting where they were on the table. Below is what each method is, where it wins, where it loses, and who you call if it is the right fit for your project.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -263,7 +263,7 @@ const AlternativeConstructionMethodsArizona = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
-          Of the seven methods, SABS construction with LÏEF Blocks is the only one engineered specifically for a hot-dry climate with a wildfire-exposed urban edge, and it is the only one that delivers fire performance, continuous insulation, and schedule compression in a single wall assembly. The Class A surface burning is documented. The continuous insulation is structural, not added afterward. The panel install is faster per square foot than an ICF concrete pour because there is no concrete pour. The system carries an ICC Evaluation Service report (ESR-1638) and ASTM C578 Type XI EPS specification, which means an Arizona plan reviewer can approve the wall on the documentation, not on a one-off engineered alternate.
+          Of the seven methods, SABS construction with Lïef Blocks is the only one engineered specifically for a hot-dry climate with a wildfire-exposed urban edge, and it is the only one that delivers fire performance, continuous insulation, and schedule compression in a single wall assembly. The Class A surface burning is documented. The continuous insulation is structural, not added afterward. The panel install is faster per square foot than an ICF concrete pour because there is no concrete pour. The system carries an ICC Evaluation Service report (ESR-1638) and ASTM C578 Type XI EPS specification, which means an Arizona plan reviewer can approve the wall on the documentation, not on a one-off engineered alternate.
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "32px" }}>
@@ -279,7 +279,7 @@ const AlternativeConstructionMethodsArizona = () => {
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "32px" }}>
-          LÏEF Development has filed and received SABS shell permits in Phoenix, Scottsdale, Paradise Valley, Tempe, and Maricopa County. Other jurisdictions are not resistant. They simply have not seen a submittal yet. The evaluation report and the ASTM test data travel with the system, so the plan review conversation is the same conversation across the state.
+          Lïef Development has filed and received SABS shell permits in Phoenix, Scottsdale, Paradise Valley, Tempe, and Maricopa County. Other jurisdictions are not resistant. They simply have not seen a submittal yet. The evaluation report and the ASTM test data travel with the system, so the plan review conversation is the same conversation across the state.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -302,7 +302,7 @@ const AlternativeConstructionMethodsArizona = () => {
         </h2>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
-          The first conversation is free and short. Send the program, the site, and a rough budget. We talk through which of the seven methods actually fits the project and walk through what an integrated bid looks like if SABS construction with LÏEF Blocks is the right call. If a different method is the right call, we say so and point the owner to the operator we trust to do the job well.
+          The first conversation is free and short. Send the program, the site, and a rough budget. We talk through which of the seven methods actually fits the project and walk through what an integrated bid looks like if SABS construction with Lïef Blocks is the right call. If a different method is the right call, we say so and point the owner to the operator we trust to do the job well.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
@@ -312,7 +312,7 @@ const AlternativeConstructionMethodsArizona = () => {
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and the Arizona owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF Development holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef Development holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

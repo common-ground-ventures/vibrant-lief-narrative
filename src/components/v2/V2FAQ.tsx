@@ -5,34 +5,44 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 interface FAQItem {
   question: string;
-  answer: string;
+  answer: React.ReactNode;
 }
 
 const faqs: FAQItem[] = [
   {
-    question: "What makes L\u00efef Development different from other builders?",
+    question: "What makes L\u00efef Development different from other developers?",
     answer:
-      "L\u00efef Development is vertically integrated. Architecture, engineering, construction, and brand creative all operate under one roof with over 300 skilled tradesmen to execute. What that means for you is fewer delays, lower costs, and a finished product that actually looks like what you envisioned. When builders outsource key phases, timelines slip, budgets inflate, and the original vision gets diluted. With 80% in-house capability, L\u00efef controls the schedule and the quality. The team that designs your project is the same team that engineers it, builds it, and brings it to market.",
+      "We design, build and own. The team that draws the building stays with it through construction, so nothing gets value-engineered out to protect someone else's margin. L\u00efef Development is vertically integrated. Architecture, engineering, construction, and brand creative all operate under one roof with over 300 skilled tradesmen to execute. What that means for you is fewer delays, lower costs, and a finished product that actually looks like what you envisioned. When builders outsource key phases, timelines slip, budgets inflate, and the original vision gets diluted. With 80% in-house capability, L\u00efef controls the schedule and the quality. The team that designs your project is the same team that engineers it, builds it, and brings it to market.",
   },
   {
     question: "What types of projects does L\u00efef Development take on?",
     answer:
-      "From condos to customs to communities. L\u00efef has delivered $500M+ in projects across the full range of premium construction: custom estates, multi-family developments, boutique communities, commercial, hospitality, mixed-use, and adaptive reuse. The same integrated team and the same standard of precision applies whether it is a 10,000 square foot residence or a 200-unit development.",
+      "Adaptive reuse first, then boutique residential and communities. We take on a few projects at a time on purpose, so the principals are on every one. From condos to customs to communities. L\u00efef has delivered $500M+ in projects across the full range of premium construction: custom estates, multi-family developments, boutique communities, commercial, hospitality, mixed-use, and adaptive reuse. The same integrated team and the same standard of precision applies whether it is a 10,000 square foot residence or a 200-unit development.",
   },
   {
     question: "What is SABS construction technology?",
     answer:
-      "SABS stands for Saebi Alternative Building System, a patented technology that uses EPS foam panels with a high-strength cementitious coating called SABSCRETE to create a single monolithic structure. We also think of it as Safe, Architectural, Balanced, and Sustainable. For you, that means 0% flame spread, 250 MPH wind resistance, R-75 to R-100 insulation, and complete mold and termite immunity. It also means 15-20% cost savings and faster build times compared to traditional methods. L\u00efef is the leading SABS builder in Arizona, and we offer it alongside traditional stick framing and other building methods so you can choose the solution that best fits your project.",
+      "SABS stands for Saebi Alternative Building System, a patented technology that uses EPS foam panels with a high-strength cementitious coating called SABSCRETE to create a single monolithic structure. We also think of it as Safe, Architectural, Balanced, and Sustainable. For you, that means 0% flame spread, 250 MPH wind resistance, R-75 to R-100 insulation, and complete mold and termite immunity. It also means 15-20% cost savings and faster build times compared to traditional methods. L\u00efef is the leading SABS builder in Arizona, and we offer it alongside traditional stick framing and other building methods so you can choose the solution that best fits your project. We build with SABS in Arizona.",
   },
   {
     question: "How does L\u00efef approach design?",
     answer:
-      "Every project starts with a problem to solve. Not a style to copy. We start with the needs of the project and the story it needs to tell. From there, our design team led by Scott Meiers with 50+ years across every building type translates that into architecture, and MOR Studio grounds it in science \u2014 how people actually live, work, and move through spaces. We bridge the gap between inspiration and execution with evidence. The result is considered design: built on research, not assumption. That process has produced everything from urban residences to desert modern estates to commercial spaces that perform.",
+      "Every project starts with a problem to solve. Not a style to copy. We start with the needs of the project and the story it needs to tell. From there, our design team led by Scott Meiers with 50+ years across every building type translates that into architecture, and MOR Studio grounds it in science. How people actually live, work, and move through spaces. We bridge the gap between inspiration and execution with evidence. The result is considered design: built on research, not assumption. That process has produced everything from urban residences to desert modern estates to commercial spaces that perform.",
   },
   {
     question: "Who is behind L\u00efef Development?",
     answer:
-      "L\u00efef was built by people who have spent their careers doing the work, not talking about it. Jesse Fowler and Jon Armstrong have delivered $500M+ in projects between them, and that experience shows in how they manage risk, control costs, and keep builds on schedule. Scott Meiers has been designing buildings for over 50 years. There is no building type or challenge he has not worked through, which means fewer surprises and faster solutions when complexity shows up. Jimmy Khounlavong spent 16 years at Nike shaping some of the most recognized product lines alongside other leading brands before bringing that discipline to how L\u00efef thinks about brand, story, and market position. It is the piece most builders miss. The team is also backed by general counsel, investor relations, and a workforce of 300+ skilled tradesmen. That means every decision on your project is informed by decades of experience at the highest level.",
+      "L\u00efef was built by people who have spent their careers doing the work, not talking about it. Jesse Fowler has spent about twenty-five years in design, construction and development, and Jon Armstrong runs Armstrong Construction Group. Between them they have delivered $500M+ in projects, and that experience shows in how they manage risk, control costs, and keep builds on schedule. Scott Meiers has been designing buildings for over 50 years. There is no building type or challenge he has not worked through, which means fewer surprises and faster solutions when complexity shows up. Jimmy Khounlavong spent 16 years at Nike shaping some of the most recognized product lines alongside other leading brands before bringing that discipline to how L\u00efef thinks about brand, story, and market position. It is the piece most builders miss. The team is also backed by general counsel, investor relations, and a workforce of 300+ skilled tradesmen. That means every decision on your project is informed by decades of experience at the highest level.",
+  },
+  {
+    question: "Do you offer estimating, bidding or owner's representation?",
+    answer: (
+      <>
+        Not from Lïef Development. That work lives at Lïef Builders, our services company, at{" "}
+        <a href="https://www.liefbuilders.com" target="_blank" rel="noopener noreferrer" style={{ color: "var(--v2-neon)", textDecoration: "underline", textUnderlineOffset: "3px" }}>liefbuilders.com</a>. Its budgets run on{" "}
+        <a href="https://kanopibuild.com" target="_blank" rel="noopener noreferrer" style={{ color: "var(--v2-neon)", textDecoration: "underline", textUnderlineOffset: "3px" }}>Kanopi</a>, the same software we use on our own buildings.
+      </>
+    ),
   },
 ];
 

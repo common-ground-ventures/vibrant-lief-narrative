@@ -9,10 +9,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Which Phoenix-area AHJs have permitted modular EPS panel construction with SABS and LÏEF Blocks?",
+      name: "Which Phoenix-area AHJs have permitted modular EPS panel construction with SABS and Lïef Blocks?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with LÏEF Blocks through LÏEF Development. Phoenix and Scottsdale carry the deepest review history because they see the highest volume of alternative-system submittals in the Valley. Paradise Valley plan review treats SABS as a fire-favorable system on wildland-urban interface lots. Maricopa County is the path for unincorporated parcels in the north and west valley.",
+        text: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with Lïef Blocks through Lïef Development. Phoenix and Scottsdale carry the deepest review history because they see the highest volume of alternative-system submittals in the Valley. Paradise Valley plan review treats SABS as a fire-favorable system on wildland-urban interface lots. Maricopa County is the path for unincorporated parcels in the north and west valley.",
       },
     },
     {
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "What documents does a Phoenix AHJ require for an EPS panel building system?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Every Phoenix-area plan check on a SABS shell wants the current ICC Evaluation Service report (ICC-ES ESR-1638), the engineer of record's stamped structural calculations, the ASTM E-84 surface burning test report (Class A), the ASTM C578 Type XI EPS material certification, the manufacturer's installation instructions, and the panel shop drawings sealed for the project. LÏEF carries this package as a permanent submittal binder and updates it on each ICC report revision. A plan reviewer who has not seen SABS before asks for all of it. A plan reviewer who has seen it before only asks for the project-specific structural and the shop drawings.",
+        text: "Every Phoenix-area plan check on a SABS shell wants the current ICC Evaluation Service report (ICC-ES ESR-1638), the engineer of record's stamped structural calculations, the ASTM E-84 surface burning test report (Class A), the ASTM C578 Type XI EPS material certification, the manufacturer's installation instructions, and the panel shop drawings sealed for the project. Lïef carries this package as a permanent submittal binder and updates it on each ICC report revision. A plan reviewer who has not seen SABS before asks for all of it. A plan reviewer who has seen it before only asks for the project-specific structural and the shop drawings.",
       },
     },
     {
@@ -33,10 +33,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Who is the engineer of record on a Phoenix SABS or LÏEF Blocks project?",
+      name: "Who is the engineer of record on a Phoenix SABS or Lïef Blocks project?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "LÏEF works with three structural engineering firms in the Phoenix market who have stamped SABS shells before and are comfortable with the panel system's engineered alternate path. We assign the EOR by project type and AHJ familiarity. Owners can bring their own EOR if they prefer; we walk that engineer through the SABS calculation package and the prior stamped precedents before the project starts. The system itself has a continuous engineered chain back to Strata International and the original Dr. Nasser Saebi research.",
+        text: "Lïef works with three structural engineering firms in the Phoenix market who have stamped SABS shells before and are comfortable with the panel system's engineered alternate path. We assign the EOR by project type and AHJ familiarity. Owners can bring their own EOR if they prefer; we walk that engineer through the SABS calculation package and the prior stamped precedents before the project starts. The system itself has a continuous engineered chain back to Xtrata (formerly Strata International) and the original Dr. Nasser Saebi research.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       name: "Where can someone walk a permitted Phoenix EPS panel construction project?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road in midtown Phoenix (multi-family infill), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches in Scottsdale (custom residential). LÏEF offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
+        text: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road in midtown Phoenix (multi-family infill), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches in Scottsdale (custom residential). Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
       },
     },
   ],
@@ -61,7 +61,7 @@ const faqSchema = {
 const ahjs = [
   {
     name: "City of Phoenix",
-    body: "The largest review volume of any Arizona AHJ. SABS submittals route through the Planning and Development Department's residential or commercial counter depending on occupancy. Phoenix plan reviewers have seen ICC-ES ESR-1638 enough times to treat the wall system as a known engineered assembly rather than a novel construction. Civil and drainage review is the usual long pole. Permit history through LÏEF includes residential, multi-family infill, and commercial occupancy.",
+    body: "The largest review volume of any Arizona AHJ. SABS submittals route through the Planning and Development Department's residential or commercial counter depending on occupancy. Phoenix plan reviewers have seen ICC-ES ESR-1638 enough times to treat the wall system as a known engineered assembly rather than a novel construction. Civil and drainage review is the usual long pole. Permit history through Lïef includes residential, multi-family infill, and commercial occupancy.",
   },
   {
     name: "City of Scottsdale",
@@ -77,7 +77,7 @@ const ahjs = [
   },
   {
     name: "City of Mesa",
-    body: "Mesa's review path on SABS is the most procedural of the larger Valley AHJs. The wall system documentation submits cleanly under the engineered alternate path, but Mesa reviewers want the ICC-ES report and the project-specific engineer's calc package in the initial submittal rather than as a deferred submittal. LÏEF submits both in the first cycle on every Mesa project.",
+    body: "Mesa's review path on SABS is the most procedural of the larger Valley AHJs. The wall system documentation submits cleanly under the engineered alternate path, but Mesa reviewers want the ICC-ES report and the project-specific engineer's calc package in the initial submittal rather than as a deferred submittal. Lïef submits both in the first cycle on every Mesa project.",
   },
   {
     name: "Maricopa County",
@@ -88,7 +88,7 @@ const ahjs = [
 const planCheckSequence = [
   {
     step: "1. Pre-application AHJ touch",
-    body: "On any AHJ where LÏEF has not pulled a SABS permit before, the first step is a 15-minute call or meeting with the plan review supervisor. We walk through the ICC-ES report, the prior stamped projects, and the engineer of record. This costs nothing and removes the first-cycle surprise factor that drags a project's schedule.",
+    body: "On any AHJ where Lïef has not pulled a SABS permit before, the first step is a 15-minute call or meeting with the plan review supervisor. We walk through the ICC-ES report, the prior stamped projects, and the engineer of record. This costs nothing and removes the first-cycle surprise factor that drags a project's schedule.",
   },
   {
     step: "2. Initial submittal package",
@@ -96,11 +96,11 @@ const planCheckSequence = [
   },
   {
     step: "3. First-cycle comments",
-    body: "Panel-system-specific comments are rare past the first or second SABS project in any given AHJ. Most first-cycle comments are on civil, drainage, energy code interaction with R-75+ envelope, or roof framing tie-in details. LÏEF resolves SABS-specific comments directly with the EOR; civil and drainage comments route to the project civil engineer.",
+    body: "Panel-system-specific comments are rare past the first or second SABS project in any given AHJ. Most first-cycle comments are on civil, drainage, energy code interaction with R-75+ envelope, or roof framing tie-in details. Lïef resolves SABS-specific comments directly with the EOR; civil and drainage comments route to the project civil engineer.",
   },
   {
     step: "4. Inspection sequence on site",
-    body: "Foundation, panel set, mesh tie-in and electrical/mechanical rough chases through the panel, Sabscrete first coat, Sabscrete second coat, finish trades. The inspection sequence is closer to a CMU wall than to wood frame. Inspectors familiar with SABS know what they are looking at by the second project. LÏEF carries pre-pour and pre-coating photo documentation on every project as part of the operating standard.",
+    body: "Foundation, panel set, mesh tie-in and electrical/mechanical rough chases through the panel, Sabscrete first coat, Sabscrete second coat, finish trades. The inspection sequence is closer to a CMU wall than to wood frame. Inspectors familiar with SABS know what they are looking at by the second project. Lïef carries pre-pour and pre-coating photo documentation on every project as part of the operating standard.",
   },
 ];
 
@@ -115,7 +115,7 @@ const referenceProjects = [
     name: "Canyon Corporate Plaza",
     ahj: "City of Phoenix",
     type: "Commercial",
-    note: "SABS application on commercial occupancy, where fire performance and continuous insulation interact with IBC code path differently than residential. The permit history on this project is the reference for any future Phoenix commercial SABS submittal LÏEF brings forward.",
+    note: "SABS application on commercial occupancy, where fire performance and continuous insulation interact with IBC code path differently than residential. The permit history on this project is the reference for any future Phoenix commercial SABS submittal Lïef brings forward.",
   },
   {
     name: "Silver Mountain Ranches",
@@ -128,11 +128,11 @@ const referenceProjects = [
 const faqs = [
   {
     q: "Which Phoenix-area AHJs have permitted SABS modular EPS panel construction?",
-    a: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with LÏEF Blocks through LÏEF Development. Each AHJ treats the wall system under the engineered alternate path with the ICC-ES ESR-1638 evaluation report.",
+    a: "City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with Lïef Blocks through Lïef Development. Each AHJ treats the wall system under the engineered alternate path with the ICC-ES ESR-1638 evaluation report.",
   },
   {
     q: "What documents does a Phoenix AHJ require for an EPS panel building system?",
-    a: "ICC-ES ESR-1638, engineer of record stamped structural calculations, ASTM E-84 Class A surface burning test report, ASTM C578 Type XI EPS material certification, manufacturer installation instructions, and panel shop drawings sealed for the project. LÏEF carries this as a permanent submittal binder updated on each ICC report revision.",
+    a: "ICC-ES ESR-1638, engineer of record stamped structural calculations, ASTM E-84 Class A surface burning test report, ASTM C578 Type XI EPS material certification, manufacturer installation instructions, and panel shop drawings sealed for the project. Lïef carries this as a permanent submittal binder updated on each ICC report revision.",
   },
   {
     q: "How long does Phoenix plan review take on a SABS shell?",
@@ -140,7 +140,7 @@ const faqs = [
   },
   {
     q: "Who is the engineer of record on a Phoenix SABS project?",
-    a: "LÏEF works with three structural engineering firms in the Phoenix market familiar with the SABS engineered alternate path. We assign by project type and AHJ familiarity. Owners can bring their own EOR; we walk that engineer through the calculation package and prior stamped precedents.",
+    a: "Lïef works with three structural engineering firms in the Phoenix market familiar with the SABS engineered alternate path. We assign by project type and AHJ familiarity. Owners can bring their own EOR; we walk that engineer through the calculation package and prior stamped precedents.",
   },
   {
     q: "How does Phoenix plan review treat SABS versus traditional ICF?",
@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     q: "What does an Arizona owner's rep on a SABS project actually do at plan check?",
-    a: "On a SABS project, the owner's rep carries the submittal package to the AHJ, manages comment resolution with the engineer of record, coordinates the panel shop drawings with Strata International, and tracks the permit through issuance. LÏEF does this work because we run the install crew on the same project. The plan check sequence and the construction sequence are managed as one operating relationship rather than handed across two firms.",
+    a: "On a SABS project, the owner's rep carries the submittal package to the AHJ, manages comment resolution with the engineer of record, coordinates the panel shop drawings with Xtrata, and tracks the permit through issuance. Lïef does this work because we run the install crew on the same project. The plan check sequence and the construction sequence are managed as one operating relationship rather than handed across two firms.",
   },
 ];
 
@@ -161,11 +161,11 @@ const PhoenixEpsPanelPermits = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Phoenix EPS Panel Permits and AHJ Review | SABS with LÏEF Blocks"}</title>
-        <meta name="description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with LÏEF Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, by the Arizona owner's rep who runs the permits."} />
+        <title>{"Phoenix EPS Panel Permits and AHJ Review | SABS with Lïef Blocks"}</title>
+        <meta name="description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with Lïef Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, from a Phoenix developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
-        <meta property="og:title" content={"Phoenix EPS Panel Permits and AHJ Review | SABS with LÏEF Blocks"} />
-        <meta property="og:description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with LÏEF Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, by the Arizona owner's rep who runs the permits."} />
+        <meta property="og:title" content={"Phoenix EPS Panel Permits and AHJ Review | SABS with Lïef Blocks"} />
+        <meta property="og:description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with Lïef Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, from a Phoenix developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -183,11 +183,11 @@ const PhoenixEpsPanelPermits = () => {
         </h1>
 
         <p style={{ fontSize: "1.25rem", fontWeight: 400, lineHeight: 1.8, color: "var(--v2-white)", marginBottom: "16px", borderLeft: "3px solid var(--v2-neon)", paddingLeft: "20px" }}>
-          City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with LÏEF Blocks. Phoenix-area modular EPS panel construction is not a regulatory unknown. It is an engineered alternate path under the ICC-ES ESR-1638 evaluation report, and every Valley AHJ that LÏEF Development has filed in has accepted the documentation and stamped the permit.
+          City of Phoenix, City of Scottsdale, Town of Paradise Valley, City of Tempe, City of Mesa, and Maricopa County have all reviewed and issued building permits on SABS construction with Lïef Blocks. Phoenix-area modular EPS panel construction is not a regulatory unknown. It is an engineered alternate path under the ICC-ES ESR-1638 evaluation report, and every Valley AHJ that Lïef Development has filed in has accepted the documentation and stamped the permit.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          I run the SABS owner's rep work across Arizona under LÏEF Development. The most common question on a first call about modular EPS panel construction in Phoenix is not about the panel itself. It is about plan check. Owners and architects want to know whether the AHJ will approve the wall, how long the review will take, and which documents have to ship. The answer is concrete on every count. This page is the working record of how the Phoenix-area permit sequence actually runs.
+          We run SABS projects across Arizona under Lïef Development. The most common question on a first call about modular EPS panel construction in Phoenix is not about the panel itself. It is about plan check. Owners and architects want to know whether the AHJ will approve the wall, how long the review will take, and which documents have to ship. The answer is concrete on every count. This page is the working record of how the Phoenix-area permit sequence actually runs.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -197,7 +197,7 @@ const PhoenixEpsPanelPermits = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "32px" }}>
-          Six AHJs have issued permits on SABS shells through LÏEF Development. Each one runs review a little differently. The wall system path is the same in every case.
+          Six AHJs have issued permits on SABS shells through Lïef Development. Each one runs review a little differently. The wall system path is the same in every case.
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "48px" }}>
@@ -231,7 +231,7 @@ const PhoenixEpsPanelPermits = () => {
         </h2>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "24px" }}>
-          A Phoenix-area building official does not approve a wall system based on a manufacturer brochure. They approve based on a current ICC Evaluation Service report, ASTM testing, and an engineered submittal under IRC or IBC code path. LÏEF carries the documentation package on every project.
+          A Phoenix-area building official does not approve a wall system based on a manufacturer brochure. They approve based on a current ICC Evaluation Service report, ASTM testing, and an engineered submittal under IRC or IBC code path. Lïef carries the documentation package on every project.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "48px" }}>
@@ -260,7 +260,7 @@ const PhoenixEpsPanelPermits = () => {
             ))}
           </div>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginTop: "16px", lineHeight: 1.6 }}>
-            Source: ICC-ES ESR-1638 (icc-es.org evaluation report registry) | ASTM E-84 surface burning characteristics | ASTM C578 Type XI EPS specification | LÏEF Development Phoenix-area permit submittal binder, 2024 to 2026
+            Source: ICC-ES ESR-1638 (icc-es.org evaluation report registry) | ASTM E-84 surface burning characteristics | ASTM C578 Type XI EPS specification | Lïef Development Phoenix-area permit submittal binder, 2024 to 2026
           </p>
         </div>
 
@@ -308,13 +308,13 @@ const PhoenixEpsPanelPermits = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          LÏEF runs both halves. The permit package and the install crew are the same operating relationship. That is the argument for an owner's rep on this work in the Arizona market. The plan check and the construction sequence move together because one firm carries both.
+          Lïef runs both halves. The permit package and the install crew are the same operating relationship. That is the argument for an owner's rep on this work in the Arizona market. The plan check and the construction sequence move together because one firm carries both.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds the operating relationship with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

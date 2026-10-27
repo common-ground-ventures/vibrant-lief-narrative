@@ -45,13 +45,13 @@ const V2Hero = () => {
           transition={{ duration: 0.75, ...stagger(1), ease: [.16, 1, .3, 1] }}
           className="mb-6 md:mb-8"
         >
-          <span className="v2-label hidden md:inline text-[1.25rem]">Development + Construction · Phoenix, AZ</span>
+          <span className="v2-label hidden md:inline text-[1.25rem]">Development · Phoenix, Arizona</span>
           <span
             className="md:hidden"
             style={{ fontSize: "1rem", textTransform: "uppercase", letterSpacing: "0.12em", color: "var(--v2-neon)" }}
           >
             <span className="inline-block w-4 h-px mr-2 align-middle" style={{ background: "var(--v2-neon)" }} />
-            Development + Construction · Phoenix, AZ
+            Development · Phoenix, Arizona
           </span>
         </motion.div>
 
@@ -86,11 +86,13 @@ const V2Hero = () => {
           className="mt-4 md:mt-5 max-w-[420px] hidden md:block"
           style={{ fontSize: "1.1rem", color: "var(--v2-dim)", lineHeight: 1.6 }}
         >
-          Development + Construction Consolidated.
+          We find buildings the market passed over.
+          <br className="hidden sm:inline" />
+          We design them in house and build them with partners we answer for.
+          <br className="hidden sm:inline" />
+          Lïef Midtown is the proof.
           <br className="hidden sm:inline" />
           300+ Skilled Tradesmen.
-          <br className="hidden sm:inline" />
-          One Team, No Gaps.
         </motion.p>
 
         <motion.div
@@ -99,17 +101,19 @@ const V2Hero = () => {
           transition={{ duration: 0.75, ...stagger(4), ease: [.16, 1, .3, 1] }}
           className="mt-8 md:mt-12 flex flex-wrap gap-3 md:gap-4"
         >
-          <button
-            onClick={() => document.querySelector("#communities")?.scrollIntoView({ behavior: "smooth" })}
+          <a
+            href="https://liefmidtownphx.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-all duration-300 hover:brightness-110"
             style={{
               fontFamily: "var(--v2-font-body)", fontSize: "clamp(1rem, 2.5vw, 1.25rem)", textTransform: "uppercase",
-              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-btn-bg)",
+              letterSpacing: "0.14em", fontWeight: 600, background: "var(--v2-btn-bg)", display: "inline-block",
               color: "var(--v2-btn-fg)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
             }}
           >
-            View Projects
-          </button>
+            See Lïef Midtown
+          </a>
           <button
             onClick={openModal}
             className="transition-all duration-300 hover:bg-[#C2B8A7] hover:text-[#0F1A14]"

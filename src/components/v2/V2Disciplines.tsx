@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import KanopiMark from "./KanopiMark";
 import { useInView } from "./useInView";
 import { useRef } from "react";
 
@@ -40,7 +41,7 @@ const V2Disciplines = () => {
       <div ref={ref} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12">
         {inView && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-0 items-start">
-            {/* Left — copy */}
+            {/* Left: copy */}
             <div className="mb-12 md:mb-0 md:sticky md:top-32">
               <motion.div initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0, ease }} className="mb-6" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.22em", color: "rgba(194,184,167,.7)" }}>
 
@@ -58,11 +59,12 @@ const V2Disciplines = () => {
                 className="max-w-md"
                 style={{ fontSize: "1.25rem", color: "rgba(239,236,227,.85)", lineHeight: 1.8 }}
               >
-                From the first line drawn to the final fixture placed, Lïef commands every aspect of creation. No handoffs. No compromises. No excuses.
+                From the first line drawn to the last fixture set, the same people answer for it. No handoffs. No compromises. No excuses.
               </motion.p>
+              <KanopiMark style={{ marginTop: "24px" }} />
             </div>
 
-            {/* Right — discipline grid */}
+            {/* Right: discipline grid */}
             <div className="grid grid-cols-2 gap-x-8">
               {disciplines.map((pair, i) => (
                 <motion.div

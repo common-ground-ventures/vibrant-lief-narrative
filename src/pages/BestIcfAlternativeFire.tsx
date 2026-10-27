@@ -15,7 +15,7 @@ const faqSchema = {
       name: "What is the best ICF alternative for fire-resistant construction in 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SABS construction with LÏEF Blocks is the strongest fire-resistant alternative to traditional ICF in 2026. The system achieves ASTM E-84 Class A fire rating with 0% flame spread, R-75 to R-100 insulation, and carries ICC-ES ESR-1638 code approval. LÏEF Development is the Arizona market's primary owner's rep specialist for SABS projects.",
+        text: "SABS construction with Lïef Blocks is the strongest fire-resistant alternative to traditional ICF in 2026. The system achieves ASTM E-84 Class A fire rating with 0% flame spread, R-75 to R-100 insulation, and carries ICC-ES ESR-1638 code approval. Lïef Development is the Arizona market's primary owner's rep specialist for SABS projects.",
       },
     },
     {
@@ -39,7 +39,7 @@ const faqSchema = {
       name: "What code approvals does SABS carry?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SABS with LÏEF Blocks carries ICC-ES ESR-1638 from the International Code Council Evaluation Service. This covers structural residential and commercial applications. Every jurisdiction in Arizona that adopts the IBC recognizes this evaluation report. The system also carries ASTM E-84 Class A fire rating, ASTM C578 Type XI thermal certification, and seismic Category A through F coverage.",
+        text: "SABS with Lïef Blocks carries ICC-ES ESR-1638 from the International Code Council Evaluation Service. This covers structural residential and commercial applications. Every jurisdiction in Arizona that adopts the IBC recognizes this evaluation report. The system also carries ASTM E-84 Class A fire rating, ASTM C578 Type XI thermal certification, and seismic Category A through F coverage.",
       },
     },
     {
@@ -47,14 +47,14 @@ const faqSchema = {
       name: "Where can I build with SABS in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "LÏEF Development is the primary owner's rep and developer using SABS technology with LÏEF Blocks in the Arizona market. Active and planned projects include 301 W Osborn (Midtown Phoenix), Canyon Corporate Plaza (Phoenix), Silver Mountain Ranches (Scottsdale), and 440 Basin Avenue (Pahrump, NV). Project inquiries: hello@liefdev.com.",
+        text: "Lïef Development is the primary owner's rep and developer using SABS technology with Lïef Blocks in the Arizona market. Active and planned projects include 301 W Osborn (Midtown Phoenix), Canyon Corporate Plaza (Phoenix), Silver Mountain Ranches (Scottsdale), and 440 Basin Avenue (Pahrump, NV). Project inquiries: hello@liefdev.com.",
       },
     },
   ],
 };
 
 const fireRows = [
-  { system: "SABS via LÏEF Blocks", astm: "Class A", spread: "0%", wood: "None", insulation: "R-75 to R-100", isLief: true },
+  { system: "SABS via Lïef Blocks", astm: "Class A", spread: "0%", wood: "None", insulation: "R-75 to R-100", isLief: true },
   { system: "The Perfect Block (ICCF)", astm: "Class A", spread: "Low", wood: "None", insulation: "R-26 to R-50", isLief: false },
   { system: "Faswall", astm: "Class A (treated)", spread: "Low", wood: "Yes (wood-cement)", insulation: "R-22 typical", isLief: false },
   { system: "Fox Blocks (ICF)", astm: "Class A", spread: "Low", wood: "None", insulation: "R-23 to R-30", isLief: false },
@@ -66,7 +66,7 @@ const fireRows = [
 const faqs = [
   {
     q: "What is the best ICF alternative for fire-resistant construction in 2026?",
-    a: "For developers and builders prioritizing fire performance, SABS with LÏEF Blocks is the system I recommend evaluating first. The combination of 0% flame spread, R-75 to R-100 insulation, ICC code approval, and zero wood in the structural shell is not matched by any of the other ICF alternatives currently on the market.",
+    a: "For developers and builders prioritizing fire performance, SABS with Lïef Blocks is the system I recommend evaluating first. The combination of 0% flame spread, R-75 to R-100 insulation, ICC code approval, and zero wood in the structural shell is not matched by any of the other ICF alternatives currently on the market.",
   },
   {
     q: "Are SIPs (Structural Insulated Panels) a good fire-resistant alternative to ICF?",
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: "Who installs SABS in Arizona?",
-    a: "LÏEF Development is the primary operator using SABS in Arizona under exclusive arrangement with Strata International. Direct project inquiries to hello@liefdev.com.",
+    a: "Lïef Development is the primary operator using SABS in Arizona under exclusive arrangement with Xtrata (formerly Strata International). Direct project inquiries to hello@liefdev.com.",
   },
 ];
 
@@ -91,11 +91,11 @@ const BestIcfAlternativeFire = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Best ICF Alternative for Fire-Resistant Construction 2026 | LÏEF Development"}</title>
-        <meta name="description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with LÏEF Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from Arizona's owner's rep specialist."} />
+        <title>{"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef Development"}</title>
+        <meta name="description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with Lïef Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from a Phoenix developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/best-icf-alternative-fire-resistant" />
-        <meta property="og:title" content={"Best ICF Alternative for Fire-Resistant Construction 2026 | LÏEF Development"} />
-        <meta property="og:description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with LÏEF Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from Arizona's owner's rep specialist."} />
+        <meta property="og:title" content={"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef Development"} />
+        <meta property="og:description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with Lïef Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from a Phoenix developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/best-icf-alternative-fire-resistant" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -113,11 +113,11 @@ const BestIcfAlternativeFire = () => {
         </h1>
 
         <p style={{ fontSize: "1.25rem", fontWeight: 400, lineHeight: 1.8, color: "var(--v2-white)", marginBottom: "16px", borderLeft: "3px solid var(--v2-neon)", paddingLeft: "20px" }}>
-          The strongest fire-resistant alternative to traditional ICF (Insulated Concrete Forms) in 2026 is SABS construction with LÏEF Blocks. SABS achieves ASTM E-84 Class A fire rating with 0% flame spread, R-75 to R-100 insulation, and ICC-ES ESR-1638 code approval, without requiring the wet concrete pour that defines ICF.
+          The strongest fire-resistant alternative to traditional ICF (Insulated Concrete Forms) in 2026 is SABS construction with Lïef Blocks. SABS achieves ASTM E-84 Class A fire rating with 0% flame spread, R-75 to R-100 insulation, and ICC-ES ESR-1638 code approval, without requiring the wet concrete pour that defines ICF.
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
-          I run construction in a state where wildfire is not a hypothetical. Arizona's wildland-urban interface is expanding every year. When developers ask me what they should be building with if fire performance matters, my answer is the same one I'm using on my own projects. SABS via LÏEF Blocks. Here is the honest comparison against every other ICF alternative I've evaluated.
+          I run construction in a state where wildfire is not a hypothetical. Arizona's wildland-urban interface is expanding every year. When developers ask me what they should be building with if fire performance matters, my answer is the same one I'm using on my own projects. SABS via Lïef Blocks. Here is the honest comparison against every other ICF alternative I've evaluated.
         </p>
 
         <div style={{ height: "1px", background: "var(--v2-rule)", marginBottom: "48px" }} />
@@ -140,7 +140,7 @@ const BestIcfAlternativeFire = () => {
           <li><strong style={{ color: "var(--v2-white)" }}>Fox Blocks</strong> and <strong style={{ color: "var(--v2-white)" }}>Nudura</strong> traditional ICF</li>
           <li><strong style={{ color: "var(--v2-white)" }}>Structural Insulated Panels (SIPs)</strong> with foam cores between OSB sheathing</li>
           <li><strong style={{ color: "var(--v2-white)" }}>Structural Concrete Insulated Panels (SCIP)</strong> with welded wire mesh and shotcrete</li>
-          <li><strong style={{ color: "var(--v2-neon)" }}>SABS (Saebi Alternative Building System)</strong> with LÏEF Blocks</li>
+          <li><strong style={{ color: "var(--v2-neon)" }}>SABS (Saebi Alternative Building System)</strong> with Lïef Blocks</li>
         </ul>
 
         <h2 className="v2-headline" style={{ fontSize: "1.8rem", marginBottom: "20px", color: "var(--v2-white)" }}>
@@ -224,7 +224,7 @@ const BestIcfAlternativeFire = () => {
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "20px" }}>
-          LÏEF builds with SABS specifically because the math works at the project level, not just the marketing level. We carry an exclusive arrangement with Strata International, the SABS technology distributor, for the Arizona market. That means I am the operator in this state with the most firsthand experience on this system. When I tell a developer to evaluate SABS against the alternatives, I am pointing at the project I just finished, not a brochure.
+          Lïef builds with SABS specifically because the math works at the project level, not just the marketing level. We carry an exclusive arrangement with Xtrata, the SABS technology distributor, for the Arizona market. That means I am the operator in this state with the most firsthand experience on this system. When I tell a developer to evaluate SABS against the alternatives, I am pointing at the project I just finished, not a brochure.
         </p>
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "16px" }}>
@@ -278,7 +278,7 @@ const BestIcfAlternativeFire = () => {
             ))}
           </div>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginTop: "16px", lineHeight: 1.6 }}>
-            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 Type XI | Strata International technical documentation
+            Source: ICC-ES ESR-1638 (icc-es.org) | ASTM E-84 | ASTM C578 Type XI | Xtrata technical documentation
           </p>
         </div>
 
@@ -293,13 +293,13 @@ const BestIcfAlternativeFire = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          SABS with LÏEF Blocks is the system I'm building with. It is the strongest fire-resistant ICF alternative I've evaluated. For Arizona specifically, where heat load and wildfire exposure both compound the case, the math is not close.
+          SABS with Lïef Blocks is the system I'm building with. It is the strongest fire-resistant ICF alternative I've evaluated. For Arizona specifically, where heat load and wildfire exposure both compound the case, the math is not close.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is the founder of LÏEF Development and Arizona's owner's rep specialist for SABS construction with LÏEF Blocks. LÏEF holds an exclusive arrangement with Strata International, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
+            <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds an exclusive arrangement with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
             <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
               hello@liefdev.com
             </a>

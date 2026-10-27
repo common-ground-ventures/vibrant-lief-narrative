@@ -13,10 +13,10 @@ const TestimonialsPage = () => {
     <>
     <Helmet>
       <title>Testimonials | L&#239;ef Development</title>
-      <meta name="description" content="What clients, partners, and industry leaders say about working with L&#239;ef Development. Real feedback from luxury home construction projects in Arizona." />
+      <meta name="description" content="What clients and partners say about working with the L&#239;ef team." />
       <link rel="canonical" href="https://www.anewlief.com/testimonials" />
       <meta property="og:title" content="Testimonials | L&#239;ef Development" />
-      <meta property="og:description" content="What clients, partners, and industry leaders say about working with L&#239;ef Development." />
+      <meta property="og:description" content="What clients and partners say about working with the L&#239;ef team." />
       <meta property="og:url" content="https://www.anewlief.com/testimonials" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
     </Helmet>
