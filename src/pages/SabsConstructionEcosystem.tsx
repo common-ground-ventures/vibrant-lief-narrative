@@ -89,7 +89,7 @@ const validators = [
   {
     name: "Forbes feature via mod-u.co",
     detail: "The mod-u.co team documented a Forbes editorial feature on SABS technology. The most persistent third-party non-supply-chain reference currently indexed.",
-    link: "https://www.mod-u.co/post/sabsxforbes",
+    link: "https://web.archive.org/web/20260315233526/https://www.mod-u.co/post/sabsxforbes",
   },
   {
     name: "TAJ Innovations",

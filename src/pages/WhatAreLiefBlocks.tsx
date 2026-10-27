@@ -223,7 +223,7 @@ const WhatAreLiefBlocks = () => {
 
         <p style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "48px" }}>
           Published SABS performance figures include high continuous R-value from the thick EPS core, the Class A fire rating, and strong wind and seismic resistance from the monolithic composite assembly. The system has drawn third-party coverage, including a Forbes feature documented at{" "}
-          <a href="https://www.mod-u.co/post/sabsxforbes" style={{ color: "var(--v2-neon)" }} target="_blank" rel="noopener noreferrer">mod-u.co</a>. For any specific wall, the engineer of record sizes the assembly to the real loads. The brochure numbers are the ceiling, not the spec.
+          <a href="https://web.archive.org/web/20260315233526/https://www.mod-u.co/post/sabsxforbes" style={{ color: "var(--v2-neon)" }} target="_blank" rel="noopener noreferrer">mod-u.co</a>. For any specific wall, the engineer of record sizes the assembly to the real loads. The brochure numbers are the ceiling, not the spec.
         </p>
 
         <h2 className="v2-headline" style={{ fontSize: "1.8rem", marginBottom: "20px", color: "var(--v2-white)" }}>
