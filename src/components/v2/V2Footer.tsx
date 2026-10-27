@@ -48,10 +48,15 @@ const V2Footer = () => {
           <div>
             <img src={logoConcrete} alt="Lïef" className="h-6 w-auto mb-4" />
             <p className="v2-headline text-sm mb-2" style={{ color: "var(--v2-white)" }}>
-              DEVELOPMENT + CONSTRUCTION
+              DEVELOPMENT
             </p>
             <p style={{ fontSize: "1.25rem", color: "var(--v2-neon)" }}>BUILT. DIFFERENT.</p>
             <p className="mt-2" style={{ fontSize: "1.25rem", color: "var(--v2-dim)" }}>Phoenix, Arizona</p>
+            <p style={{ marginTop: "16px" }}>
+              <a href="https://kanopibuild.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1rem", textTransform: "uppercase", letterSpacing: "0.14em", color: "var(--v2-neon)", textDecoration: "none", borderBottom: "1px solid var(--v2-neon)", paddingBottom: "2px" }}>
+                Powered by Kanopi &#8599;
+              </a>
+            </p>
           </div>
 
           {/* Explore */}
@@ -85,8 +90,13 @@ const V2Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.strataus.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
+                <a href="https://www.xtrata.com/" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
                   Distributors
+                </a>
+              </li>
+              <li>
+                <a href="https://www.liefbuilders.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
+                  Services: Lïef Builders
                 </a>
               </li>
             </ul>
@@ -113,7 +123,7 @@ const V2Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4" style={{ borderTop: "1px solid var(--v2-rule)" }}>
           <div>
-            <p style={{ fontSize: "1.25rem", color: "var(--v2-dim)" }}>© 2026 Lïef Development + Construction</p>
+            <p style={{ fontSize: "1.25rem", color: "var(--v2-dim)" }}>© 2026 Lïef Development</p>
           </div>
           <p style={{ fontSize: "1.25rem", color: "var(--v2-dim)", opacity: 0.5 }}>
             Created by{" "}
