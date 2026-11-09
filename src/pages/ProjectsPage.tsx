@@ -9,7 +9,7 @@ import osbornImg from "@/assets/v2/lief-midtown-hero.jpg"; /* the Lïef Midtown 
 import canyonImg from "@/assets/v2/canyon-corporate.jpg";
 import silverImg from "@/assets/v2/silver-mountain.jpg";
 import basinImg from "@/assets/v2/pahrump-basin.jpg";
-import vailImg from "@/assets/v2/the-vail.png";
+import vailImg from "@/assets/v2/the-vail.webp";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const accentColor = "#C2B8A7";

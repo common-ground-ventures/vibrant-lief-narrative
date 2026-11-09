@@ -11,7 +11,7 @@ import logoConcrete from "@/assets/v2/logo-concrete.png";
 
 /* ── PARTNER LOGOS ── */
 import logoRitzCarlton from "@/assets/v2/logos/ritz-carlton.png";
-import logoDiscovery from "@/assets/v2/logos/discovery-channel.png";
+import logoDiscovery from "@/assets/v2/logos/discovery-channel.webp";
 import logoPgaTour from "@/assets/v2/logos/pga-tour.png";
 import logoAD from "@/assets/v2/logos/architectural-digest.png";
 import logoCobra from "@/assets/v2/logos/shelby.png";
