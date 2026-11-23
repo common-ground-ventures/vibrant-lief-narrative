@@ -153,10 +153,10 @@ const ModularEpsPanelPhoenix = () => {
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
         <title>{"Modular EPS Panel Construction Phoenix | SABS with Lïef Blocks"}</title>
-        <meta name="description" content={"Modular EPS panel construction in Phoenix, from a Phoenix developer who builds with it. SABS with Lïef Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <meta name="description" content={"Modular EPS panel construction in Phoenix: SABS with Lïef Blocks, ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100, from a developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
         <meta property="og:title" content={"Modular EPS Panel Construction Phoenix | SABS with Lïef Blocks"} />
-        <meta property="og:description" content={"Modular EPS panel construction in Phoenix, from a Phoenix developer who builds with it. SABS with Lïef Blocks: ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100. The difference between an EPS supplier, a SIP manufacturer, and a complete building system."} />
+        <meta property="og:description" content={"Modular EPS panel construction in Phoenix: SABS with Lïef Blocks, ICC-ES ESR-1638, ASTM E-84 Class A, R-75 to R-100, from a developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/modular-eps-panel-construction-phoenix" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

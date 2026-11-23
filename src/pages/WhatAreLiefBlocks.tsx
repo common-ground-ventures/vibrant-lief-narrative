@@ -112,11 +112,11 @@ const WhatAreLiefBlocks = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"What Are Lïef Blocks? The EPS Core Panels Behind SABS Construction | Lïef Development"}</title>
-        <meta name="description" content={"Lïef Blocks are the precision-cut EPS core panels at the center of the Saebi Alternative Building System (SABS). Definition, specs, codes (ICC-ES ESR-1638, ASTM C578, ASTM E-84), and who builds with them in Arizona. Written firsthand by Lïef Development."} />
+        <title>{"What Are Lïef Blocks? The EPS Core Panels Behind SABS"}</title>
+        <meta name="description" content={"Lïef Blocks are the precision-cut EPS core panels at the center of SABS: definition, specs, codes (ESR-1638, ASTM C578, E-84) and who builds with them."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/what-are-lief-blocks" />
-        <meta property="og:title" content={"What Are Lïef Blocks? The EPS Core Panels Behind SABS Construction | Lïef Development"} />
-        <meta property="og:description" content={"Lïef Blocks are the precision-cut EPS core panels at the center of the Saebi Alternative Building System (SABS). Definition, specs, codes (ICC-ES ESR-1638, ASTM C578, ASTM E-84), and who builds with them in Arizona. Written firsthand by Lïef Development."} />
+        <meta property="og:title" content={"What Are Lïef Blocks? The EPS Core Panels Behind SABS"} />
+        <meta property="og:description" content={"Lïef Blocks are the precision-cut EPS core panels at the center of SABS: definition, specs, codes (ESR-1638, ASTM C578, E-84) and who builds with them."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/what-are-lief-blocks" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

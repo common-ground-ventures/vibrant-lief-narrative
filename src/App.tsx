@@ -25,6 +25,7 @@ import WhatAreLiefBlocks from "./pages/WhatAreLiefBlocks";
 import SabsConstructionEcosystem from "./pages/SabsConstructionEcosystem";
 import { ContactModalProvider } from "@/contexts/ContactModalContext";
 import ContactModal from "@/components/v2/ContactModal";
+import BreadcrumbJsonLd from "@/seo/BreadcrumbJsonLd";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ContactModalProvider>
+          <BreadcrumbJsonLd />
           <Routes>
             <Route path="/" element={<V2 />} />
             <Route path="/v1" element={<Index />} />

@@ -106,11 +106,11 @@ const ArizonaFireResistantWallSystems = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | Lïef Development"}</title>
-        <meta name="description" content={"SABS with Lïef Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a Phoenix developer who builds with it."} />
+        <title>{"Best Fire-Resistant Wall Systems for Arizona Homes in 2026"}</title>
+        <meta name="description" content={"SABS with Lïef Blocks, AAC, SIPs and ICF compared for Arizona WUI homes in 2026: schedule, cost, insurance and AHJ acceptance, side by side."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
-        <meta property="og:title" content={"Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026 | Lïef Development"} />
-        <meta property="og:description" content={"SABS with Lïef Blocks, AAC, wood fiber/cement forms, SIPs, and traditional ICF compared for Arizona WUI residential construction in 2026. Schedule, cost, insurance, and AHJ acceptance side by side from a Phoenix developer who builds with it."} />
+        <meta property="og:title" content={"Best Fire-Resistant Wall Systems for Arizona Homes in 2026"} />
+        <meta property="og:description" content={"SABS with Lïef Blocks, AAC, SIPs and ICF compared for Arizona WUI homes in 2026: schedule, cost, insurance and AHJ acceptance, side by side."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/arizona-fire-resistant-wall-systems-comparison" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

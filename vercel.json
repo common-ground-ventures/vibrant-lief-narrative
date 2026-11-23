@@ -41,5 +41,20 @@
   "installCommand": "echo prerendered-static",
   "buildCommand": "echo prerendered-static",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
 }

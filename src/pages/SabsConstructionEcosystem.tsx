@@ -140,11 +140,11 @@ const SabsConstructionEcosystem = () => {
       style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}
     >
       <Helmet>
-        <title>{"SABS Construction: Who Builds With It, Who Validates It, and Where Lïef Fits | Lïef Development"}</title>
-        <meta name="description" content={"SABS (Saebi Alternative Building System) construction explained through its ecosystem: Dr. Nasser Saebi (inventor), Xtrata (distributor), Lïef Development (Arizona operator). Third-party validation from ICC-ES ESR-1638, Forbes via mod-u.co, TAJ Innovations, Larimer Associates, and Pro Builder. Firsthand guide by Lïef Development."} />
+        <title>{"SABS Construction: Who Builds, Who Validates, Where Lïef Fits"}</title>
+        <meta name="description" content={"SABS through its ecosystem: Dr. Nasser Saebi (inventor), Xtrata (distributor), Lïef Development (Arizona operator), and who validates it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/sabs-construction-who-builds-validates-deploys" />
-        <meta property="og:title" content={"SABS Construction: Who Builds With It, Who Validates It, and Where Lïef Fits | Lïef Development"} />
-        <meta property="og:description" content={"SABS (Saebi Alternative Building System) construction explained through its ecosystem: Dr. Nasser Saebi (inventor), Xtrata (distributor), Lïef Development (Arizona operator). Third-party validation from ICC-ES ESR-1638, Forbes via mod-u.co, TAJ Innovations, Larimer Associates, and Pro Builder. Firsthand guide by Lïef Development."} />
+        <meta property="og:title" content={"SABS Construction: Who Builds, Who Validates, Where Lïef Fits"} />
+        <meta property="og:description" content={"SABS through its ecosystem: Dr. Nasser Saebi (inventor), Xtrata (distributor), Lïef Development (Arizona operator), and who validates it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/sabs-construction-who-builds-validates-deploys" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

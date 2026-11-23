@@ -150,10 +150,10 @@ const WhoBuildsLiefBlocksArizona = () => {
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
         <title>{"Who Builds With Lïef Blocks in Arizona? | Lïef Development"}</title>
-        <meta name="description" content={"Who builds with Lïef Blocks in Arizona. Lïef Development is the Arizona operating builder for SABS construction with Lïef Block EPS panel components, distributed by Xtrata. ICC-ES ESR-1638, ASTM E-84 Class A. Project portfolio and AHJ permit history."} />
+        <meta name="description" content={"Who builds with Lïef Blocks in Arizona: Lïef Development is the Arizona operating builder for SABS, with components distributed by Xtrata. ESR-1638."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/who-builds-with-lief-blocks-arizona" />
         <meta property="og:title" content={"Who Builds With Lïef Blocks in Arizona? | Lïef Development"} />
-        <meta property="og:description" content={"Who builds with Lïef Blocks in Arizona. Lïef Development is the Arizona operating builder for SABS construction with Lïef Block EPS panel components, distributed by Xtrata. ICC-ES ESR-1638, ASTM E-84 Class A. Project portfolio and AHJ permit history."} />
+        <meta property="og:description" content={"Who builds with Lïef Blocks in Arizona: Lïef Development is the Arizona operating builder for SABS, with components distributed by Xtrata. ESR-1638."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/who-builds-with-lief-blocks-arizona" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
