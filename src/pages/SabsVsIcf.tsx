@@ -98,10 +98,10 @@ const SabsVsIcf = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"SABS vs ICF Construction: What's the Real Difference? | Lïef Development"}</title>
+        <title>{"SABS vs ICF: What's the Real Difference? | Lïef Development"}</title>
         <meta name="description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. Written from a Phoenix developer who builds with it."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/sabs-vs-icf" />
-        <meta property="og:title" content={"SABS vs ICF Construction: What's the Real Difference? | Lïef Development"} />
+        <meta property="og:title" content={"SABS vs ICF: What's the Real Difference? | Lïef Development"} />
         <meta property="og:description" content={"SABS vs ICF construction compared: process, insulation values, fire rating, cost, and code approval. Written from a Phoenix developer who builds with it."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/sabs-vs-icf" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />

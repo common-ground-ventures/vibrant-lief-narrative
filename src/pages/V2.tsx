@@ -69,15 +69,15 @@ const V2 = () => {
   return (
     <>
     <Helmet>
-      <title>L&#239;ef Development | Developer of L&#239;ef Midtown | Arizona's Premier Luxury Home Builder</title>
-      <meta name="description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Our lead project is Lïef Midtown at 301 W Osborn in Phoenix. Luxury custom homes, adaptive reuse, and commercial developments with proprietary SABS technology." />
+      <title>L&#239;ef Development | Arizona Luxury Builder, Developer of L&#239;ef Midtown</title>
+      <meta name="description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Lead project: Lïef Midtown at 301 W Osborn, Phoenix." />
       <link rel="canonical" href="https://www.anewlief.com/" />
-      <meta property="og:title" content="L&#239;ef Development | Developer of L&#239;ef Midtown | Arizona's Premier Luxury Home Builder" />
-      <meta property="og:description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Our lead project is Lïef Midtown at 301 W Osborn in Phoenix. Luxury custom homes, adaptive reuse, and commercial developments with proprietary SABS technology." />
+      <meta property="og:title" content="L&#239;ef Development | Arizona Luxury Builder, Developer of L&#239;ef Midtown" />
+      <meta property="og:description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Lead project: Lïef Midtown at 301 W Osborn, Phoenix." />
       <meta property="og:url" content="https://www.anewlief.com/" />
       <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
-      <meta name="twitter:title" content="L&#239;ef Development | Developer of L&#239;ef Midtown | Arizona's Premier Luxury Home Builder" />
-      <meta name="twitter:description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Our lead project is Lïef Midtown at 301 W Osborn in Phoenix. Luxury custom homes, adaptive reuse, and commercial developments with proprietary SABS technology." />
+      <meta name="twitter:title" content="L&#239;ef Development | Arizona Luxury Builder, Developer of L&#239;ef Midtown" />
+      <meta name="twitter:description" content="Lïef Development finds buildings the market passed over and turns them into places worth living. Lead project: Lïef Midtown at 301 W Osborn, Phoenix." />
       <meta name="twitter:image" content="https://www.anewlief.com/og-image.jpg" />
       <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
     </Helmet>

@@ -169,11 +169,11 @@ const AlternativeConstructionMethodsArizona = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Alternative Construction Methods Arizona Builders Use in 2026 | Lïef Development"}</title>
-        <meta name="description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with Lïef Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
+        <title>{"Alternative Construction Methods Arizona Builders Use in 2026"}</title>
+        <meta name="description" content={"Seven alternative construction methods Arizona builders use in 2026, from adobe and SIPs to ICF and SABS, compared on code path, fire rating and heat."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/alternative-construction-methods-arizona-builders" />
-        <meta property="og:title" content={"Alternative Construction Methods Arizona Builders Use in 2026 | Lïef Development"} />
-        <meta property="og:description" content={"The seven alternative construction methods Arizona builders actually use in 2026: adobe, rammed earth, cob, SIPs, AAC block, traditional ICF, and SABS construction with Lïef Blocks. Code path, fire rating, thermal performance, and operator network compared by the Arizona owner's rep running SABS work."} />
+        <meta property="og:title" content={"Alternative Construction Methods Arizona Builders Use in 2026"} />
+        <meta property="og:description" content={"Seven alternative construction methods Arizona builders use in 2026, from adobe and SIPs to ICF and SABS, compared on code path, fire rating and heat."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/alternative-construction-methods-arizona-builders" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

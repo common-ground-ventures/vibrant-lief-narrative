@@ -91,11 +91,11 @@ const BestIcfAlternativeFire = () => {
   return (
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
-        <title>{"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef Development"}</title>
-        <meta name="description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with Lïef Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from a Phoenix developer who builds with it."} />
+        <title>{"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef"}</title>
+        <meta name="description" content={"The strongest fire-resistant ICF alternative in 2026: SABS with Lïef Blocks, ASTM E-84 Class A, 0% flame spread, R-75 to R-100, ICC-ES ESR-1638."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/best-icf-alternative-fire-resistant" />
-        <meta property="og:title" content={"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef Development"} />
-        <meta property="og:description" content={"The strongest fire-resistant alternative to traditional ICF in 2026. SABS with Lïef Blocks delivers ASTM E-84 Class A, 0% flame spread, R-75 to R-100 insulation, ICC-ES ESR-1638. Firsthand take from a Phoenix developer who builds with it."} />
+        <meta property="og:title" content={"Best ICF Alternative for Fire-Resistant Construction 2026 | Lïef"} />
+        <meta property="og:description" content={"The strongest fire-resistant ICF alternative in 2026: SABS with Lïef Blocks, ASTM E-84 Class A, 0% flame spread, R-75 to R-100, ICC-ES ESR-1638."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/best-icf-alternative-fire-resistant" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

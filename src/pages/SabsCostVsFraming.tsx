@@ -138,10 +138,10 @@ const SabsCostVsFraming = () => {
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
         <title>{"SABS Construction Cost vs Traditional Framing | Lïef Development"}</title>
-        <meta name="description" content={"Honest 2026 Arizona cost breakdown: SABS construction with Lïef Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
+        <meta name="description" content={"An honest 2026 Arizona cost breakdown: SABS with Lïef Blocks vs stick frame and ICF. Shell cost, HVAC sizing, schedule, insurance, and where SABS wins."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/sabs-cost-vs-traditional-framing" />
         <meta property="og:title" content={"SABS Construction Cost vs Traditional Framing | Lïef Development"} />
-        <meta property="og:description" content={"Honest 2026 Arizona cost breakdown: SABS construction with Lïef Blocks vs stick-frame and traditional ICF. Shell cost ranges, HVAC sizing impact, schedule carry, insurance, and trade coordination. Where SABS wins on total project cost and where it does not."} />
+        <meta property="og:description" content={"An honest 2026 Arizona cost breakdown: SABS with Lïef Blocks vs stick frame and ICF. Shell cost, HVAC sizing, schedule, insurance, and where SABS wins."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/sabs-cost-vs-traditional-framing" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

@@ -162,10 +162,10 @@ const PhoenixEpsPanelPermits = () => {
     <div className="v2 min-h-screen overflow-x-hidden" style={{ background: "var(--v2-deep)", color: "var(--v2-white)" }}>
       <Helmet>
         <title>{"Phoenix EPS Panel Permits and AHJ Review | SABS with Lïef Blocks"}</title>
-        <meta name="description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with Lïef Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, from a Phoenix developer who builds with it."} />
+        <meta name="description" content={"What happens at plan check when you permit an EPS panel building in Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa and Maricopa County."} />
         <link rel="canonical" href="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
         <meta property="og:title" content={"Phoenix EPS Panel Permits and AHJ Review | SABS with Lïef Blocks"} />
-        <meta property="og:description" content={"What actually happens at plan check when you permit a modular EPS panel building in Phoenix. SABS with Lïef Blocks across the City of Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa, and Maricopa County, from a Phoenix developer who builds with it."} />
+        <meta property="og:description" content={"What happens at plan check when you permit an EPS panel building in Phoenix, Scottsdale, Paradise Valley, Tempe, Mesa and Maricopa County."} />
         <meta property="og:url" content="https://www.anewlief.com/learn/phoenix-eps-panel-permits-ahj" />
         <meta property="og:image" content="https://www.anewlief.com/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
