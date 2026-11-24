@@ -1403,7 +1403,7 @@ const navLinks = [
   { href: "#model", label: "The Model", type: "scroll" },
   { href: "/ai", label: "AI", type: "route" },
   { href: "/projects", label: "Projects", type: "route" },
-  { href: "/sabs", label: "LÏEF X SABS", type: "route" },
+  { href: "/sabs", label: "Lïef X SABS", type: "route" },
   { href: "/team", label: "Team", type: "route" },
   { href: "/testimonials", label: "Testimonials", type: "route" }
 ];
@@ -2687,7 +2687,7 @@ const LiefBlocks = () => {
               /* @__PURE__ */ jsx("span", { className: "v2-neon-period", children: "." })
             ] })
           ] }),
-          /* @__PURE__ */ jsx(motion.p, { initial: { opacity: 0, y: 35 }, animate: show(techInView), transition: { duration: 0.75, delay: 0.16, ease: ease$5 }, className: "max-w-[600px] mb-16", style: { fontWeight: 300, fontSize: "1.25rem", color: "var(--v2-muted)", lineHeight: 1.8 }, children: "Every component of the LÏEF Blocks system is tested, certified, and code-compliant. No shortcuts. No workarounds." }),
+          /* @__PURE__ */ jsx(motion.p, { initial: { opacity: 0, y: 35 }, animate: show(techInView), transition: { duration: 0.75, delay: 0.16, ease: ease$5 }, className: "max-w-[600px] mb-16", style: { fontWeight: 300, fontSize: "1.25rem", color: "var(--v2-muted)", lineHeight: 1.8 }, children: "Every component of the Lïef Blocks system is tested, certified, and code-compliant. No shortcuts. No workarounds." }),
           /* @__PURE__ */ jsx(motion.div, { initial: { opacity: 0, y: 35 }, animate: show(techInView), transition: { duration: 0.75, delay: 0.24, ease: ease$5 }, className: "grid grid-cols-1 md:grid-cols-2 gap-px", children: technicals.map((tech, i) => {
             const Icon = technicalIcons[i];
             return /* @__PURE__ */ jsxs(
@@ -2800,7 +2800,7 @@ const LiefBlocks = () => {
             /* @__PURE__ */ jsx("span", { style: { color: "var(--v2-neon)" }, children: "DIFFERENCE" }),
             /* @__PURE__ */ jsx("span", { className: "v2-neon-period", children: "." })
           ] }),
-          /* @__PURE__ */ jsx("p", { className: "max-w-md", style: { fontWeight: 300, fontSize: "1.25rem", color: "var(--v2-muted)", lineHeight: 1.8 }, children: "Estimate your project savings with LÏEF Blocks compared to traditional construction." })
+          /* @__PURE__ */ jsx("p", { className: "max-w-md", style: { fontWeight: 300, fontSize: "1.25rem", color: "var(--v2-muted)", lineHeight: 1.8 }, children: "Estimate your project savings with Lïef Blocks compared to traditional construction." })
         ] }),
         /* @__PURE__ */ jsxs(motion.div, { initial: { opacity: 0, y: 35 }, animate: show(calcInView), transition: { duration: 0.75, delay: 0.08, ease: ease$5 }, className: "p-8 md:p-10", style: { border: "1px solid var(--v2-rule)", background: "rgba(0,255,136,.01)" }, children: [
           /* @__PURE__ */ jsx("label", { className: "block mb-2", style: { fontSize: "1rem", color: "var(--v2-dim)", letterSpacing: "0.05em" }, children: "Project Type" }),
@@ -2884,7 +2884,7 @@ const LiefBlocks = () => {
             "BUILD WITH US",
             /* @__PURE__ */ jsx("span", { className: "v2-neon-period", children: "." })
           ] }),
-          /* @__PURE__ */ jsx(motion.p, { initial: { opacity: 0, y: 35 }, animate: show(ctaInView), transition: { duration: 0.75, delay: 0.08, ease: ease$5 }, className: "mb-10 max-w-[420px]", style: { fontWeight: 300, fontSize: "1.3rem", color: "var(--v2-muted)", lineHeight: 1.7 }, children: "Whether you're a developer, builder, or investor, let's talk about how LÏEF x SABS can transform your next project." }),
+          /* @__PURE__ */ jsx(motion.p, { initial: { opacity: 0, y: 35 }, animate: show(ctaInView), transition: { duration: 0.75, delay: 0.08, ease: ease$5 }, className: "mb-10 max-w-[420px]", style: { fontWeight: 300, fontSize: "1.3rem", color: "var(--v2-muted)", lineHeight: 1.7 }, children: "Whether you're a developer, builder, or investor, let's talk about how Lïef x SABS can transform your next project." }),
           /* @__PURE__ */ jsxs(motion.div, { initial: { opacity: 0, y: 35 }, animate: show(ctaInView), transition: { duration: 0.75, delay: 0.16, ease: ease$5 }, className: "flex flex-wrap justify-center gap-4", children: [
             /* @__PURE__ */ jsx(
               "button",

@@ -16,7 +16,7 @@ const navLinks: NavLink[] = [
   { href: "#model", label: "The Model", type: "scroll" },
   { href: "/ai", label: "AI", type: "route" },
   { href: "/projects", label: "Projects", type: "route" },
-  { href: "/sabs", label: "LÏEF X SABS", type: "route" },
+  { href: "/sabs", label: "Lïef X SABS", type: "route" },
   { href: "/team", label: "Team", type: "route" },
   { href: "/testimonials", label: "Testimonials", type: "route" },
 ];
@@ -166,7 +166,7 @@ const V2Nav = () => {
               background: "none", border: "none", cursor: "pointer",
               transition: "opacity 0.5s, transform 0.5s",
             }}
-            aria-label="LÏEF"
+            aria-label="Lïef"
           >
             {/* logo shape filled with the hunter green so it reads on the Loggia bar */}
             <span className="relative block">
