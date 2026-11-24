@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import { keepCase } from "@/lib/keepCase";
 import { useRef, useState, useEffect } from "react";
 import logoLight from "@/assets/lief-logo-light.png";
 import { useContactModal } from "@/contexts/ContactModalContext";
@@ -112,7 +113,7 @@ const V2Hero = () => {
               color: "var(--v2-btn-fg)", border: "1px solid var(--v2-loggia)", padding: "10px 24px", cursor: "pointer",
             }}
           >
-            See Lïef Midtown
+            {keepCase("See Lïef Midtown")}
           </a>
           <button
             onClick={openModal}

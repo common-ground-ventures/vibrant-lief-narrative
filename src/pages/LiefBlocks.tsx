@@ -1,4 +1,5 @@
 import "@/styles/v2.css";
+import { keepCase } from "@/lib/keepCase";
 import { useState, useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -228,13 +229,13 @@ const LiefBlocks = () => {
                   className="mb-6 md:mb-8"
                 >
                   <span className="v2-label hidden md:inline text-[1.25rem]">
-                    L&iuml;ef x SABS
+                    {keepCase("Lïef x SABS")}
                   </span>
                   <span
                     className="md:hidden"
                     style={{ fontSize: "1rem", textTransform: "uppercase", letterSpacing: "0.12em", color: "var(--v2-neon)" }}
                   >
-                    L&iuml;ef x SABS
+                    {keepCase("Lïef x SABS")}
                   </span>
                 </motion.div>
 

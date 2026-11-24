@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { keepCase } from "@/lib/keepCase";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -279,7 +280,7 @@ const SabsConstructionEcosystem = () => {
                   marginBottom: "4px",
                 }}
               >
-                {entity.name}
+                {keepCase(entity.name)}
               </p>
               <p style={{ fontSize: "0.98rem", fontWeight: 300, lineHeight: 1.7, color: "var(--v2-muted)" }}>
                 {entity.role}
