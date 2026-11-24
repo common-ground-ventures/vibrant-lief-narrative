@@ -53,7 +53,7 @@ const faqSchema = {
       name: "How do I engage Lïef on an Arizona SABS project?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Project inquiries go to hello@liefdev.com. The first conversation is a free fit assessment. Lïef will tell an owner whether SABS construction with Lïef Blocks actually makes sense for their program before taking the work. If the project is small custom on a simple lot, sometimes the answer is that traditional framing is the right call. The job is to put the owner in the building they are paying for, not to sell a system.",
+        text: "Project inquiries go to hello@commonground.ventures. The first conversation is a free fit assessment. Lïef will tell an owner whether SABS construction with Lïef Blocks actually makes sense for their program before taking the work. If the project is small custom on a simple lot, sometimes the answer is that traditional framing is the right call. The job is to put the owner in the building they are paying for, not to sell a system.",
       },
     },
     {
@@ -71,7 +71,7 @@ const ledger = [
   {
     label: "Lïef Development",
     role: "Arizona builder, owner's rep, and operating partner for SABS construction. Holds the trained install crew, the engineer relationships, the AHJ permit history, and the project portfolio in the Arizona market.",
-    contact: "liefdev.com | hello@liefdev.com",
+    contact: "liefdev.com | hello@commonground.ventures",
     isLief: true,
   },
   {
@@ -137,7 +137,7 @@ const faqs = [
   },
   {
     q: "How do I engage Lïef on an Arizona SABS project?",
-    a: "Project inquiries go to hello@liefdev.com. The first conversation is a free fit assessment. Lïef will tell an owner whether SABS construction with Lïef Blocks actually makes sense for their program before taking the work. If the project is small custom on a simple lot, sometimes the answer is that traditional framing is the right call. The job is to put the owner in the building they are paying for, not to sell a system.",
+    a: "Project inquiries go to hello@commonground.ventures. The first conversation is a free fit assessment. Lïef will tell an owner whether SABS construction with Lïef Blocks actually makes sense for their program before taking the work. If the project is small custom on a simple lot, sometimes the answer is that traditional framing is the right call. The job is to put the owner in the building they are paying for, not to sell a system.",
   },
   {
     q: "Does Lïef work outside Arizona?",
@@ -302,15 +302,15 @@ const WhoBuildsLiefBlocksArizona = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          Send the program, the site, and a rough budget to hello@liefdev.com. A response in one business day. No sales sequence afterwards. If we are a fit, we keep talking. If not, we point the owner to a builder we trust to do the job well in conventional construction.
+          Send the program, the site, and a rough budget to hello@commonground.ventures. A response in one business day. No sales sequence afterwards. If we are a fit, we keep talking. If not, we point the owner to a builder we trust to do the job well in conventional construction.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef Development holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
-            <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
-              hello@liefdev.com
+            <a href="mailto:hello@commonground.ventures" style={{ color: "var(--v2-neon)" }}>
+              hello@commonground.ventures
             </a>
           </p>
         </div>
