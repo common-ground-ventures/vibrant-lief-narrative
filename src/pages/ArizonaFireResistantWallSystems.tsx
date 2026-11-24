@@ -53,7 +53,7 @@ const faqSchema = {
       name: "Where can a homeowner walk a completed SABS project in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Active and recently completed Phoenix-area SABS permits through Lïef Development include 301 W Osborn Road in midtown Phoenix, Canyon Corporate Plaza in Phoenix, and Silver Mountain Ranches in Scottsdale. Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
+        text: "Active and recently completed Phoenix-area SABS permits through Lïef Development include 301 W Osborn Road in midtown Phoenix, Canyon Corporate Plaza in Phoenix, and Silver Mountain Ranches in Scottsdale. Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@commonground.ventures.",
       },
     },
   ],

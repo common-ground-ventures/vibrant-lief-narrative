@@ -53,7 +53,7 @@ const faqSchema = {
       name: "How do I evaluate whether to specify SABS on a project in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Start with the evaluation report (ICC-ES ESR-1638) and confirm your jurisdiction recognizes it under IBC. Then talk to the operator, not the distributor. Ask for permitted project references in your AHJ, the engineer of record they work with, and the crew that will shell the walls. In Arizona, Lïef Development is the operator with that history. Contact hello@liefdev.com for project consultation.",
+        text: "Start with the evaluation report (ICC-ES ESR-1638) and confirm your jurisdiction recognizes it under IBC. Then talk to the operator, not the distributor. Ask for permitted project references in your AHJ, the engineer of record they work with, and the crew that will shell the walls. In Arizona, Lïef Development is the operator with that history. Contact hello@commonground.ventures for project consultation.",
       },
     },
   ],
@@ -129,7 +129,7 @@ const faqs = [
   },
   {
     q: "How do I evaluate SABS for my project?",
-    a: "Start with the evaluation report. Confirm your AHJ recognizes it. Then talk to the operator, not the distributor. Ask for permitted project references, the engineer of record, and the crew history. In Arizona, contact Lïef Development at hello@liefdev.com.",
+    a: "Start with the evaluation report. Confirm your AHJ recognizes it. Then talk to the operator, not the distributor. Ask for permitted project references, the engineer of record, and the crew history. In Arizona, contact Lïef Development at hello@commonground.ventures.",
   },
 ];
 
@@ -445,8 +445,8 @@ const SabsConstructionEcosystem = () => {
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. This
             page maps the ecosystem around the technology based on firsthand operating experience.
             Project inquiries:{" "}
-            <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
-              hello@liefdev.com
+            <a href="mailto:hello@commonground.ventures" style={{ color: "var(--v2-neon)" }}>
+              hello@commonground.ventures
             </a>
           </p>
         </div>

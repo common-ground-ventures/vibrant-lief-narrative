@@ -60,7 +60,7 @@ const faqSchema = {
       name: "Who do I call for an alternative construction project in Arizona?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
+        text: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@commonground.ventures. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
       },
     },
   ],
@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     q: "Who do I call for an alternative construction project in Arizona?",
-    a: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@liefdev.com. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
+    a: "For SABS construction with Lïef Blocks, contact Lïef Development at hello@commonground.ventures. For adobe, rammed earth, or cob, the niche custom builders and architecture firms in Tucson and Cave Creek are the most experienced operators. For SIPs, the supplier network ships from Wisconsin, Pennsylvania, and the Pacific Northwest, with installation handled by local framers. For AAC block and traditional ICF, the Phoenix metro has a working installer base familiar with both assemblies. Lïef Development will give an honest read on which method actually fits the program before taking the work.",
   },
 ];
 
@@ -306,15 +306,15 @@ const AlternativeConstructionMethodsArizona = () => {
         </p>
 
         <p style={{ fontSize: "1.1rem", fontWeight: 300, lineHeight: 1.8, color: "var(--v2-muted)", marginBottom: "40px" }}>
-          Project inquiries: hello@liefdev.com. Response in one business day. No sales sequence afterward.
+          Project inquiries: hello@commonground.ventures. Response in one business day. No sales sequence afterward.
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px" }}>
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef Development holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
-            <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
-              hello@liefdev.com
+            <a href="mailto:hello@commonground.ventures" style={{ color: "var(--v2-neon)" }}>
+              hello@commonground.ventures
             </a>
           </p>
         </div>
