@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { keepCase } from "@/lib/keepCase";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -219,7 +220,7 @@ const V2Nav = () => {
                   transition: "color 0.3s, text-decoration-color 0.3s",
                 }}
               >
-                {l.label}
+                {keepCase(l.label)}
               </a>
             );
           })}
@@ -285,7 +286,7 @@ const V2Nav = () => {
                   }}
                   className="v2-menu-link"
                 >
-                  {contact ? "Contact" : l!.label}
+                  {contact ? "Contact" : keepCase(l!.label)}
                 </a>
               ))}
             </nav>

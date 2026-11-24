@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { keepCase } from "@/lib/keepCase";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -121,7 +122,7 @@ const ArizonaFireResistantWallSystems = () => {
         <article className="container mx-auto max-w-4xl px-6">
           <header className="mb-12">
             <p className="uppercase tracking-widest text-sm text-muted-foreground mb-4">
-              Lïef Development · Arizona Construction Field Notes
+              {keepCase("Lïef Development · Arizona Construction Field Notes")}
             </p>
             <h1 className="text-4xl md:text-5xl font-serif leading-tight mb-6">
               Best Fire-Resistant Wall Systems for Arizona Residential Construction in 2026

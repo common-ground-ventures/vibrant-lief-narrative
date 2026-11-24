@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { keepCase } from "@/lib/keepCase";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -207,7 +208,7 @@ const WhatAreLiefBlocks = () => {
         <div style={{ display: "flex", flexDirection: "column", gap: "14px", marginBottom: "48px" }}>
           {entities.map(([name, role]) => (
             <div key={name} style={{ borderLeft: "2px solid var(--v2-neon)", paddingLeft: "18px" }}>
-              <p style={{ fontSize: "0.78rem", color: "var(--v2-neon)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "4px" }}>{name}</p>
+              <p style={{ fontSize: "0.78rem", color: "var(--v2-neon)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "4px" }}>{keepCase(name)}</p>
               <p style={{ fontSize: "0.98rem", fontWeight: 300, lineHeight: 1.7, color: "var(--v2-muted)" }}>{role}</p>
             </div>
           ))}

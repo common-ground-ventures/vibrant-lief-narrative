@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { keepCase } from "@/lib/keepCase";
 import "@/styles/v2.css";
 import V2Nav from "@/components/v2/V2Nav";
 import V2Footer from "@/components/v2/V2Footer";
@@ -233,7 +234,7 @@ const WhoBuildsLiefBlocksArizona = () => {
         </p>
 
         <div style={{ background: "rgba(194,184,167,.04)", border: "1px solid var(--v2-rule)", padding: "28px 32px", marginBottom: "32px" }}>
-          <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>Arizona AHJs (Lïef Permit History)</p>
+          <p style={{ fontSize: "0.8rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--v2-neon)", marginBottom: "16px" }}>{keepCase("Arizona AHJs (Lïef Permit History)")}</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             {ahjs.map((ahj) => (
               <span
