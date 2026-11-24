@@ -52,7 +52,7 @@ const faqSchema = {
       name: "Where can someone walk a permitted Phoenix EPS panel construction project?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road in midtown Phoenix (multi-family infill), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches in Scottsdale (custom residential). Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@liefdev.com.",
+        text: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road in midtown Phoenix (multi-family infill), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches in Scottsdale (custom residential). Lïef offers walkthroughs under NDA during the bid or feasibility phase. Inquiries: hello@commonground.ventures.",
       },
     },
   ],
@@ -148,7 +148,7 @@ const faqs = [
   },
   {
     q: "Where can I see a permitted Phoenix EPS panel project?",
-    a: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road (Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during bid or feasibility. Inquiries: hello@liefdev.com.",
+    a: "Active and recently completed Phoenix-area SABS permits include 301 W Osborn Road (Phoenix multi-family), Canyon Corporate Plaza (Phoenix commercial), and Silver Mountain Ranches (Scottsdale residential). Walkthroughs are available under NDA during bid or feasibility. Inquiries: hello@commonground.ventures.",
   },
   {
     q: "What does an Arizona owner's rep on a SABS project actually do at plan check?",
@@ -315,8 +315,8 @@ const PhoenixEpsPanelPermits = () => {
           <p style={{ fontSize: "0.85rem", color: "var(--v2-dim)", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.1em" }}>About the Author</p>
           <p style={{ fontSize: "1rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
             <strong style={{ color: "var(--v2-white)" }}>Jesse Fowler</strong> is Principal and Operating Partner of Lïef Development. He has spent about twenty-five years in design, construction and development, and builds with SABS in Arizona. Lïef holds the operating relationship with Xtrata, the SABS technology distributor, for the Arizona market. Project inquiries:{" "}
-            <a href="mailto:hello@liefdev.com" style={{ color: "var(--v2-neon)" }}>
-              hello@liefdev.com
+            <a href="mailto:hello@commonground.ventures" style={{ color: "var(--v2-neon)" }}>
+              hello@commonground.ventures
             </a>
           </p>
         </div>

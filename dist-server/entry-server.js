@@ -924,7 +924,7 @@ const ContactSection = () => {
         children: /* @__PURE__ */ jsxs(
           "a",
           {
-            href: "mailto:hello@liefdev.com",
+            href: "mailto:hello@commonground.ventures",
             className: "group inline-flex items-center gap-4 px-10 py-5 bg-tricorn-black text-greek-villa font-body text-lg tracking-wide hover:bg-urbane-bronze transition-colors duration-500",
             children: [
               /* @__PURE__ */ jsx("span", { children: "Start a conversation" }),
@@ -959,9 +959,9 @@ const ContactSection = () => {
             /* @__PURE__ */ jsx(
               "a",
               {
-                href: "mailto:hello@liefdev.com",
+                href: "mailto:hello@commonground.ventures",
                 className: "font-body text-tricorn-black text-sm hover:text-primary transition-colors",
-                children: "hello@liefdev.com"
+                children: "hello@commonground.ventures"
               }
             )
           ] }),
@@ -971,9 +971,9 @@ const ContactSection = () => {
             /* @__PURE__ */ jsx(
               "a",
               {
-                href: "tel:+18057227598",
+                href: "tel:+16024926479",
                 className: "font-body text-tricorn-black text-sm hover:text-primary transition-colors",
-                children: "(805) 722-7598"
+                children: "(602) 492-6479"
               }
             )
           ] })
@@ -2296,7 +2296,7 @@ const V2Footer = () => {
       /* @__PURE__ */ jsxs("div", { children: [
         /* @__PURE__ */ jsx("h5", { className: "mb-4", style: { fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }, children: "Connect" }),
         /* @__PURE__ */ jsxs("ul", { className: "space-y-3", children: [
-          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { href: "mailto:hello@liefdev.com", style: { fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }, className: "hover:text-[#00FF88] transition-colors duration-300", children: "hello@liefdev.com" }) }),
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { href: "mailto:hello@commonground.ventures", style: { fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }, className: "hover:text-[#00FF88] transition-colors duration-300", children: "hello@commonground.ventures" }) }),
           /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { href: "#", style: { fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }, className: "hover:text-[#00FF88] transition-colors duration-300", children: "LinkedIn" }) })
         ] })
       ] })
@@ -2929,7 +2929,7 @@ const LiefBlocks = () => {
           /* @__PURE__ */ jsxs(motion.div, { initial: { opacity: 0, y: 20 }, animate: show(ctaInView, 20), transition: { duration: 0.75, delay: 0.24, ease: ease$5 }, className: "flex flex-wrap justify-center gap-12 mt-16", children: [
             /* @__PURE__ */ jsxs("div", { className: "text-center", children: [
               /* @__PURE__ */ jsx("div", { style: { fontSize: "1rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--v2-dim)", marginBottom: "8px" }, children: "Email" }),
-              /* @__PURE__ */ jsx("a", { href: "mailto:hello@liefdev.com", style: { fontSize: "1rem", color: "var(--v2-muted)", textDecoration: "none" }, className: "hover:text-[#00FF88] transition-colors", children: "hello@liefdev.com" })
+              /* @__PURE__ */ jsx("a", { href: "mailto:hello@commonground.ventures", style: { fontSize: "1rem", color: "var(--v2-muted)", textDecoration: "none" }, className: "hover:text-[#00FF88] transition-colors", children: "hello@commonground.ventures" })
             ] }),
             /* @__PURE__ */ jsxs("div", { className: "text-center", children: [
               /* @__PURE__ */ jsx("div", { style: { fontSize: "1rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--v2-dim)", marginBottom: "8px" }, children: "Location" }),
