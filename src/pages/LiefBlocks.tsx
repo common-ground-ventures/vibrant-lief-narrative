@@ -630,7 +630,7 @@ const LiefBlocks = () => {
                   BUILD WITH US<span className="v2-neon-period">.</span>
                 </motion.h2>
                 <motion.p initial={{ opacity: 0, y: 35 }} animate={show(ctaInView)} transition={{ duration: 0.75, delay: 0.08, ease }} className="mb-10 max-w-[420px]" style={{ fontWeight: 300, fontSize: "1.3rem", color: "var(--v2-muted)", lineHeight: 1.7 }}>
-                  Whether you're a developer, builder, or investor, let's talk about how LÏEF x SABS can transform your next project.
+                  Whether you're a developer, builder, or investor, let's talk about how Lïef x SABS can transform your next project.
                 </motion.p>
                 <motion.div initial={{ opacity: 0, y: 35 }} animate={show(ctaInView)} transition={{ duration: 0.75, delay: 0.16, ease }} className="flex flex-wrap justify-center gap-4">
                   <button

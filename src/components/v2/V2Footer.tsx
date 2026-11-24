@@ -1,4 +1,4 @@
-import logoConcrete from "@/assets/v2/logo-concrete.png";
+import logoConcrete from "@/assets/v2/logo-concrete.webp";
 import dotsConcrete from "@/assets/v2/dots-concrete.png";
 
 const footerLinks = {
@@ -46,7 +46,7 @@ const V2Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div>
-            <img src={logoConcrete} alt="Lïef" className="h-6 w-auto mb-4" />
+            <img src={logoConcrete} width={1920} height={819} alt="Lïef" className="h-6 w-auto mb-4" />
             <p className="v2-headline text-sm mb-2" style={{ color: "var(--v2-white)" }}>
               DEVELOPMENT
             </p>
@@ -61,7 +61,7 @@ const V2Footer = () => {
 
           {/* Explore */}
           <div>
-            <h5 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Explore</h5>
+            <h2 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Explore</h2>
             <ul className="space-y-3">
               {footerLinks.explore.map((l) => (
                 <li key={l}>
@@ -79,7 +79,7 @@ const V2Footer = () => {
 
           {/* Partner */}
           <div>
-            <h5 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Partner</h5>
+            <h2 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Partner</h2>
             <ul className="space-y-3">
               <li>
                 <span style={{ fontSize: "1.25rem", color: "var(--v2-dim)" }}>Developers</span>
@@ -104,7 +104,7 @@ const V2Footer = () => {
 
           {/* Connect */}
           <div>
-            <h5 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Connect</h5>
+            <h2 className="mb-4" style={{ fontSize: "1.25rem", textTransform: "uppercase", letterSpacing: "0.16em", color: "var(--v2-neon)" }}>Connect</h2>
             <ul className="space-y-3">
               <li>
                 <a href="mailto:hello@liefdev.com" style={{ fontSize: "1.25rem", color: "var(--v2-dim)", textDecoration: "none" }} className="hover:text-[#C2B8A7] transition-colors duration-300">
