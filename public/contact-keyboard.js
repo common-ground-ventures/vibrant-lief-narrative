@@ -21,6 +21,19 @@
       const close = dialog.querySelector('button');
       if (close) close.setAttribute('aria-label', 'Close contact dialog');
       (close || dialog).focus();
+      const form = dialog.querySelector('form');
+      if (form && !dialog.querySelector('.lp-privacy')) {
+        const note = document.createElement('p');
+        note.className = 'lp-privacy';
+        note.style.cssText = 'margin-top:14px;font-size:0.85rem;line-height:1.5;opacity:0.75;';
+        note.append('We use what you send only to reply. ');
+        const link = document.createElement('a');
+        link.href = '/privacy';
+        link.textContent = 'Privacy';
+        link.style.cssText = 'color:inherit;text-decoration:underline;';
+        note.append(link);
+        form.after(note);
+      }
     } else if (!card && dialog) {
       dialog = null;
       const menu = document.querySelector('header button[aria-label="Open menu"]');
